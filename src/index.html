@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <title>Traversal</title>
+    <meta name="author" content="Emre Karataş, Semih Polat" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="all" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Poppins:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/loader.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/notification.css">
+</head>
+
+<body>
+
+    <div class="loader active">
+        <div class="wrapper">
+            <div class="circle circle-one"></div>
+            <div class="circle circle-two"></div>
+        </div>
+    </div>
+
+    <!-- <div class="notification">
+        <div class="wrapper success">
+            Bildirim
+        </div>
+    </div> -->
+
+    <div class="main-wrapper">
+        <div class="left">
+            <header class="header hidden">
+                <div class="logo hidden">TRAVERSAL</div>
+                <div class="logo-expand">
+                    <div>T</div>
+                    <div>R</div>
+                    <div>A</div>
+                    <div>V</div>
+                    <div>E</div>
+                    <div>R</div>
+                    <div>S</div>
+                    <div>A</div>
+                    <div>L</div>
+                </div>
+                <div class="menu hidden">
+                    <nav>
+                        <div class="item">Home</div>
+                        <div class="item">About</div>
+                        <div class="item">Destinations</div>
+                        <div class="item">Contact</div>
+                    </nav>
+                    <div class="socials">
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="menu-toggler-wrapper">
+                    <div class="menu-toggler hidden">
+                        <div class="line line1"></div>
+                        <div class="line line2"></div>
+                        <div class="line line3"></div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="scroll-progress">
+
+            </div>
+        </div>
+        <div class="right active">
+            <main>
+                <section class="home">
+                    <img class="home-slider active" src="./assets/images/banner4.jpg">
+                    <img class="home-slider" src="./assets/images/banner2.jpg">
+                    <img class="home-slider" src="./assets/images/banner1.jpg">
+                    <img class="home-slider" src="./assets/images/banner3.jpg">
+                    <div class="home-content active">
+                        <h2>Wonderful Island</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet molestias velit, consectetur
+                            consequatur quisquam quia odit possimus. Labore quae nam, perspiciatis excepturi sint dicta
+                            consequatur aliquam tempora laboriosam sed totam?</p>
+                    </div>
+                    <div class="home-content">
+                        <h2>Adventures Off Road</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet molestias velit, consectetur
+                            consequatur quisquam quia odit possimus. Labore quae nam, perspiciatis excepturi sint dicta
+                            consequatur aliquam tempora laboriosam sed totam?</p>
+                    </div>
+                    <div class="home-content">
+                        <h2>Road Trip Togather</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet molestias velit, consectetur
+                            consequatur quisquam quia odit possimus. Labore quae nam, perspiciatis excepturi sint dicta
+                            consequatur aliquam tempora laboriosam sed totam?</p>
+                    </div>
+                    <div class="home-content">
+                        <h2>Feel Nature Relax</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet molestias velit, consectetur
+                            consequatur quisquam quia odit possimus. Labore quae nam, perspiciatis excepturi sint dicta
+                            consequatur aliquam tempora laboriosam sed totam?</p>
+                    </div>
+                    <div class="slider-navigation">
+                        <div class="slider-button active"></div>
+                        <div class="slider-button"></div>
+                        <div class="slider-button"></div>
+                        <div class="slider-button"></div>
+                    </div>
+                </section>
+                <section class="visit">
+                    <div class="top">
+                        <div class="top-left">
+                            <h3>VISIT</h3>
+                            <h4>Popular Destinations</h4>
+                        </div>
+                        <div class="top-right">
+                            <div class="box">Destination</div>
+                            <div class="box">Date</div>
+                            <div class="box">Search</div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="card">
+                            <div class="content">
+                                <div>
+                                    <h5>Paris</h5>
+                                    <div class="o-text">3 Days, 4 Nights</div>
+                                </div>
+                                <div class="description">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti temporibus, nulla
+                                    molestiae vero doloribus et! Ducimus ab.
+                                </div>
+                                <div class="money-wrapper">
+                                    <div class="start">Start From</div>
+                                    <div class="money">$ 1650</div>
+                                </div>
+                            </div>
+                            <div class="img-wrapper">
+                                <img src="./assets/images/g1.jpg" alt="">
+                            </div>
+
+                        </div>
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img src="./assets/images/g2.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <div>
+                                    <h5>Paris</h5>
+                                    <div class="o-text">3 Days, 4 Nights</div>
+                                </div>
+                                <div class="description">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti temporibus, nulla
+                                    molestiae vero doloribus et! Ducimus ab.
+                                </div>
+                                <div class="money-wrapper">
+                                    <div class="start">Start From</div>
+                                    <div class="money">$ 1650</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <div>
+                                    <h5>Paris</h5>
+                                    <div class="o-text">3 Days, 4 Nights</div>
+                                </div>
+                                <div class="description">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti temporibus, nulla
+                                    molestiae vero doloribus et! Ducimus ab.
+                                </div>
+                                <div class="money-wrapper">
+                                    <div class="start">Start From</div>
+                                    <div class="money">$ 1650</div>
+                                </div>
+                            </div>
+                            <div class="img-wrapper">
+                                <img src="./assets/images/g3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="img-wrapper">
+                                <img src="./assets/images/g4.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <div>
+                                    <h5>Paris</h5>
+                                    <div class="o-text">3 Days, 4 Nights</div>
+                                </div>
+                                <div class="description">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti temporibus, nulla
+                                    molestiae vero doloribus et! Ducimus ab.
+                                </div>
+                                <div class="money-wrapper">
+                                    <div class="start">Start From</div>
+                                    <div class="money">$ 1650</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="statistics">
+                    <div class="wrapper">
+                        <div class="card-body color1">
+                            <div>
+                                <div class="count">730</div>
+                                <div class="text">Branches</div>
+                            </div>
+                            <div>
+                                <i class="fa-sharp fa-solid fa-code-branch"></i>
+                            </div>
+                        </div>
+                        <div class="card-body color2">
+                            <div>
+                                <div class="count">1680</div>
+                                <div class="text">Travel Guides</div>
+                            </div>
+                            <div>
+                                <i class="fa-sharp fa-solid fa-plane"></i>
+                            </div>
+                        </div>
+                        <div class="card-body color3">
+                            <div>
+                                <div class="count">812</div>
+                                <div class="text">Happy Customers</div>
+                            </div>
+                            <div>
+                                <i class="fa-sharp fa-solid fa-face-smile"></i>
+                            </div>
+                        </div>
+                        <div class="card-body color4">
+                            <div>
+                                <div class="count">990</div>
+                                <div class="text">Awards</div>
+                            </div>
+                            <div>
+                                <i class="fa-sharp fa-solid fa-award"></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <footer>
+                <div class="top">
+                    <div class="link-wrapper">
+                        <div class="wrapper">
+                            <div class="title">Company</div>
+                            <a href="#" class="link">Home</a>
+                            <a href="#" class="link">About Us</a>
+                            <a href="#" class="link">Services</a>
+                            <a href="#" class="link">Blog</a>
+                            <a href="#" class="link">Contact Us</a>
+                        </div>
+                        <div class="wrapper">
+                            <div class="title">Useful Links</div>
+                            <a href="#" class="link">Destinations</a>
+                            <a href="#" class="link">Our Branches</a>
+                            <a href="#" class="link">Latest Media</a>
+                            <a href="#" class="link">About Company</a>
+                            <a href="#" class="link">Our Packages</a>
+                        </div>
+                        <div class="wrapper">
+                            <div class="title">Our Services</div>
+                            <a href="#" class="link">Privacy Policy</a>
+                            <a href="#" class="link">Our Terms</a>
+                            <a href="#" class="link">Services</a>
+                            <a href="#" class="link">Landing Page</a>
+                            <a href="#" class="link">Our Guides</a>
+                        </div>
+                    </div>
+                    <div class="newsletter">
+                        <div class="title">Newsletter</div>
+                        <div class="box">
+                            <div class="top-text">Get latest updates and offers.</div>
+                            <form class="form-newsletter" action="">
+                                <input class="email" type="email" name="newsletter-email" placeholder="Email Address">
+                                <input class="btn" type="submit" value="Go">
+                            </form>
+                            <div class="link">Sign up for our latest news & articles. We won’t give you spam mails.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div>© 2020 Traversal. All rights reserved.</div>
+                    <div class="socials">
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <div class="back-to-top">
+        <i class="fa-solid fa-angle-up icon"></i>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./assets/js/common.js"></script>
+</body>
+
+</html>
