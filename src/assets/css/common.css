@@ -4,7 +4,7 @@
     --color-theme-2: #f8f9fa;
     --color-theme-3: #000000;
     --bcolor-theme-1: #faf7fe;
-    --bcolor-theme-2: #111;
+    --bcolor-theme-2: #f8f9fa;
 
     --color-success: #43a105;
     --color-warning: #a8a800;
@@ -13,8 +13,7 @@
     --color-danger-hover: #ca0101e5;
 
     /* Font Settings */
-    --font-family-1: 'Anonymous Pro', monospace;
-    --font-family-2: 'Poppins', sans-serif;
+    --font-family-1: 'Poppins', sans-serif;
     
     /* Header Settings */
     --header-height: 5rem;

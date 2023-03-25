@@ -21,14 +21,24 @@ window.onload = function () {
 };
 
 const btnBackToTop = document.querySelector('.back-to-top');
+const progressBar = document.querySelector('.scroll-progress');
 window.addEventListener('scroll', () => {
     btnBackToTop.classList.toggle("active", window.scrollY > 500);
+
+    let progressRatio = window.scrollY / (window.document.body.scrollHeight - window.innerHeight - 1);
+    if (progressRatio > 1) {
+        progressRatio = 1;
+    } else if (progressRatio < 0) {
+        progressRatio = 0;
+    }
+    progressBar.style.height = (progressRatio * 100) + '%';
 });
 btnBackToTop.addEventListener('click', (e) => {
     e.preventDefault();
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 });
+
 
 const menu = document.querySelector('.menu');
 const menuToggler = document.querySelector('.menu-toggler');
