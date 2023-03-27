@@ -1,6 +1,8 @@
 const bodyTag = document.querySelector('body');
 const loader = document.querySelector('.loader');
 var notification = document.querySelector('.notification');
+var notificationHidden = 0;
+var notificationRemoved = 0;
 window.onload = function () {
     if (loader.classList.contains('active')) {
         loader.classList.remove('active');
@@ -8,17 +10,39 @@ window.onload = function () {
     if (bodyTag.classList.contains('locked')) {
         bodyTag.classList.remove('locked');
     }
-    setTimeout(() => {
+    notificationHidden = setTimeout(() => {
         if (!notification.classList.contains('hidden')) {
             notification.classList.add('hidden');
         }
-        setTimeout(() => {
+        notificationRemoved = setTimeout(() => {
             if (!notification.classList.contains('removed')) {
                 notification.classList.add('removed');
             }
         }, 1500);
     }, 10000);
 };
+
+function setNotification(notificationMessage) {
+    clearTimeout(notificationHidden);
+    clearTimeout(notificationRemoved);
+    notification.innerHTML = notificationMessage;
+    if (notification.classList.contains('hidden')) {
+        notification.classList.remove('hidden');
+    }
+    if (notification.classList.contains('removed')) {
+        notification.classList.remove('removed');
+    }
+    notificationHidden = setTimeout(() => {
+        if (!notification.classList.contains('hidden')) {
+            notification.classList.add('hidden');
+        }
+        notificationRemoved = setTimeout(() => {
+            if (!notification.classList.contains('removed')) {
+                notification.classList.add('removed');
+            }
+        }, 1500);
+    }, 10000);
+}
 
 const btnBackToTop = document.querySelector('.back-to-top');
 const progressBar = document.querySelector('.scroll-progress');
