@@ -2,7 +2,7 @@
 <html lang="tr">
 
 <head>
-    <title>Contact | Traversal</title>
+    <title>Register | Traversal</title>
     <meta name="author" content="Emre Karataş, Semih Polat" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -56,10 +56,10 @@
                         <a href="./index.html" class="item">Home</a>
                         <a href="./about.html" class="item">About</a>
                         <a href="./services.html" class="item">Destinations</a>
-                        <a href="./contact.html" class="item selected">Contact</a>
+                        <a href="./contact.html" class="item">Contact</a>
                         <div class="row">
                             <a href="./login.html" class="item">Login</a>
-                            <a href="./register.html" class="item">Register</a>
+                            <a href="./register.html" class="item selected">Register</a>
                         </div>
                     </nav>
                     <div class="socials">
@@ -82,37 +82,23 @@
         </div>
         <div class="right active">
             <main>
-                <section class="tree-wrapper">
-                    <h1>Contact</h1>
-                    <div class="tree">
-                        <a href="./index.html" class="tree-text link">Home</a>
-                        <div class="tree-text tree-sep"><i class="fa-sharp fa-solid fa-angle-right"></i></div>
-                        <div class="tree-text">Contact</div>
-                    </div>
-                </section>
-                <section class="contact">
-                    <div class="contact-left">
-                        <h2>Get In Touch</h2>
-                        <div class="text1">Hi there, We are available 24/7 by fax, e-mail or by phone. Drop us line so
-                            we can talk futher about that.</div>
-                        <h3>Email:</h3>
-                        <a class="text2" href="mailto:mail@traversal.com">mail@traversal.com</a>
-                        <h3>Visit Us:</h3>
-                        <div class="text2">78-80 Upper St Giles St. Norwich NR2 1LT United Kingdom.</div>
-                        <h3>Contact:</h3>
-                        <div class="text2">+44-255-366-88</div>
-                    </div>
-                    <div class="contact-right">
-                        <form id="form-action" action="" method="POST" autocomplete="off" autocapitalize="off" autocorrect="off"
-                            spellcheck="false" novalidate>
-                            <input type="text" name="name" placeholder="Your Name*" id="input-name">
-                            <input type="email" name="email" placeholder="Your Email*" id="input-email">
-                            <textarea name="message" placeholder="Your Message*" id="input-message"></textarea>
-                            <div class="row">
-                                <input type="submit" name="send-message" value="Send Message" class="btn-send" id="btn-action">
-                            </div>
-                        </form>
-                    </div>
+                <section class="action">
+                    <form id="form-action" action="" method="POST" autocomplete="off" autocapitalize="off" autocorrect="off"
+                        spellcheck="false" novalidate>
+                        <input type="email" name="email" placeholder="Email" id="input-email">
+                        <input type="password" name="password" placeholder="Password" id="input-password">
+                        <input type="password" name="repassword" placeholder="RePassword" id="input-repassword">
+                        <div class="row">
+                            <label class="rememberme" for="rememberme">
+                                <input type="checkbox" name="rememberme" id="rememberme">
+                                <div class="slider-wrapper">
+                                    <div class="slider"></div>
+                                </div>
+                                I HAVE READ AND AGREE TO THE <a href="">TERMS OF USE</a> AND <a href="#">PRIVACY POLICY</a>
+                            </label>
+                        </div>
+                        <input type="submit" name="register" value="Register" class="btn-action" id="btn-action">
+                    </form>
                 </section>
             </main>
             <footer>
@@ -175,40 +161,48 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="./assets/js/common.js"></script>
     <script>
-        const inputName = document.getElementById('input-name');
-        const inputEmail = document.getElementById('input-email');
-        const inputMessage = document.getElementById('input-message');
+       const inputEmail = document.getElementById('input-email');
+        const inputPassword = document.getElementById('input-password');
+        const inputRepassword = document.getElementById('input-repassword');
         document.getElementById('btn-action').addEventListener('click', (e) => {
             e.preventDefault();
-            if (inputName.value == '') {
-                inputName.focus();
-                setNotification('<div class="wrapper danger">Name Field Is Empty</div>');
-            } else if (inputName.value.trim().length > 50) {
-            inputName.focus();
-            setNotification('<div class="wrapper danger">Your Name Cannot Exceed 50 Characters</div>');
-        } else if (inputEmail.value == '') {
-            inputEmail.focus();
-            setNotification('<div class="wrapper danger">Email Address Not Valid</div>');
-        } else if (inputEmail.value.trim().indexOf(' ') >= 0) {
-            inputEmail.focus();
-            setNotification('<div class="wrapper danger">Email Address Not Valid</div>');
-        } else if (inputMessage.value == '') {
-            inputMessage.focus();
-            setNotification('<div class="wrapper danger">Message Field Is Empty</div>');
-        } else if (inputMessage.value.trim().length > 500) {
-            inputMessage.focus();
-            setNotification('<div class="wrapper danger">Your Message Cannot Exceed 500 Characters</div>');
-        } else {
-            clearTimeout(notificationHidden);
-            clearTimeout(notificationRemoved);
-            if (!notification.classList.contains('hidden')) {
-                notification.classList.add('hidden');
+            if (inputEmail.value == '') {
+                inputEmail.focus();
+                setNotification('<div class="wrapper danger">Email Address Not Valid</div>');
+            } else if (inputEmail.value.trim().indexOf(' ') >= 0) {
+                inputEmail.focus();
+                setNotification('<div class="wrapper danger">Email Address Not Valid</div>');
+            } else if (inputPassword.value == '') {
+                inputPassword.focus();
+                setNotification('<div class="wrapper danger">Password Field Is Empty</div>');
+            } else if (inputPassword.value.trim().indexOf(' ') >= 0) {
+                inputPassword.focus();
+                setNotification('<div class="wrapper danger">Your password must not contain spaces</div>');
+            } else if (inputPassword.value.trim().length < 8) {
+                inputPassword.focus();
+                setNotification('<div class="wrapper danger">Your password must be at least 8 characters long</div>');
+            } else if (!/(?=.*\d)(?=.*[a-z])(?=.*[A-Z])/.test(inputPassword.value)) {
+                inputPassword.focus();
+                setNotification('<div class="wrapper danger">Your password must contain at least 1 uppercase letter, at least 1 lowercase letter and at least 1 number.</div>');
+            } else if (inputRepassword.value == '') {
+                inputRepassword.focus();
+                setNotification('<div class="wrapper danger">Re-Password Field Is Empty</div>');
+            } else if (inputPassword.value != inputRepassword.value) {
+                inputRepassword.focus();
+                setNotification('<div class="wrapper danger">Passwords Do Not Match</div>');
+            } else if (document.getElementById('rememberme').checked == false) {
+                setNotification('<div class="wrapper danger">You must agree to the terms of use and privacy policy</div>');
+            } else {
+                clearTimeout(notificationHidden);
+                clearTimeout(notificationRemoved);
+                if (!notification.classList.contains('hidden')) {
+                    notification.classList.add('hidden');
+                }
+                if (!notification.classList.contains('removed')) {
+                    notification.classList.add('removed');
+                }
+                document.getElementById('form-action').submit();
             }
-            if (!notification.classList.contains('removed')) {
-                notification.classList.add('removed');
-            }
-            document.getElementById('form-action').submit();
-        }
         });
     </script>
 </body>
