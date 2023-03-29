@@ -49,6 +49,18 @@ sliderNavigation.addEventListener("mouseleave", function () {
     otoSlide();
 });
 
+document.querySelector('.destination-toggler').addEventListener('click', () => {
+    document.querySelector('.destination-list').classList.toggle('active');
+});
+
+const destinationText = document.querySelector('.destination-text');
+document.querySelectorAll('.list-item').forEach(element => {
+    element.addEventListener('click', () => {
+        document.getElementById('destination' + element.dataset.id).selected = true;
+        destinationText.innerText = element.dataset.value;
+    });
+});
+
 var go_count = true;
 $(window).on('scroll', function () {
     if (($('.statistics').offset().top / 2) <= $(window).scrollTop() && go_count) {

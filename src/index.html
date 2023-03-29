@@ -12,7 +12,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -121,11 +122,32 @@
                             <h3>VISIT</h3>
                             <h4>Popular Destinations</h4>
                         </div>
-                        <div class="top-right">
-                            <div class="box">Destination</div>
-                            <div class="box">Date</div>
-                            <div class="box">Search</div>
-                        </div>
+                        <form class="top-right" action="" method="POST" autocomplete="off" autocapitalize="off"
+                            autocorrect="off" spellcheck="false" novalidate>
+                            <div class="box destination-toggler">
+                                <div class="destination-text">Destination</div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <select name="destination" id="destination-select">
+                                    <option id="destination1" value="1"></option>
+                                    <option id="destination2" value="2"></option>
+                                    <option id="destination3" value="3"></option>
+                                    <option id="destination4" value="4"></option>
+                                    <option id="destination5" value="5"></option>
+                                </select>
+                                <div class="destination-list">
+                                    <div class="list-item" data-id="1" data-value="Paris">Paris</div>
+                                    <div class="list-item" data-id="2" data-value="London">London</div>
+                                    <div class="list-item" data-id="3" data-value="London2">London2</div>
+                                    <div class="list-item" data-id="4" data-value="London3">London3</div>
+                                    <div class="list-item" data-id="5" data-value="London4">London4</div>
+                                </div>
+                            </div>
+                            <input type="date" name="date">
+                            <button type="submit" class="box search-destination">
+                                Search
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
                     </div>
                     <div class="bottom">
                         <div class="card">
@@ -284,7 +306,8 @@
                                 <input class="email" type="email" name="newsletter-email" placeholder="Email Address">
                                 <input class="btn" type="submit" value="Go">
                             </form>
-                            <div class="link">Sign up for our latest news & articles. We won’t give you spam mails.</div>
+                            <div class="link">Sign up for our latest news & articles. We won’t give you spam mails.
+                            </div>
                         </div>
                     </div>
                 </div>
