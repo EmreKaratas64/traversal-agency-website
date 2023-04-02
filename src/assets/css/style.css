@@ -601,13 +601,15 @@ header .item {
 
 header .item:hover {
     cursor: pointer;
-    background-color: #111111d1;
+    background: linear-gradient(270deg, rgba(200, 47, 222, 1) 0%, rgba(95, 20, 255, 1) 100%);
+    color: var(--color-theme-2);
     border-radius: 1rem;
 }
 
 header .item.selected {
     cursor: not-allowed;
-    background-color: #111111d1;
+    background: linear-gradient(270deg, rgba(200, 47, 222, 1) 0%, rgba(95, 20, 255, 1) 100%);
+    color: var(--color-theme-2);
     border-radius: 1rem;
     pointer-events: none;
 }
@@ -1224,11 +1226,16 @@ footer .top .newsletter .form-newsletter .btn {
     width: 20%;
     height: 3rem;
     border: none;
-    background-color: var(--color-theme-1);
+    background: linear-gradient(270deg, rgba(200, 47, 222, 1) 0%, rgba(95, 20, 255, 1) 100%);
     color: var(--color-theme-2);
     font-size: 1.6rem;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
+}
+
+footer .top .newsletter .form-newsletter .btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
 }
 
 footer .bottom {
