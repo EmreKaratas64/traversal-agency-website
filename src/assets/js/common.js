@@ -47,7 +47,7 @@ function setNotification(notificationMessage) {
 const btnBackToTop = document.querySelector('.back-to-top');
 const progressBar = document.querySelector('.scroll-progress');
 window.addEventListener('scroll', () => {
-    btnBackToTop.classList.toggle("active", window.scrollY > 500);
+    btnBackToTop.classList.toggle('active', window.scrollY > 500);
 
     let progressRatio = window.scrollY / (window.document.body.scrollHeight - window.innerHeight - 1);
     if (progressRatio > 1) {
@@ -77,4 +77,9 @@ document.querySelector('.menu-toggler').addEventListener('click', () => {
     logoExpand.classList.toggle('hidden');
     header.classList.toggle('hidden');
     right.classList.toggle('active');
+});
+
+document.querySelector('.toggle-hidden-menu').addEventListener('click', (e) => {
+    document.querySelector('.hidden-menu').classList.toggle('active');
+    document.querySelector('.toggle-hidden-menu .icon').classList.toggle('active');
 });

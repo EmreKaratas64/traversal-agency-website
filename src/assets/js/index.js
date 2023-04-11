@@ -41,11 +41,11 @@ function otoSlide() {
     }, 5000);
 }
 
-const sliderNavigation = document.querySelector(".slider-navigation");
-sliderNavigation.addEventListener("mouseenter", function () {
+const sliderNavigation = document.querySelector('.slider-navigation');
+sliderNavigation.addEventListener('mouseenter', function () {
     clearInterval(interval);
 });
-sliderNavigation.addEventListener("mouseleave", function () {
+sliderNavigation.addEventListener('mouseleave', function () {
     otoSlide();
 });
 
