@@ -1,0 +1,36 @@
+﻿using BusinessLayer.Abstract;
+using DataAccessLayer.Abstract;
+using EntityLayer.Concrete;
+
+namespace BusinessLayer.Concrete
+{
+    public class About2Manager : IAbout2Service
+    {
+        IAbout2Dal _about2Dal;
+
+        public About2Manager(IAbout2Dal about2Dal)
+        {
+            _about2Dal = about2Dal;
+        }
+
+        public About2 GetById(int id)
+        {
+            return _about2Dal.Get(id);
+        }
+
+        public void TAdd(About2 entity)
+        {
+            _about2Dal.Insert(entity);  
+        }
+
+        public List<About2> TGetAll()
+        {
+            return _about2Dal.GetAll();
+        }
+
+        public void TUpdate(About2 entity)
+        {
+            _about2Dal.Update(entity);
+        }
+    }
+}

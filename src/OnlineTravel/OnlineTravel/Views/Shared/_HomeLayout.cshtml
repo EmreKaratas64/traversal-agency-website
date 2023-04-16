@@ -1,0 +1,51 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+
+@await Html.PartialAsync("HeaderPartial")
+
+<body>
+
+    <div class="loader active">
+        <div class="wrapper">
+            <div class="rect1">
+                <div class="circle1"></div>
+            </div>
+            <div class="rect2">
+                <div class="circle2"></div>
+            </div>
+            <div class="rect3"></div>
+        </div>
+    </div>
+
+    <div class="notification">
+        <div class="wrapper success">
+            Bildirim
+        </div>
+    </div>
+
+    <div class="main-wrapper">
+      @await Html.PartialAsync("LeftBarPartial")
+    
+        
+        <div class="right active">
+            <main>
+                @RenderBody()
+            </main>
+       @await Html.PartialAsync("FooterPartial")
+        </div>
+    </div>
+
+    <div class="back-to-top">
+        <i class="fa-solid fa-angle-up icon"></i>
+    </div>
+
+      @await Html.PartialAsync("ScriptsPartial")
+    
+</body>
+
+</html>

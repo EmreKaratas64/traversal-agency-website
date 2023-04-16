@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OnlineTravel.props" />
+</Project>

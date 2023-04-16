@@ -1,0 +1,193 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\LICENSE",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\about.html",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\about.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\2.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\banner1.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\banner1.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\banner2.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\banner2.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\banner3.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\banner3.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\banner4.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\banner4.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\c1.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\c1.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\c2.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\c2.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\c3.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\c3.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\c4.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\c4.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\close.png",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\close.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\date.png",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\date.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\dots.png",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\dots.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\down.png",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\down.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\g1.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\g1.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\g10.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\g10.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\g2.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\g2.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\g3.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\g3.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\g4.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\g4.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\g5.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\g5.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\g6.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\g6.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\g7.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\g7.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\g8.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\g8.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\g9.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\g9.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\img-sprite.png",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\img-sprite.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\team1.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\team1.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\team2.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\team2.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\team3.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\team3.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\team4.jpg",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\images\\team4.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\js\\common.js",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\js\\common.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\js\\index.js",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\assets\\js\\index.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\contact.html",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\contact.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\forgotpassword.html",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\forgotpassword.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\index.html",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\index.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\login.html",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\login.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\register.html",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\register.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\resetpassword.html",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\resetpassword.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\services.html",
+      "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\services.html"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.OnlineTravel.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.OnlineTravel.props",
+      "PackagePath": "build\\OnlineTravel.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.OnlineTravel.props",
+      "PackagePath": "buildMultiTargeting\\OnlineTravel.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.OnlineTravel.props",
+      "PackagePath": "buildTransitive\\OnlineTravel.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

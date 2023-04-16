@@ -1,0 +1,26 @@
+﻿@using EntityLayer.Concrete
+@model List<Destination>
+   
+<div class="bottom">
+    @foreach (var item in Model)
+    {
+         <div class="card">
+        <div class="content">
+            <div>
+                <h5>@item.City</h5>
+                <div class="o-text">@item.DayNight</div>
+            </div>
+            <div class="description">
+                @item.Description
+            </div>
+            <div class="money-wrapper">
+                <div class="start">Başlangıç Fiyatı</div>
+                <div class="money">$ @item.Price</div>
+            </div>
+        </div>
+        <div class="img-wrapper">
+            <img src="@item.Image" alt="">
+        </div>
+    </div>
+    }             
+</div>
