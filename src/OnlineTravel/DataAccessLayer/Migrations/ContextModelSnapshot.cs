@@ -144,16 +144,16 @@ namespace DataAccessLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("FeatureID"), 1L, 1);
 
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("IsBigImage")
                         .HasColumnType("bit");
 
-                    b.Property<string>("Post1Description")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Post1Image")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Post1Name")
+                    b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("Status")

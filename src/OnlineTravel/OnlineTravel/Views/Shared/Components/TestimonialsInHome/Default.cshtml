@@ -1,0 +1,63 @@
+﻿@using EntityLayer.Concrete
+@model List<Testimonial>
+ 
+<section class="home-ex-section-2">
+                    <div class="ex-title-sub">HERE’S WHAT THEY HAVE TO SAY</div>
+                    <div class="ex-title">Our Clients Do The Talking</div>
+                    <div class="ex-row">
+                        @foreach (var item in Model)
+                        {
+                               <div class="col-12">
+                                            <i class="fa-solid fa-share icon"></i>
+                                            <div class="text">
+                                               @item.Comment
+                                            </div>
+                                            <img src="@item.ClientImage" alt="">
+                                            <div class="name">@item.client</div>
+                                        </div>
+                        }
+                    </div>
+                    <div class="pag-slider">
+                        <div class="pag active"></div>
+                        <div class="pag"></div>
+                        <div class="pag"></div>
+                        <div class="pag"></div>
+                    </div>
+                </section>
+
+
+
+
+                                                      @* <div class="col-12">
+                            <i class="fa-solid fa-share icon"></i>
+                            <div class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                voluptate rem ullam dolore nisi voluptatibus esse quasi. Integer sit amet .Lorem ipsum
+                                dolor sit
+                                amet adipisicing elit. Laborum dolor facere ipsum adipisicingelit.
+                            </div>
+                            <img src="./assets/images/c2.jpg" alt="">
+                            <div class="name">Shveta</div>
+                        </div>
+                        <div class="col-12">
+                            <i class="fa-solid fa-share icon"></i>
+                            <div class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                voluptate rem ullam dolore nisi voluptatibus esse quasi. Integer sit amet .Lorem ipsum
+                                dolor sit
+                                amet adipisicing elit. Laborum dolor facere ipsum adipisicingelit.
+                            </div>
+                            <img src="./assets/images/c3.jpg" alt="">
+                            <div class="name">Shveta</div>
+                        </div>
+                        <div class="col-12">
+                            <i class="fa-solid fa-share icon"></i>
+                            <div class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                voluptate rem ullam dolore nisi voluptatibus esse quasi. Integer sit amet .Lorem ipsum
+                                dolor sit
+                                amet adipisicing elit. Laborum dolor facere ipsum adipisicingelit.
+                            </div>
+                            <img src="./assets/images/c4.jpg" alt="">
+                            <div class="name">Shveta</div>
+                        </div>*@

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0Igbw7EQ80AvLLhJxz3SgKEuQurkKloilVicHwja5tHdqfACRIUnviW0WT//MaIW0LPrsGZ8J0w2wvTMfe7mOg==",
+  "dgSpecHash": "jTYmBv3dTybw6/7JhyGJlA05KXUMdfnylBuPMfR+Q29HLSmWARwRa944/fB1AnZWa33Wrt5DifDJ7MACtii5WQ==",
   "success": true,
-  "projectFilePath": "D:\\C#-Asp_Projeler\\OnlineTravel\\EntityLayer\\EntityLayer.csproj",
+  "projectFilePath": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\EntityLayer\\EntityLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

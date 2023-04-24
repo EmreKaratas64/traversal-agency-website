@@ -22,3 +22,15 @@ D:\C#-Asp_Projeler\OnlineTravel\EntityLayer\obj\Debug\net6.0\EntityLayer.dll
 D:\C#-Asp_Projeler\OnlineTravel\EntityLayer\obj\Debug\net6.0\refint\EntityLayer.dll
 D:\C#-Asp_Projeler\OnlineTravel\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
 D:\C#-Asp_Projeler\OnlineTravel\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\EntityLayer\bin\Debug\net6.0\EntityLayer.deps.json
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\EntityLayer\bin\Debug\net6.0\EntityLayer.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\EntityLayer\bin\Debug\net6.0\EntityLayer.pdb
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.AssemblyReference.cache
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\EntityLayer\obj\Debug\net6.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfoInputs.cache
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfo.cs
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.CoreCompileInputs.cache
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\EntityLayer\obj\Debug\net6.0\EntityLayer.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\EntityLayer\obj\Debug\net6.0\refint\EntityLayer.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll

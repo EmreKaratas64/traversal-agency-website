@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace OnlineTravel.ViewComponents.Home
 {
-    public class StatisticsInHome:ViewComponent
+    public class StatisticsInHome : ViewComponent
     {
         Context c = new Context();
 
@@ -11,7 +11,7 @@ namespace OnlineTravel.ViewComponents.Home
         {
             ViewBag.Rotations = c.Destinations.Count();
             ViewBag.guides = c.Guides.Count();
-            ViewBag.hayypCustomers = c.Testimonials.Select(x => x.client).Distinct().Count();
+            ViewBag.happyCustomers = c.Testimonials.Select(x => x.client).Distinct().Count();
             return View();
         }
     }

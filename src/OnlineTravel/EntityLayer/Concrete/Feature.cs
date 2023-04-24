@@ -7,11 +7,11 @@ namespace EntityLayer.Concrete
         [Key]
         public int FeatureID { get; set; }
 
-        public string? Post1Name { get; set; }
+        public string? Name { get; set; }
 
-        public string? Post1Description { get; set; }
+        public string? Description { get; set; }
 
-        public string? Post1Image { get; set; }
+        public string? Image { get; set; }
 
         public bool Status { get; set; }
 

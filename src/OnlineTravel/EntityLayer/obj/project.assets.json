@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#-Asp_Projeler\\OnlineTravel\\EntityLayer\\EntityLayer.csproj",
+      "projectUniqueName": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\EntityLayer\\EntityLayer.csproj",
       "projectName": "EntityLayer",
-      "projectPath": "D:\\C#-Asp_Projeler\\OnlineTravel\\EntityLayer\\EntityLayer.csproj",
+      "projectPath": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\EntityLayer\\EntityLayer.csproj",
       "packagesPath": "C:\\Users\\EMRE\\.nuget\\packages\\",
-      "outputPath": "D:\\C#-Asp_Projeler\\OnlineTravel\\EntityLayer\\obj\\",
+      "outputPath": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\EntityLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\EMRE\\AppData\\Roaming\\NuGet\\NuGet.Config",

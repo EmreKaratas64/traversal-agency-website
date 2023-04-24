@@ -2880,17 +2880,17 @@ footer .bottom .copyright {
 }
 
 .btn {
-    margin-left: auto;
+    /*margin-left: auto;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 2rem;
-    padding-right: 2rem;
+    padding-right: 2rem;*/
     border-radius: 1rem;
     background: linear-gradient(270deg, rgba(200, 47, 222, 1) 0%, rgba(95, 20, 255, 1) 100%);
     border: none;
     color: var(--color-theme-2);
     font-size: 1.4rem;
-    margin-top: 1rem;
+    /*margin-top: 1rem;*/
 }
 
 .btn:hover {

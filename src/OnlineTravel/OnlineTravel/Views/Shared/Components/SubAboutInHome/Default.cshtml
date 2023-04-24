@@ -1,0 +1,21 @@
+﻿@using EntityLayer.Concrete
+@model List<SubAbout>
+       
+<section class="home-ex-section-1">
+                    <div class="content">
+                        <div class="left-content">
+
+                        </div>
+                            @foreach (var item in Model)
+                            {
+                                 <div class="right-content">
+                                                <h4>@item.Title</h4>
+                                                <div class="text">@item.Description</div>
+                                                <a class="btn">
+                                                    Read More
+                                                </a>
+                                            </div>
+                            }
+                       
+                    </div>
+</section>

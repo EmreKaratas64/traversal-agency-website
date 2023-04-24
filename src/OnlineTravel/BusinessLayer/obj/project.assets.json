@@ -1951,11 +1951,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#-Asp_Projeler\\OnlineTravel\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "D:\\C#-Asp_Projeler\\OnlineTravel\\BusinessLayer\\BusinessLayer.csproj",
+      "projectPath": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\BusinessLayer\\BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\EMRE\\.nuget\\packages\\",
-      "outputPath": "D:\\C#-Asp_Projeler\\OnlineTravel\\BusinessLayer\\obj\\",
+      "outputPath": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\EMRE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1974,11 +1974,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\C#-Asp_Projeler\\OnlineTravel\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "D:\\C#-Asp_Projeler\\OnlineTravel\\DataAccessLayer\\DataAccessLayer.csproj"
+            "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "D:\\C#-Asp_Projeler\\OnlineTravel\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "D:\\C#-Asp_Projeler\\OnlineTravel\\EntityLayer\\EntityLayer.csproj"
+            "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }
