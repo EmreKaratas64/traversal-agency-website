@@ -13,5 +13,11 @@ namespace OnlineTravel.Controllers
             var values = destinationManager.TGetAll();
             return View(values);
         }
+
+        public IActionResult ShowDestinationDetails(int id)
+        {
+            var destination = destinationManager.GetById(id);
+            return View(destination);
+        }
     }
 }

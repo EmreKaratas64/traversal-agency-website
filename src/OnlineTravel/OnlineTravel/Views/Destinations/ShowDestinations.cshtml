@@ -1,14 +1,12 @@
-﻿@using EntityLayer.Concrete
-@model List<Destination>
+﻿@model List<Destination>
 @{
     ViewData["Title"] = "ShowDestinations";
     Layout = "~/Views/Shared/_HomeLayout.cshtml";
 }
 
 <section class="tree-wrapper">
-    <h1>Destinations asdasdfkds</h1>
+    <h1>Tur Rotalarımız</h1>
 </section>
-
 
 
  <section class="visit">
@@ -18,69 +16,32 @@
          <div class="card">
         <div class="content">
             <div>
-                <h5>@item.City</h5>
+                <h5><a href="/Destinations/ShowDestinationDetails/@item.DestinationID">@item.City</a></h5>
                      <div class="o-text">@item.DayNight</div>
             </div>
             <div class="description">
                 @item.Description
             </div>
-                       <div class="money-wrapper">
-                <div class="start">Başlangıç Fiyatı</div>
-                <div class="money">$ @item.Price</div>
-                     </div>
+                <div class="money-wrapper">
+                    <div class="start">Başlangıç Fiyatı</div>
+                    <div class="money">$ @item.Price</div>
+                </div>
         </div>
         <div class="img-wrapper">
             <img src="@item.Image" alt="">
         </div>
     </div>
-    }             
+    }    
 </div>
    </section>
 
-
-    @*                <img src="./assets/images/g2.jpg" alt="" data-id="2">
-        <img src="./assets/images/g3.jpg" alt="" data-id="3">
-        <img src="./assets/images/g4.jpg" alt="" data-id="4">
-        <img src="./assets/images/g5.jpg" alt="" data-id="5">
-        <img src="./assets/images/g6.jpg" alt="" data-id="6">
-        <img src="./assets/images/g7.jpg" alt="" data-id="7">
-        <img src="./assets/images/g8.jpg" alt="" data-id="8">
-        <img src="./assets/images/g9.jpg" alt="" data-id="9">
-        <img src="./assets/images/g10.jpg" alt="" data-id="10">*@
-
-  @*       <div id="content2" class="content">
-            <div class="image-hover-title">LONDON</div>
-            <div class="image-hover-text">Lorem ipsum dolor sit amet.</div>
+       <div class="pagination">
+        <div class="page disable"><i class="fa-solid fa-angle-left"></i></div>
+        <a class="page active" href="">1</a>
+        <a class="page" href="">2</a>
+        <a class="page" href="">3</a>
+        <a class="page" href="">4</a>
+        <div class="page disable">...</div>
+        <a class="page" href="">15</a>
+        <div class="page"><i class="fa-solid fa-chevron-right"></i></div>
         </div>
-        <div id="content3" class="content">
-            <div class="image-hover-title">LONDON</div>
-            <div class="image-hover-text">Lorem ipsum dolor sit amet.</div>
-        </div>
-        <div id="content4" class="content">
-            <div class="image-hover-title">LONDON</div>
-            <div class="image-hover-text">Lorem ipsum dolor sit amet.</div>
-        </div>
-        <div id="content5" class="content">
-            <div class="image-hover-title">LONDON</div>
-            <div class="image-hover-text">Lorem ipsum dolor sit amet.</div>
-        </div>
-        <div id="content6" class="content">
-            <div class="image-hover-title">LONDON</div>
-            <div class="image-hover-text">Lorem ipsum dolor sit amet.</div>
-        </div>
-        <div id="content7" class="content">
-            <div class="image-hover-title">LONDON</div>
-            <div class="image-hover-text">Lorem ipsum dolor sit amet.</div>
-        </div>
-        <div id="content8" class="content">
-            <div class="image-hover-title">LONDON</div>
-            <div class="image-hover-text">Lorem ipsum dolor sit amet.</div>
-        </div>
-        <div id="content9" class="content">
-            <div class="image-hover-title">LONDON</div>
-            <div class="image-hover-text">Lorem ipsum dolor sit amet.</div>
-        </div>
-        <div id="content10" class="content">
-            <div class="image-hover-title">LONDON</div>
-            <div class="image-hover-text">Lorem ipsum dolor sit amet.</div>
-        </div>*@

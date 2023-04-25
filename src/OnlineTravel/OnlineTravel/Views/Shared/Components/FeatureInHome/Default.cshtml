@@ -1,39 +1,38 @@
-﻿@using EntityLayer.Concrete
-@model List<Feature>
+﻿@model List<Feature>
 
 <section class="home-ex-section-0">
                     <div class="content">
                        
                         <div class="left-content">
                             @foreach (var item in Model)
-            {
-                if(item.IsBigImage == true)
-                {
-                      <div class="home-img-wrapper">
-                                <img src="@item.Image" alt="">
-                                <div class="text">@item.Name</div>
-                                <div class="text-none">@item.Description₺</div>
-                            </div>
-                }
+                            {
+                                if(item.IsBigImage == true)
+                                {
+                                      <div class="home-img-wrapper">
+                                                <img src="@item.Image" alt="">
+                                                <div class="text">@item.Name</div>
+                                                <div class="text-none">@item.Description₺</div>
+                                            </div>
+                                }
                 
-            }
+                            }
                           
                         </div>
                         <div class="right-content">
                            
                                          <div class="row-imgs">
-                                   @foreach (var item in Model)
-                                    {
-                                        @if(item.IsBigImage == false)
-                                        {
-                                            <div class="home-img-wrapper mini">
-                                                <img src="@item.Image" alt="">
-                                                <div class="text">@item.Name</div>
-                                                <div class="text-none">@item.Description₺</div>
-                                            </div>
-                                        }
+                                               @foreach (var item in Model)
+                                                {
+                                                    @if(item.IsBigImage == false)
+                                                    {
+                                                        <div class="home-img-wrapper mini">
+                                                            <img src="@item.Image" alt="">
+                                                            <div class="text">@item.Name</div>
+                                                            <div class="text-none">@item.Description₺</div>
+                                                        </div>
+                                                    }
                                      
-                                    }
+                                                }
                                         </div>
                            
                               
