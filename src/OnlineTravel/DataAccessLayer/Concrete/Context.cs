@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataAccessLayer.Concrete
 {
-    public class Context:DbContext
+    public class Context : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-NKLMS7G\\SQLEXPRESS;database=OnlineTravelDB;integrated security=true");
+            optionsBuilder.UseSqlServer("server=DESKTOP-NKLMS7G\\MSSQLSERVER01;database=OnlineTravelDB;integrated security=true");
         }
 
         public DbSet<About> Abouts { get; set; } = null!;

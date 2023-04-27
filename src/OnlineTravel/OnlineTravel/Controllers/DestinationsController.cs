@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace OnlineTravel.Controllers
 {
+    // ctrl + M + G viewdan controllere
     public class DestinationsController : Controller
     {
         DestinationManager destinationManager = new DestinationManager(new EfDestinationDal());

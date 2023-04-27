@@ -10,8 +10,8 @@
 
  <section class="blogsingle">
                     <div class="top-content">
-                        <h1>Your Blog Posts are Boring? Here are 9 Tips for Making your Writing more Interesting</h1>
-                        <div class="row-author">
+                        <h1>@Model.City</h1>
+                       @* <div class="row-author">
                             <img src="@Model.Image" alt="">
                             <div class="texts">
                                 <a href="author.html">Johnson smith</a>
@@ -22,64 +22,32 @@
                                     <div class="ml">6min read</div>
                                 </div>
                             </div>
-                        </div>
+                        </div>*@
                     </div>
                     <div class="blog-content">
-                        <img class="img-1" src="~/traversal-agency-website-main/src/assets/images/banner2.jpg" alt="">
+                        <img class="img-1" src="@Model.CoverImage" alt="">
                         <div class="para-content">
-                            <p>@Model.Description</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, corrupti odit? At iure
-                                facere, porro repellat officia quas, dolores magnam assumenda soluta odit harum
-                                voluptate inventore ipsa maiores fugiat accusamus eos nulla. Iure explicabo officia.
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, dolorem.</p>
-                            <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
-                                consectetur.Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing
-                                elitFuga, suscipit totam animi, dolores magnam assumenda soluta odit harum.</p>
-                            <h2>Excepteur sint occaecat non proident</h2>
-                            <p>Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu.
-                                Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id, sunt in culpa quis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde expedita esse error enim
-                                repellat, architecto corporis rerum ipsa alias cum!</p>
-                            <p>Dolor sit sed amet, excepteur sint occaecat non proident, sunt in culpa quis. Phasellus
-                                lacinia id erat eu. Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id,
-                                sunt in culpa quis.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, veritatis. Excepteur
-                                sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu. Nunc id
-                                ipsum fringilla, gravida felis vitae. Phasellus lacinia id, sunt in culpa quis. Lorem
-                                ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>@Model.Details1</p>
+                   
                             <div class="row">
-                                <img class="img-2" src="~/traversal-agency-website-main/src/assets/images/g10.jpg" alt="">
-                                <img class="img-2" src="~/traversal-agency-website-main/src/assets/images/g9.jpg" alt="">
+                                <img class="img-2" src="@Model.Image" alt="">
+                                <img class="img-2" src="@Model.Image2" alt="">
                             </div>
-                            <h2>Lorem ipsum dolor sit</h2>
-                            <p>Dolor sit sed amet, excepteur sint occaecat non proident, sunt in culpa quis. Phasellus
-                                lacinia id erat eu. Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id,
-                                sunt in culpa quis. Lorem ipsum dolor, sit amet elit.</p>
-                            <p>Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu.
-                                Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id, sunt in culpa quis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde expedita esse error enim
-                                repellat, architecto corporis rerum ipsa alias cum!</p>
-                            <p>Dolor sit sed amet, excepteur sint occaecat non proident, sunt in culpa quis. Phasellus
-                                lacinia id erat eu. Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id,
-                                sunt in culpa quis.</p>
-                            <h2>Search for Inspiration</h2>
-                            <p>Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu.
-                                Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id, sunt in culpa quis.
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde expedita esse error enim
-                                repellat, architecto corporis rerum ipsa alias cum!</p>
-                            <p>Dolor sit sed amet, excepteur sint occaecat non proident, sunt in culpa quis. Phasellus
-                                lacinia id erat eu. Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id,
-                                sunt in culpa quis.</p>
+                            <h2>2.Paragraf</h2>
+                            <p>@Model.Details2</p>
+                           
+                         
+                            
                             <div class="tagsandshare">
                                 <div class="tags">
                                     <div class="title">Tags:</div>
                                     <div class="tag-wrapper">
-                                        <div class="tag">Travel</div>
-                                        <div class="tag">Culture</div>
-                                        <div class="tag">Hotel</div>
-                                        <div class="tag">Hotel</div>
-                                        <div class="tag">Hotel</div>
-                                        <div class="tag">Food</div>
+                                        <div class="tag">Süre: @Model.DayNight</div>
+                                        <div class="tag">Fiyat: @Model.Price₺</div>
+                                        <div class="tag">Kapasite: @Model.Capacity</div>
+                                        <div class="tag">Online Travel</div>
+                                        <div class="tag">Rezervasyon</div>
+                                        <div class="tag">Rotalar</div>
                                     </div>
                                 </div>
                                 <div class="share">

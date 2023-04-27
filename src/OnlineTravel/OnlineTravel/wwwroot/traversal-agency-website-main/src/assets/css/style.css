@@ -1,3 +1,5 @@
+/* In single blog page, up and bottom margins of images should be increased*/
+
 :root {
     /* Color Settings */
     --color-theme-1: #ff5ba4;
@@ -2563,7 +2565,7 @@ footer {
         }
 
     .blogsingle .blog-content {
-        margin-top: 5rem;
+        margin-top: 3rem; /* set as 3 rem from 5 rem */
     }
 
         .blogsingle .blog-content .img-1 {
