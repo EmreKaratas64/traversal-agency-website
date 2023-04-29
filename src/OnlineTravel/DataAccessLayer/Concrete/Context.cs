@@ -27,5 +27,7 @@ namespace DataAccessLayer.Concrete
         public DbSet<SubAbout> SubAbouts { get; set; } = null!;
 
         public DbSet<Testimonial> Testimonials { get; set; } = null!;
+
+        public DbSet<Comment> Comments { get; set; } = null!;
     }
 }

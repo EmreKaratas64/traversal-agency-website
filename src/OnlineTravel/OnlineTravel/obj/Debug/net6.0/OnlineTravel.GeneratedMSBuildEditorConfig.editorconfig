@@ -16,12 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Views/Comments/AddComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudHNcQWRkQ29tbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Views/Destinations/ShowDestinationDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25zXFNob3dEZXN0aW5hdGlvbkRldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Views/Destinations/ShowDestinations.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25zXFNob3dEZXN0aW5hdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Views/Home/AboutPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Views/Home/FooterPartial.cshtml]
@@ -42,6 +50,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Views/Home/ShowHome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93SG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Views/Shared/Components/AboutSectionInAboutPage/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWJvdXRTZWN0aW9uSW5BYm91dFBhZ2VcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Views/Shared/Components/CommentsInShowDestDetails/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ29tbWVudHNJblNob3dEZXN0RGV0YWlsc1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Views/Shared/Components/DestinationsInHome/Default.cshtml]

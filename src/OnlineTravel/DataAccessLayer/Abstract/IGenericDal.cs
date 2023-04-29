@@ -1,5 +1,7 @@
 ﻿
 
+using System.Linq.Expressions;
+
 namespace DataAccessLayer.Abstract
 {
     public interface IGenericDal<T> where T : class
@@ -11,5 +13,7 @@ namespace DataAccessLayer.Abstract
         T Get(int entityId);
 
         List<T> GetAll();
+
+        List<T> GetListByFilter(Expression<Func<T, bool>> filter);
     }
 }

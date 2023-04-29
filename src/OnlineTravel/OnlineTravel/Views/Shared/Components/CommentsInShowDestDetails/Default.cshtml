@@ -1,0 +1,24 @@
+﻿@model List<Comment>
+
+
+<div class="comment-text">Comments (2)</div>        
+@foreach (var item in Model)
+{
+        <div class="comment-wrapper">
+        <div class="img-wrapper">
+            <img src="~/traversal-agency-website-main/src/assets/images/c3.jpg" alt="">
+        </div>
+        <div class="content-wrapper">
+            <div class="name">@item.CommentUser</div>
+            <div class="wrapper-mid">
+                <div class="date">@DateTime.Parse(item.CommentDate.ToString()).ToString("dd-MMM-yyyy HH:mm")</div>
+                <div class="reply">Reply</div>
+            </div>
+            <div class="comment">
+                @item.CommentText
+            </div>
+        </div>
+        </div>
+}
+
+

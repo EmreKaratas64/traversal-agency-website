@@ -17,6 +17,7 @@ namespace OnlineTravel.Controllers
 
         public IActionResult ShowDestinationDetails(int id)
         {
+            ViewBag.Id = id;
             var destination = destinationManager.GetById(id);
             return View(destination);
         }

@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BusinessLayer.Concrete;
+using DataAccessLayer.EntityFramework;
+using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Mvc;
 using OnlineTravel.Models;
 using System.Diagnostics;
 
@@ -7,6 +10,8 @@ namespace OnlineTravel.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+
+        ContactManager contactManager = new ContactManager(new EfContactDal());
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -25,6 +30,20 @@ namespace OnlineTravel.Controllers
         public PartialViewResult FooterPartial() => PartialView();
 
         public PartialViewResult ScriptsPartial() => PartialView();
+
+        [HttpGet]
+        public IActionResult AboutPage()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult AboutPage(Contact contact)
+        {
+            contactManager.TAdd(contact);
+            TempData["MessageSuccess"] = "We got your message, thanks";
+            return RedirectToAction("ShowHome");
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

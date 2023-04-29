@@ -5,6 +5,27 @@
 }
 
 
+@if(TempData["MessageSuccess"] != null)
+{
+    <div class="notification">
+        <div class="wrapper success">
+            @TempData["MessageSuccess"]
+        </div>
+    </div>
+    TempData["MessageSuccess"] = null;
+}
+@if(TempData["CommentSuccess"] != null)
+{
+    <div class="notification">
+        <div class="wrapper success">
+            @TempData["CommentSuccess"]
+        </div>
+    </div>
+    TempData["CommentSuccess"] = null;
+}
+
+
+
 @await Component.InvokeAsync("HomeSlider")
 
 

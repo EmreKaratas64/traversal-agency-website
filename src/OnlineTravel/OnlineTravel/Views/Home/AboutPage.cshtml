@@ -1,0 +1,176 @@
+﻿@model Contact
+@{
+    ViewData["Title"] = "Online Travel - About Us";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+<section class="tree-wrapper">
+
+        <h1>About - Contact</h1>
+
+</section>
+
+@await Component.InvokeAsync("AboutSectionInAboutPage")
+
+         
+             @*   <section class="skills">
+                    <div class="skill">
+                        <div class="icon">
+                            <i class="fa-solid fa-hourglass-half"></i>
+                        </div>
+                        <div class="title1">Lorem</div>
+                        <div class="title2">Investor Relations</div>
+                        <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam esse? dolores
+                            impedit doloremque.</div>
+                    </div>
+                    <div class="skill">
+                        <div class="icon">
+                            <i class="fa-solid fa-hourglass-half"></i>
+                        </div>
+                        <div class="title1">Lorem</div>
+                        <div class="title2">Investor Relations</div>
+                        <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam esse? dolores
+                            impedit doloremque.</div>
+                    </div>
+                    <div class="skill">
+                        <div class="icon">
+                            <i class="fa-solid fa-hourglass-half"></i>
+                        </div>
+                        <div class="title1">Lorem</div>
+                        <div class="title2">Investor Relations</div>
+                        <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam esse? dolores
+                            impedit doloremque.</div>
+                    </div>
+                </section>*@
+         
+                <section class="team">
+                    <h3>Meet Our Guides</h3>
+                    <div class="row">
+                        <div class="member">
+                            <img src="~/traversal-agency-website-main/src/assets/images/team1.jpg" alt="">
+                            <div class="label">
+                                <div class="text1">Alexander</div>
+                                <div class="text2">CEO</div>
+                            </div>
+                            <div class="hover">
+                                <div class="text1">Alexander</div>
+                                <div class="text2">CEO</div>
+                                <div class="socials">
+                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member">
+                            <img src="~/traversal-agency-website-main/src/assets/images/team2.jpg" alt="">
+                            <div class="label">
+                                <div class="text1">Alexander</div>
+                                <div class="text2">CEO</div>
+                            </div>
+                            <div class="hover">
+                                <div class="text1">Alexander</div>
+                                <div class="text2">CEO</div>
+                                <div class="socials">
+                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member">
+                            <img src="~/traversal-agency-website-main/src/assets/images/team3.jpg" alt="">
+                            <div class="label">
+                                <div class="text1">Alexander</div>
+                                <div class="text2">CEO</div>
+                            </div>
+                            <div class="hover">
+                                <div class="text1">Alexander</div>
+                                <div class="text2">CEO</div>
+                                <div class="socials">
+                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member">
+                            <img src="~/traversal-agency-website-main/src/assets/images/team4.jpg" alt="">
+                            <div class="label">
+                                <div class="text1">Alexander</div>
+                                <div class="text2">CEO</div>
+                            </div>
+                            <div class="hover">
+                                <div class="text1">Alexander</div>
+                                <div class="text2">CEO</div>
+                                <div class="socials">
+                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                     <section class="contact">
+                    <div class="contact-left">
+                        <h2>Get In Touch</h2>
+                        <div class="text1">Hi there, We are available 24/7 by fax, e-mail or by phone. Drop us line so
+                            we can talk futher about that.</div>
+                        <h3>Email:</h3>
+                        <a class="text2" href="mailto:mail@traversal.com">mail@traversal.com</a>
+                        <h3>Visit Us:</h3>
+                        <div class="text2">78-80 Upper St Giles St. Norwich NR2 1LT United Kingdom.</div>
+                        <h3>Contact:</h3>
+                        <div class="text2">+44-255-366-88</div>
+                    </div>
+
+                    <div class="contact-right">
+                        <form id="form-action" asp-action="AboutPage" method="POST" autocomplete="off" autocapitalize="off" autocorrect="off"
+                            spellcheck="false" novalidate>
+                            <input type="text" asp-for="Name" placeholder="Your Name*" id="input-name">
+                            <input type="email" asp-for="Mail" placeholder="Your Email*" id="input-email">
+                            <textarea asp-for="Description" placeholder="Your Message..." id="input-message"></textarea>
+                            <div class="row">
+                                <input type="submit" name="send-message" value="Send Message" class="btn-send" id="btn-action">
+                            </div>
+                        </form>
+                    </div>
+                </section>
+
+
+<script>
+    const inputName = document.getElementById('input-name');
+    const inputEmail = document.getElementById('input-email');
+    const inputMessage = document.getElementById('input-message');
+    document.getElementById('btn-action').addEventListener('click', (e) => {
+        e.preventDefault();
+        if (inputName.value == '') {
+            inputName.focus();
+            setNotification('<div class="wrapper danger">Name Field Is Empty</div>');
+        } else if (inputName.value.trim().length > 50) {
+        inputName.focus();
+        setNotification('<div class="wrapper danger">Your Name Cannot Exceed 50 Characters</div>');
+    } else if (inputEmail.value == '') {
+        inputEmail.focus();
+        setNotification('<div class="wrapper danger">Email Address Not Valid</div>');
+    } else if (inputEmail.value.trim().indexOf(' ') >= 0) {
+        inputEmail.focus();
+        setNotification('<div class="wrapper danger">Email Address Not Valid</div>');
+    } else if (inputMessage.value == '') {
+        inputMessage.focus();
+        setNotification('<div class="wrapper danger">Message Field Is Empty</div>');
+    } else if (inputMessage.value.trim().length > 500) {
+        inputMessage.focus();
+        setNotification('<div class="wrapper danger">Your Message Cannot Exceed 500 Characters</div>');
+    } else {
+        clearTimeout(notificationHidden);
+        clearTimeout(notificationRemoved);
+        if (!notification.classList.contains('hidden')) {
+            notification.classList.add('hidden');
+        }
+        if (!notification.classList.contains('removed')) {
+            notification.classList.add('removed');
+        }
+        document.getElementById('form-action').submit();
+    }
+    });
+</script>

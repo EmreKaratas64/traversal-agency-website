@@ -1,0 +1,14 @@
+﻿<div class="reply-title">Leave a comment</div>
+                            
+<div class="text-op">Your email address will not be published. Required fields are marked *</div>
+                    
+<form asp-action="AddComment" asp-controller="Comments" method="post">
+    <textarea class="message" name="CommentText" placeholder="Your Comment" required></textarea>
+    <div class="form-row">
+        <input class="name" type="text" name="CommentUser" placeholder="Your Name" required>
+        <input type="hidden" name="DestinationID" value="@ViewBag.Id">
+    </div>
+    <div class="btn-row">
+        <input class="btn" type="submit" value="Post Comment">
+    </div>
+</form>
