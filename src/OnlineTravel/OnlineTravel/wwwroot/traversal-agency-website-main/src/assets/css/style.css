@@ -2177,24 +2177,24 @@ footer {
     }
 
     /* Added later */
-    .action span {
-        color: var(--color-danger) !important;
-        font-weight:bold;
-        font-size: 1.6rem;
-        margin-bottom: 2rem;
+    .action span, form .model-error {
+        color: var(--color-theme-3) !important;
+        font-size: 1.5rem;
+        margin-bottom: 1.6rem;
     }
 
-    .action input {
-        height: 5rem;
-        width: 100%;
-        border: 2px solid var(--color-theme-2);
-        border-radius: 1rem;
-        font-size: 1.6rem;
-        color: var(--color-theme-2);
-        padding: 1rem;
-        margin-bottom: 2rem;
-        background: linear-gradient(270deg, rgba(200, 47, 222, 1) 0%, rgba(95, 20, 255, 1) 100%);
-    }
+
+.action input {
+    height: 5rem;
+    width: 100%;
+    border: 2px solid var(--color-theme-2);
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    color: var(--color-theme-2);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(270deg, rgba(200, 47, 222, 1) 0%, rgba(95, 20, 255, 1) 100%);
+}
 
         .action input::placeholder {
             font-size: 1.6rem;
