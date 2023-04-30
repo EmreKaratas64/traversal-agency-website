@@ -2176,6 +2176,14 @@ footer {
         width: 100%;
     }
 
+    /* Added later */
+    .action span {
+        color: var(--color-danger) !important;
+        font-weight:bold;
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+    }
+
     .action input {
         height: 5rem;
         width: 100%;

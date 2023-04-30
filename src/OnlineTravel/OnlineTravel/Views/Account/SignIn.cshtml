@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "Travel Online - Login";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+ <section class="tree-wrapper tree-action">
+                    <h1>Login Here</h1>
+                   
+                </section>
+                <section class="action">
+                    <form id="form-action" asp-action="" method="POST" autocomplete="off" autocapitalize="off" autocorrect="off"
+                        spellcheck="false" novalidate>
+                        <input type="email" name="email" placeholder="Email" id="input-email">
+                        <input type="password" name="password" placeholder="Password" id="input-password">
+                        <div class="row">
+                            <label class="rememberme" for="rememberme">
+                                <input type="checkbox" name="rememberme" id="rememberme">
+                                <div class="slider-wrapper">
+                                    <div class="slider"></div>
+                                </div>
+                                Remember Me
+                            </label>
+                            <a class="forgotpassword" href="./forgotpassword.html">Forgot Password?</a>
+                        </div>
+                        <input type="submit" name="login" value="Login" class="btn-action" id="btn-action">
+                    </form>
+                </section>
+
