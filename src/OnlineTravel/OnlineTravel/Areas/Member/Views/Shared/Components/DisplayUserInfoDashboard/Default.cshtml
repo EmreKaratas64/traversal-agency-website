@@ -1,0 +1,21 @@
+﻿@model AppUser
+ <div class="col-auto">
+    <div class="avatar avatar-xl position-relative">
+        <img src="/userimages/@Model.ImageUrl" alt="profile_image" class="w-100 border-radius-lg shadow-sm">
+    </div>
+    </div>
+    <div class="col-auto my-auto">
+    <div class="h-100">
+        <h5 class="mb-1">
+        @Model.Name @Model.Surname
+        </h5>
+
+        <p class="mb-0 font-weight-bold text-sm">
+        Member of Travel Online
+        </p>
+
+        <p class="mb-0 font-weight-bold text-sm">
+            @Model.Email
+        </p>
+    </div>
+</div>

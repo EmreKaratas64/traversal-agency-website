@@ -16,8 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Areas/Member/Views/Shared/Components/DisplayUserInfoDashboard/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXERpc3BsYXlVc2VySW5mb0Rhc2hib2FyZFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Areas/Member/Views/UserSettings/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXFVzZXJTZXR0aW5nc1xFZGl0UHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Areas/Member/Views/User/UserDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXFVzZXJcVXNlckRhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Areas/Member/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Views/Account/SignIn.cshtml]
@@ -70,6 +82,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Views/MemberLayoutPartials/MemberHeaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyTGF5b3V0UGFydGlhbHNcTWVtYmVySGVhZGVyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Views/MemberLayoutPartials/MemberNavbar2Partial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyTGF5b3V0UGFydGlhbHNcTWVtYmVyTmF2YmFyMlBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Views/MemberLayoutPartials/MemberNavbarPartial.cshtml]

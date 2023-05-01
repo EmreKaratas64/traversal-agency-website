@@ -7,13 +7,16 @@ using OnlineTravel.Models;
 namespace OnlineTravel.Controllers
 {
     [AllowAnonymous]
+    [AutoValidateAntiforgeryToken]
     public class AccountController : Controller
     {
         private readonly UserManager<AppUser> _userManager;
+        private readonly SignInManager<AppUser> _signInManager;
 
-        public AccountController(UserManager<AppUser> userManager)
+        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
         {
             _userManager = userManager;
+            _signInManager = signInManager;
         }
 
         [HttpGet]
@@ -57,9 +60,22 @@ namespace OnlineTravel.Controllers
         }
 
         [HttpPost]
-        public IActionResult SingIn(string p)
+        public async Task<IActionResult> SignIn(LoginViewModel model)
         {
-            return View();
+            if (ModelState.IsValid)
+            {
+                var result = await _signInManager.PasswordSignInAsync(model.email, model.password, model.rememberMe, true);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("UserDashboard", "User", new { area = "Member" });
+                }
+                else
+                {
+                    ModelState.AddModelError("", "Invalid login attempt");
+                }
+            }
+            TempData["SomthingWrong"] = "Somthing wrong";
+            return View(model);
         }
     }
 }

@@ -2673,19 +2673,19 @@ progress {
 }
 
 .form-control {
-  display: block;
-  width: 100%;
-  padding: 0.5rem 0.75rem;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.4rem;
-  color: #495057;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid #d2d6da;
-  appearance: none;
-  border-radius: 0.5rem;
-  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+    display: block;
+    width: 100%;
+    padding: 0.55rem 0.77rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: #272727;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0.4px solid #d2d6da;
+    appearance: none;
+    border-radius: 0.5rem;
+    transition: box-shadow 0.15s ease, border-color 0.15s ease;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -20039,10 +20039,10 @@ fieldset:disabled .btn {
   transform: translateX(21px);
 }
 
-.form-switch .form-check-input:checked {
-  border-color: rgba(58, 65, 111, 0.95);
-  background-color: rgba(58, 65, 111, 0.95);
-}
+    .form-switch .form-check-input:checked {
+        border-color: rgba(203, 12, 159, 0.9);
+        background-color: rgba(203, 12, 159, 0.9);
+    }
 
 .form-select {
   transition: box-shadow 0.15s ease, border-color 0.15s ease;

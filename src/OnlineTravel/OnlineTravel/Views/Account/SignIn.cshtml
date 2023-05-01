@@ -1,27 +1,36 @@
-﻿
+﻿@model LoginViewModel
 @{
     ViewData["Title"] = "Travel Online - Login";
     Layout = "~/Views/Shared/_HomeLayout.cshtml";
 }
 
+@if(TempData["SomthingWrong"] != null)
+{
+    <div class="notification">
+        <div class="wrapper danger" asp-validation-summary="All">
+        </div>
+    </div>
+    TempData["SomthingWrong"] = null;
+
+}
+
  <section class="tree-wrapper tree-action">
                     <h1>Login Here</h1>
-                   
                 </section>
                 <section class="action">
-                    <form id="form-action" asp-action="" method="POST" autocomplete="off" autocapitalize="off" autocorrect="off"
+                    <form id="form-action" asp-action="SignIn" asp-controller="Account" method="POST" autocomplete="off" autocapitalize="off" autocorrect="off"
                         spellcheck="false" novalidate>
-                        <input type="email" name="email" placeholder="Email" id="input-email">
-                        <input type="password" name="password" placeholder="Password" id="input-password">
+                        <input type="email" asp-for="email" placeholder="Email" id="input-email">
+                        <input type="password" asp-for="password" placeholder="Password" id="input-password">
                         <div class="row">
                             <label class="rememberme" for="rememberme">
-                                <input type="checkbox" name="rememberme" id="rememberme">
+                                <input type="checkbox" asp-for="rememberMe" id="rememberme">
                                 <div class="slider-wrapper">
                                     <div class="slider"></div>
                                 </div>
                                 Remember Me
                             </label>
-                            <a class="forgotpassword" href="./forgotpassword.html">Forgot Password?</a>
+                            <a class="forgotpassword" href="#">Forgot Password?</a>
                         </div>
                         <input type="submit" name="login" value="Login" class="btn-action" id="btn-action">
                     </form>

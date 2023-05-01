@@ -1,15 +1,19 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using BusinessLayer.Concrete;
+using DataAccessLayer.EntityFramework;
 using Microsoft.AspNetCore.Mvc;
 
 namespace OnlineTravel.Areas.Member.Controllers
 {
     [Area("Member")]
-    [AllowAnonymous]
+    [Route("Member/[controller]/[action]")]
     public class UserController : Controller
     {
+        DestinationManager destinationManager = new DestinationManager(new EfDestinationDal());
+
         public IActionResult UserDashboard()
         {
-            return View();
+            var destinations = destinationManager.TGetAll().OrderByDescending(x => x.DestinationID).ToList();
+            return View(destinations);
         }
     }
 }

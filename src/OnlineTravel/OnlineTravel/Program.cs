@@ -6,10 +6,17 @@ using Microsoft.AspNetCore.Mvc.Authorization;
 using OnlineTravel.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+/* 
+ options =>
+{
+    options.User.RequireUniqueEmail = true;
 
+}
+ */
 // Add services to the container.
 builder.Services.AddDbContext<Context>();
 builder.Services.AddIdentity<AppUser, AppRole>().AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>().AddDefaultTokenProviders();
+
 builder.Services.AddControllersWithViews();
 builder.Services.AddMvc().AddRazorOptions(options =>
 {

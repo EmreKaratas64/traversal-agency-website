@@ -129,10 +129,6 @@
       "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\down-arrow.svg"
     },
     {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\favicon.png",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\favicon.png"
-    },
-    {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\home-decor-1.jpg",
       "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\home-decor-1.jpg"
     },
@@ -1323,6 +1319,10 @@
     {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\services.html",
       "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\services.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\userimages\\3dd11067-0233-4c38-9a04-69b93683aceb.jpg",
+      "PackagePath": "staticwebassets\\userimages\\3dd11067-0233-4c38-9a04-69b93683aceb.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.OnlineTravel.Microsoft.AspNetCore.StaticWebAssets.props",

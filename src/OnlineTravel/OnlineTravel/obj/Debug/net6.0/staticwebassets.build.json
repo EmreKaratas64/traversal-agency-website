@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bNq1CDarnZkE+2D2vWXEpZFRNibdCHQ4qi/IiNzb2B0=",
+  "Hash": "s1YMIi5REEWnfJQHcK3pvX4CpkL5c0ZrFRjPCmE0/Pg=",
   "Source": "OnlineTravel",
   "BasePath": "_content/OnlineTravel",
   "Mode": "Default",
@@ -491,23 +491,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\soft-ui-dashboard\\assets\\img\\down-arrow-dark.svg"
-    },
-    {
-      "Identity": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\favicon.png",
-      "SourceId": "OnlineTravel",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\",
-      "BasePath": "_content/OnlineTravel",
-      "RelativePath": "soft-ui-dashboard/assets/img/favicon.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\soft-ui-dashboard\\assets\\img\\favicon.png"
     },
     {
       "Identity": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\home-decor-1.jpg",
@@ -5642,6 +5625,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\traversal-agency-website-main\\src\\services.html"
+    },
+    {
+      "Identity": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\userimages\\3dd11067-0233-4c38-9a04-69b93683aceb.jpg",
+      "SourceId": "OnlineTravel",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\",
+      "BasePath": "_content/OnlineTravel",
+      "RelativePath": "userimages/3dd11067-0233-4c38-9a04-69b93683aceb.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userimages\\3dd11067-0233-4c38-9a04-69b93683aceb.jpg"
     }
   ]
 }
