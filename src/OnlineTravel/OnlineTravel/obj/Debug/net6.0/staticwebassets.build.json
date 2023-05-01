@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s1YMIi5REEWnfJQHcK3pvX4CpkL5c0ZrFRjPCmE0/Pg=",
+  "Hash": "2w1qdnFMnx/sJqDpK7QimRsGgVoBKeyl4Thh7dc5Izg=",
   "Source": "OnlineTravel",
   "BasePath": "_content/OnlineTravel",
   "Mode": "Default",
@@ -5642,6 +5642,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\userimages\\3dd11067-0233-4c38-9a04-69b93683aceb.jpg"
+    },
+    {
+      "Identity": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\userimages\\419f7dd8-c96c-4595-a1ba-bf5a0621c3f5.jpg",
+      "SourceId": "OnlineTravel",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\",
+      "BasePath": "_content/OnlineTravel",
+      "RelativePath": "userimages/419f7dd8-c96c-4595-a1ba-bf5a0621c3f5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userimages\\419f7dd8-c96c-4595-a1ba-bf5a0621c3f5.jpg"
+    },
+    {
+      "Identity": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\userimages\\66b7e2e4-fef8-40c4-980f-5d7ae54251e4.jpg",
+      "SourceId": "OnlineTravel",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\",
+      "BasePath": "_content/OnlineTravel",
+      "RelativePath": "userimages/66b7e2e4-fef8-40c4-980f-5d7ae54251e4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userimages\\66b7e2e4-fef8-40c4-980f-5d7ae54251e4.jpg"
+    },
+    {
+      "Identity": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\userimages\\7f2f28d5-c3f9-49e0-8ba5-dd93f7c414fd.jpg",
+      "SourceId": "OnlineTravel",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\",
+      "BasePath": "_content/OnlineTravel",
+      "RelativePath": "userimages/7f2f28d5-c3f9-49e0-8ba5-dd93f7c414fd.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userimages\\7f2f28d5-c3f9-49e0-8ba5-dd93f7c414fd.jpg"
     }
   ]
 }
