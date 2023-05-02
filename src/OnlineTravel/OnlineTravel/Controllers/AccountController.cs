@@ -50,6 +50,7 @@ namespace OnlineTravel.Controllers
                     }
                 }
             }
+            TempData["SomthingWrong"] = "Somthing wrong";
             return View(model);
         }
 
