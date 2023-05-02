@@ -21,24 +21,13 @@ namespace OnlineTravel.Areas.Member.Controllers
             _userManager = userManager;
         }
 
-        //public async Task<IActionResult> MyCurrentReservation()
-        //{
-        //    var values = await _userManager.FindByNameAsync(User.Identity?.Name);
-        //    var valuesList = reservationManager.GetListWithReservationByAccepted(values.Id);
-        //    return View(valuesList);
-        //}
-        //public async Task<IActionResult> MyOldReservation()
-        //{
-        //    var values = await _userManager.FindByNameAsync(User.Identity?.Name);
-        //    var valuesList = reservationManager.GetListWithReservationByPrevious(values.Id);
-        //    return View(valuesList);
-        //}
-        //public async Task<IActionResult> MyApprovalReservation()
-        //{
-        //    var values = await _userManager.FindByNameAsync(User.Identity?.Name);
-        //    var valuesList = reservationManager.GetListWithReservationByWaitAprroval(values.Id);
-        //    return View(valuesList);
-        //}
+
+        public async Task<IActionResult> UserReservations()
+        {
+            var currentUser = await _userManager.FindByEmailAsync(User.Identity?.Name);
+            var userReservations = reservationManager.GetReservationswithDestinationForUser(currentUser.Id);
+            return View(userReservations);
+        }
 
         [HttpGet]
         public IActionResult NewReservation()
@@ -57,7 +46,7 @@ namespace OnlineTravel.Areas.Member.Controllers
         public IActionResult NewReservation(Rezervation p)
         {
             p.AppUserId = _userManager.FindByEmailAsync(User.Identity?.Name).Result.Id;
-            p.Status = EnumRezervationStatus.OnayBekleniyor;
+            p.Status = EnumRezervationStatus.OdemeBekleniyor;
             reservationManager.TAdd(p);
             return RedirectToAction("UserDashboard", "User");
         }

@@ -19,6 +19,11 @@ namespace BusinessLayer.Concrete
             throw new NotImplementedException();
         }
 
+        public List<Rezervation> GetReservationswithDestinationForUser(int userId)
+        {
+            return _rezervationDal.GetRezervationsWithDestinationByUser(userId);
+        }
+
         public void TAdd(Rezervation entity)
         {
             _rezervationDal.Insert(entity);

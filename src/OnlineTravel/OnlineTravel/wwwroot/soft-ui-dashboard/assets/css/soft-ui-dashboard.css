@@ -20225,10 +20225,10 @@ label,
   height: 32px;
 }
 
-.icon-sm i {
-  top: 2px;
-  font-size: .65rem;
-}
+    .icon-sm i {
+        top: 2px;
+        font-size: .85rem;
+    }
 
 .icon-md {
   width: 48px;
