@@ -13,9 +13,9 @@ namespace BusinessLayer.Concrete
             _guideDal = guideDal;
         }
 
-        public Guide GetById(int id)
+        public Guide TGetByID(int id)
         {
-            return _guideDal.Get(id);
+            return _guideDal.GetByID(id);
         }
 
         public void TAdd(Guide entity)
@@ -25,7 +25,7 @@ namespace BusinessLayer.Concrete
 
         public List<Guide> TGetAll()
         {
-           return _guideDal.GetAll();
+            return _guideDal.GetAll();
         }
 
         public void TUpdate(Guide entity)

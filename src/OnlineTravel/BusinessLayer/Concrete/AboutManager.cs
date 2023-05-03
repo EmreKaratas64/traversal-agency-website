@@ -14,9 +14,9 @@ namespace BusinessLayer.Concrete
             _aboutDal = aboutDal;
         }
 
-        public About GetById(int id)
+        public About TGetByID(int id)
         {
-            return _aboutDal.Get(id);
+            return _aboutDal.GetByID(id);
         }
 
         public void TAdd(About entity)

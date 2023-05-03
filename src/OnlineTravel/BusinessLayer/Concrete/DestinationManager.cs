@@ -14,9 +14,9 @@ namespace BusinessLayer.Concrete
             _destinationDal = destinationDal;
         }
 
-        public Destination GetById(int id)
+        public Destination TGetByID(int id)
         {
-            return _destinationDal.Get(id);
+            return _destinationDal.GetByID(id);
         }
 
         public void TAdd(Destination entity)
@@ -31,7 +31,7 @@ namespace BusinessLayer.Concrete
 
         public void TUpdate(Destination entity)
         {
-            _destinationDal.Update(entity); 
+            _destinationDal.Update(entity);
         }
     }
 }

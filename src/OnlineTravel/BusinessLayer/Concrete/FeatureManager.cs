@@ -14,9 +14,9 @@ namespace BusinessLayer.Concrete
             _featureDal = featureDal;
         }
 
-        public Feature GetById(int id)
+        public Feature TGetByID(int id)
         {
-            return _featureDal.Get(id);
+            return _featureDal.GetByID(id);
         }
 
         public void TAdd(Feature entity)
@@ -26,7 +26,7 @@ namespace BusinessLayer.Concrete
 
         public List<Feature> TGetAll()
         {
-            return _featureDal.GetAll();    
+            return _featureDal.GetAll();
         }
 
         public void TUpdate(Feature entity)

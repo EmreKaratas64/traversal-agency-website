@@ -1,0 +1,190 @@
+﻿@model Destination
+@{
+    ViewData["Title"] = "EditTour";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+
+      <div class="col-xl">
+                  <div class="card mb-4">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0">Edit Tour</h5>
+                    </div>
+                    <div class="card-body">
+                      <form method="post">
+                         @Html.HiddenFor(x=>x.DestinationID)
+                        <div class="mb-3">
+                          <label class="form-label" for="basic-icon-default-fullname">Destination</label>
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-fullname2" class="input-group-text"
+                              ><i class="fas fa-building"></i></span>
+                            <input
+                              asp-for="City"
+                              type="text"
+                              class="form-control"
+                              id="basic-icon-default-fullname"
+                              placeholder="Paris"
+                              aria-describedby="basic-icon-default-fullname2"
+                            />
+                          </div>
+                        </div>
+                        <div class="mb-3">
+                          <label class="form-label" for="basic-icon-default-company">Duration</label>
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-company2" class="input-group-text"
+                              ><i class="fas fa-hourglass-start"></i></span>
+                            <input
+                                asp-for="DayNight"
+                              type="text"
+                              id="basic-icon-default-company"
+                              class="form-control"
+                              placeholder="4 days 5 nights"
+                              aria-describedby="basic-icon-default-company2"
+                            />
+                          </div>
+                        </div>
+                         <div class="mb-3">
+                          <label class="form-label" for="basic-icon-default-company">Price</label>
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-company2" class="input-group-text"
+                              ><i class="fas fa-dollar-sign"></i></span>
+                            <input
+                                asp-for="Price"
+                              type="text"
+                              id="basic-icon-default-company"
+                              class="form-control"
+                              placeholder="1000"
+                              aria-describedby="basic-icon-default-company2"
+                            />
+                          </div>
+                        </div>
+                           <div class="mb-3">
+                          <label class="form-label" for="basic-icon-default-company">Capacity</label>
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-company2" class="input-group-text"
+                              ><i class="fas fa-users"></i></span>
+                            <input
+                                asp-for="Capacity"
+                              type="text"
+                              id="basic-icon-default-company"
+                              class="form-control"
+                              placeholder="15"
+                              aria-describedby="basic-icon-default-company2"
+                            />
+                          </div>
+                        </div>
+
+                          <div class="mb-3">
+                          <label class="form-label" for="basic-icon-default-company">Image-1</label>
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-company2" class="input-group-text"
+                              ><i class="far fa-image"></i></span>
+                            <input
+                                asp-for="Image"
+                              type="text"
+                              id="basic-icon-default-company"
+                              class="form-control"
+                              placeholder="https://yourdomainname.com/wwwroot/src/example.png"
+                              aria-describedby="basic-icon-default-company2"
+                            />
+                          </div>
+                        </div>
+                          <div class="mb-3">
+                          <label class="form-label" for="basic-icon-default-company">Image-2</label>
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-company2" class="input-group-text"
+                              ><i class="far fa-image"></i></span>
+                            <input
+                                asp-for="Image2"
+                              type="text"
+                              id="basic-icon-default-company"
+                              class="form-control"
+                              placeholder="https://yourdomainname.com/wwwroot/src/example.png"
+                              aria-describedby="basic-icon-default-company2"
+                            />
+                          </div>
+                        </div>
+                             <div class="mb-3">
+                          <label class="form-label" for="basic-icon-default-company">Cover Image</label>
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-company2" class="input-group-text"
+                              ><i class="far fa-image"></i></span>
+                            <input
+                                asp-for="CoverImage"
+                              type="text"
+                              id="basic-icon-default-company"
+                              class="form-control"
+                              placeholder="https://yourdomainname.com/wwwroot/src/example.png"
+                              aria-describedby="basic-icon-default-company2"
+                            />
+                          </div>
+                        </div>
+
+                    
+                        <div class="mb-3">
+                          <label class="form-label" for="basic-icon-default-message">Short Description</label>
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-message2" class="input-group-text"
+                              ><i class="bx bx-comment"></i
+                            ></span>
+                            <textarea
+                                asp-for="Description"
+                              id="basic-icon-default-message"
+                              class="form-control"
+                              placeholder="Short description..."
+                              aria-describedby="basic-icon-default-message2"
+                            ></textarea>
+                          </div>
+                        </div>
+
+                         <div class="mb-3">
+                          <label class="form-label" for="basic-icon-default-message">Details-1</label>
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-message2" class="input-group-text"
+                              ><i class="bx bx-comment"></i
+                            ></span>
+                            <textarea
+                                asp-for="Details1"
+                                rows="5"
+                              id="basic-icon-default-message"
+                              class="form-control"
+                              placeholder="Detalils..."
+                              aria-describedby="basic-icon-default-message2"
+                            ></textarea>
+                          </div>
+                        </div>
+
+                            <div class="mb-3">
+                          <label class="form-label" for="basic-icon-default-message">Details-2</label>
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-message2" class="input-group-text"
+                              ><i class="bx bx-comment"></i
+                            ></span>
+                            <textarea
+                                asp-for="Details2"
+                                rows="5"
+                              id="basic-icon-default-message"
+                              class="form-control"
+                              placeholder="Detalils..."
+                              aria-describedby="basic-icon-default-message2"
+                            ></textarea>
+                          </div>
+
+                           <div class="mb-3">
+                          <label class="form-label" for="basic-icon-default-message">Status</label>
+                          <div class="input-group input-group-merge">
+                              <input type="checkbox" asp-for="Status" style="width:15%" />
+                          </div>
+                          </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+</div>
+
+
+

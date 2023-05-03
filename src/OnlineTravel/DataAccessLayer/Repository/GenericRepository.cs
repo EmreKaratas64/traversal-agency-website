@@ -7,10 +7,10 @@ namespace DataAccessLayer.Repositories
     public class GenericRepository<T> : IGenericDal<T> where T : class
     {
 
-        public T Get(int entityId)
+        public T GetByID(int id)
         {
             using var c = new Context();
-            return c.Set<T>().Find(entityId);
+            return c.Set<T>().Find(id);
         }
 
         public List<T> GetAll()

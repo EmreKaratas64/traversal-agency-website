@@ -26,6 +26,8 @@ namespace OnlineTravel.Areas.Member.Controllers
         {
             var currentUser = await _userManager.FindByEmailAsync(User.Identity?.Name);
             var userReservations = reservationManager.GetReservationswithDestinationForUser(currentUser.Id);
+            if (userReservations.Count == 0)
+                TempData["NoRecord"] = "You haven't have any rezervations yet. To make a rezervation you can check our tours";
             return View(userReservations);
         }
 

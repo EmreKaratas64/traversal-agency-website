@@ -13,9 +13,9 @@ namespace BusinessLayer.Concrete
             _contactDal = contactDal;
         }
 
-        public Contact GetById(int id)
+        public Contact TGetByID(int id)
         {
-            return _contactDal.Get(id);
+            return _contactDal.GetByID(id);
         }
 
         public void TAdd(Contact entity)
@@ -25,7 +25,7 @@ namespace BusinessLayer.Concrete
 
         public List<Contact> TGetAll()
         {
-           return _contactDal.GetAll();
+            return _contactDal.GetAll();
         }
 
         public void TUpdate(Contact entity)

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h2PfUkCFUbJkttsAKaHj0vtaqxuOZ+Q/XcctbVQB7VM=",
+  "Hash": "lmNu7vK/LVpJoHKgHwnOJ56EKoTjeKtJSLfptqkehZI=",
   "Source": "OnlineTravel",
   "BasePath": "_content/OnlineTravel",
   "Mode": "Default",
@@ -627,6 +627,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\instagram.png"
+    },
+    {
+      "Identity": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\logo-ct.png",
+      "SourceId": "OnlineTravel",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\",
+      "BasePath": "_content/OnlineTravel",
+      "RelativePath": "sneat-1.0.0/assets/img/icons/brands/logo-ct.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\logo-ct.png"
     },
     {
       "Identity": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\mailchimp.png",

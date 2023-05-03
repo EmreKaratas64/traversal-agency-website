@@ -15,9 +15,9 @@ namespace BusinessLayer.Concrete
             _newsLetterDal = newsLetterDal;
         }
 
-        public NewsLetter GetById(int id)
+        public NewsLetter TGetByID(int id)
         {
-            return _newsLetterDal.Get(id);
+            return _newsLetterDal.GetByID(id);
         }
 
         public void TAdd(NewsLetter entity)

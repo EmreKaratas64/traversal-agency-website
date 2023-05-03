@@ -1056,8 +1056,12 @@ input[type="date"] {
             }
 
                 .visit .bottom .card .content h5 a {
-                    /* some color, text decoration and other styles has to be given ! */
+                    text-decoration: none;
+                    color: var(--color-theme-2);
                 }
+                    .visit .bottom .card .content h5 a:hover {
+                        color: var(--color-theme-1);
+                    }
 
             .visit .bottom .card .content .o-text {
                 font-size: 1.6rem;
@@ -1230,6 +1234,7 @@ input[type="date"] {
     .home-ex-section-0 .row-imgs {
         display: flex;
         justify-content: space-between;
+        flex-wrap:wrap;
     }
 
     .home-ex-section-0 .home-img-wrapper .text {
@@ -1535,7 +1540,7 @@ footer {
             }
 
                 footer .top .newsletter .form-newsletter .email {
-                    width: 80%;
+                    flex-basis: 80%;
                     height: 3rem;
                     border-top-left-radius: 1rem;
                     border-bottom-left-radius: 1rem;
@@ -1556,7 +1561,15 @@ footer {
                     }
 
                 footer .top .newsletter .form-newsletter .btn {
-                    width: 20%;
+                    flex-basis: 20%;
+                    margin-top:0 !important;
+                    padding-top:0 !important;
+                    padding-bottom:0!important;
+                    border-radius:0;
+                    margin-left:0 !important;
+                    display:flex;
+                    justify-content:center;
+                    align-items:center;
                     height: 3rem;
                     border: none;
                     background: linear-gradient(270deg, rgba(200, 47, 222, 1) 0%, rgba(95, 20, 255, 1) 100%);
@@ -3105,11 +3118,11 @@ footer {
                 }
 
                 footer .top .newsletter .form-newsletter .email {
-                    width: 90%;
+                    flex-basis: 90%;
                 }
 
                 footer .top .newsletter .form-newsletter .btn {
-                    width: 10%;
+                    flex-basis: 10%;
                 }
 
         footer .bottom {

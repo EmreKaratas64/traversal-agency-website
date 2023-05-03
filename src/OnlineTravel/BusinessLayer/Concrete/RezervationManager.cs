@@ -14,7 +14,7 @@ namespace BusinessLayer.Concrete
             _rezervationDal = rezervationDal;
         }
 
-        public Rezervation GetById(int id)
+        public Rezervation TGetByID(int id)
         {
             throw new NotImplementedException();
         }

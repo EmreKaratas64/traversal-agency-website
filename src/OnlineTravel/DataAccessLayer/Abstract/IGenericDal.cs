@@ -1,6 +1,4 @@
-﻿
-
-using System.Linq.Expressions;
+﻿using System.Linq.Expressions;
 
 namespace DataAccessLayer.Abstract
 {
@@ -10,7 +8,7 @@ namespace DataAccessLayer.Abstract
 
         void Update(T entity);
 
-        T Get(int entityId);
+        T GetByID(int id);
 
         List<T> GetAll();
 

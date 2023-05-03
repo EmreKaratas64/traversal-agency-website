@@ -16,7 +16,6 @@
                 <th>Capacity</th>
                 <th>Status</th>
                 <th>View</th>
-                <th>Delete</th>
                 <th>Update</th>
                 </tr>
             </thead>
@@ -43,17 +42,12 @@
                         }
 
                         <td>
-                            <a href="#" class="btn rounded-pill btn-outline-info">
+                            <a href="/Destinations/ShowDestinationDetails/@item.DestinationID" class="btn rounded-pill btn-outline-info">
                                 <i class="far fa-eye"></i>&nbsp; View
                             </a>
-                        </td>
+                            
                             <td>
-                            <a href="#" class="btn rounded-pill btn-outline-danger">
-                                <i class="fas fa-trash"></i>&nbsp; Delete
-                            </a>
-                        </td>
-                            <td>
-                            <a href="#" class="btn rounded-pill btn-outline-warning">
+                            <a href="/Admin/Destinations/EditTour/@item.DestinationID" class="btn rounded-pill btn-outline-warning">
                                 <i class="fas fa-edit"></i>&nbsp; Update
                             </a>
                         </td>

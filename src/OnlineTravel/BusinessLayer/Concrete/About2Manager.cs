@@ -13,14 +13,14 @@ namespace BusinessLayer.Concrete
             _about2Dal = about2Dal;
         }
 
-        public About2 GetById(int id)
+        public About2 TGetByID(int id)
         {
-            return _about2Dal.Get(id);
+            return _about2Dal.GetByID(id);
         }
 
         public void TAdd(About2 entity)
         {
-            _about2Dal.Insert(entity);  
+            _about2Dal.Insert(entity);
         }
 
         public List<About2> TGetAll()

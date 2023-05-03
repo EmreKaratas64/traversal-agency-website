@@ -1,5 +1,4 @@
 ﻿
-
 namespace BusinessLayer.Abstract
 {
     public interface IGenericService<T>
@@ -8,7 +7,7 @@ namespace BusinessLayer.Abstract
 
         void TUpdate(T entity);
 
-        T GetById(int id);
+        T TGetByID(int id);
 
         List<T> TGetAll();
     }
