@@ -1,0 +1,72 @@
+﻿@model List<Destination>
+@{
+    ViewData["Title"] = "Destinations";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+ <div class="card">
+        <h5 class="card-header">Tours</h5>
+        <div class="table-responsive text-nowrap">
+            <table class="table">
+            <thead class="table-dark">
+                <tr>
+                <th>City</th>
+                <th>Duration</th>
+                <th>Price</th>
+                <th>Capacity</th>
+                <th>Status</th>
+                <th>View</th>
+                <th>Delete</th>
+                <th>Update</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0">
+
+                @foreach (var item in Model)
+                {
+                            <tr>
+                        <td><i class="fas fa-globe-americas fa-lg text-primary me-3"></i> <strong>@item.City</strong></td>
+                        <td>@item.DayNight</td>
+                        <td>
+                            @item.Price$
+                        </td>
+                            <td>
+                            @item.Capacity
+                        </td>
+                        @if(item.Status == true)
+                        {
+                            <td><span class="badge bg-label-info me-1">Active</span></td>
+                        }
+                        else
+                        {
+                            <td><span class="badge bg-label-danger me-1">Passive</span></td>
+                        }
+
+                        <td>
+                            <a href="#" class="btn rounded-pill btn-outline-info">
+                                <i class="far fa-eye"></i>&nbsp; View
+                            </a>
+                        </td>
+                            <td>
+                            <a href="#" class="btn rounded-pill btn-outline-danger">
+                                <i class="fas fa-trash"></i>&nbsp; Delete
+                            </a>
+                        </td>
+                            <td>
+                            <a href="#" class="btn rounded-pill btn-outline-warning">
+                                <i class="fas fa-edit"></i>&nbsp; Update
+                            </a>
+                        </td>
+                    </tr>
+                }
+               
+            </tbody>
+            </table>
+            <br />
+                 
+        </div>
+            <a href="/Admin/Destinations/AddNewDestination/" class="btn rounded-pill btn-outline-primary">
+                <i class="fas fa-plus-square"></i>&nbsp; Add New Tour
+            </a>
+</div>
+

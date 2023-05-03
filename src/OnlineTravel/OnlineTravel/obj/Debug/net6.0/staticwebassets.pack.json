@@ -13,6 +13,970 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\.browserslistrc",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\.browserslistrc"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\.eslintignore",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\.eslintignore"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\.eslintrc.json",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\.eslintrc.json"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\.gitignore",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\.gitignore"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\.prettierignore",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\.prettierignore"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\.prettierrc.json",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\.prettierrc.json"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\CHANGELOG.md"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\LICENSE.md",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\README.md",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\README.md"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\css\\demo.css",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\css\\demo.css"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\avatars\\1.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\avatars\\1.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\avatars\\5.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\avatars\\5.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\avatars\\6.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\avatars\\6.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\avatars\\7.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\avatars\\7.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\backgrounds\\18.jpg",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\backgrounds\\18.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\1.jpg",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\1.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\11.jpg",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\11.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\12.jpg",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\12.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\13.jpg",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\13.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\17.jpg",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\17.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\18.jpg",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\18.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\19.jpg",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\19.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\2.jpg",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\2.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\20.jpg",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\20.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\3.jpg",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\3.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\4.jpg",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\4.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\5.jpg",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\5.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\7.jpg",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\7.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\asana.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\brands\\asana.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\behance.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\brands\\behance.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\brands\\dribbble.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\facebook.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\brands\\facebook.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\github.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\brands\\github.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\google.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\brands\\google.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\instagram.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\brands\\instagram.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\mailchimp.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\brands\\mailchimp.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\brands\\slack.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\twitter.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\brands\\twitter.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\unicons\\cc-primary.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\unicons\\cc-primary.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\unicons\\cc-success.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\unicons\\cc-success.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\unicons\\cc-warning.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\unicons\\cc-warning.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\unicons\\chart-success.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\unicons\\chart-success.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\unicons\\chart.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\unicons\\chart.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\unicons\\paypal.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\unicons\\paypal.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\unicons\\wallet-info.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\unicons\\wallet-info.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\unicons\\wallet.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\unicons\\wallet.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\illustrations\\girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\illustrations\\man-with-laptop-light.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\illustrations\\man-with-laptop-light.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\illustrations\\page-misc-error-light.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\illustrations\\page-misc-error-light.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\layouts\\layout-container-light.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\layouts\\layout-container-light.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\layouts\\layout-fluid-light.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\layouts\\layout-fluid-light.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\layouts\\layout-without-menu-light.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\layouts\\layout-without-menu-light.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\layouts\\layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\layouts\\layout-without-navbar-light.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\js\\config.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\js\\config.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\js\\dashboards-analytics.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\js\\dashboards-analytics.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\js\\extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\js\\extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\js\\form-basic-inputs.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\js\\form-basic-inputs.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\js\\pages-account-settings-account.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\js\\ui-modals.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\js\\ui-modals.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\js\\ui-popover.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\js\\ui-popover.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\js\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\js\\ui-toasts.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\css\\theme-default.css"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\fonts\\boxicons.css",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\fonts\\boxicons.css"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\fonts\\boxicons\\boxicons.eot"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\fonts\\boxicons\\boxicons.svg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\fonts\\boxicons\\boxicons.woff"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\build-config.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\build-config.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\documentation.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\documentation.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\fonts\\boxicons.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\fonts\\boxicons.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\gulpfile.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\gulpfile.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\auth-forgot-password-basic.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\auth-forgot-password-basic.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\auth-login-basic.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\auth-login-basic.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\auth-register-basic.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\auth-register-basic.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\cards-basic.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\cards-basic.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\extended-ui-perfect-scrollbar.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\extended-ui-perfect-scrollbar.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\extended-ui-text-divider.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\extended-ui-text-divider.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\form-layouts-horizontal.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\form-layouts-horizontal.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\form-layouts-vertical.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\form-layouts-vertical.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\forms-basic-inputs.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\forms-basic-inputs.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\forms-input-groups.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\forms-input-groups.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\icons-boxicons.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\icons-boxicons.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\index.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\index.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\layouts-blank.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\layouts-blank.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\layouts-container.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\layouts-container.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\layouts-fluid.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\layouts-fluid.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\layouts-without-menu.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\layouts-without-menu.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\layouts-without-navbar.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\layouts-without-navbar.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\pages-account-settings-account.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\pages-account-settings-account.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\pages-account-settings-connections.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\pages-account-settings-connections.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\pages-account-settings-notifications.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\pages-account-settings-notifications.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\pages-misc-error.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\pages-misc-error.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\pages-misc-under-maintenance.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\pages-misc-under-maintenance.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\tables-basic.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\tables-basic.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\ui-accordion.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\ui-accordion.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\ui-alerts.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\ui-alerts.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\ui-badges.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\ui-badges.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\ui-buttons.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\ui-buttons.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\ui-carousel.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\ui-carousel.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\ui-collapse.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\ui-collapse.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\ui-dropdowns.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\ui-dropdowns.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\ui-footer.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\ui-footer.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\ui-list-groups.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\ui-list-groups.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\ui-modals.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\ui-modals.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\ui-navbar.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\ui-navbar.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\ui-offcanvas.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\ui-offcanvas.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\ui-pagination-breadcrumbs.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\ui-pagination-breadcrumbs.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\ui-progress.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\ui-progress.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\ui-spinners.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\ui-spinners.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\ui-tabs-pills.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\ui-tabs-pills.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\ui-toasts.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\ui-toasts.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\ui-tooltips-popovers.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\ui-tooltips-popovers.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\html\\ui-typography.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\html\\ui-typography.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\index.html",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\index.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\js\\helpers.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\js\\menu.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\js\\menu.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\libs\\apex-charts\\apex-charts.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\libs\\apex-charts\\apex-charts.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\libs\\highlight\\highlight-github.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\libs\\highlight\\highlight-github.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\libs\\highlight\\highlight.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\libs\\highlight\\highlight.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\libs\\perfect-scrollbar\\perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\libs\\perfect-scrollbar\\perfect-scrollbar.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\package-lock.json",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\package-lock.json"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\package.json",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\package.json"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_accordion.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_alert.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_alert.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_badge.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_badge.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_button-group.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_buttons.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_card.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_card.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_carousel.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_close.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_close.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_forms.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_forms.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_functions.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_functions.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_include.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_include.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_list-group.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_mixins.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_modal.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_modal.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_nav.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_nav.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_navbar.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_offcanvas.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_pagination.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_popover.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_popover.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_progress.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_progress.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_reboot.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_root.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_root.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_spinners.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_tables.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_tables.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_toasts.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_type.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_type.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_utilities-ltr.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_utilities-ltr.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_utilities.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\_variables.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\_variables.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\forms\\_validation.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_navs.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_navs.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_progress.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_progress.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_toasts.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap-extended\\mixins\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_bootstrap.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_bootstrap.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_colors.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_colors.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_components.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_components.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_components\\_app-brand.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_components\\_app-brand.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_components\\_avatar.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_components\\_avatar.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_components\\_base.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_components\\_base.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_components\\_common.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_components\\_common.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_components\\_footer.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_components\\_footer.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_components\\_include.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_components\\_include.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_components\\_layout.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_components\\_layout.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_components\\_menu.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_components\\_menu.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_components\\_mixins.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_components\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_components\\_text-divider.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_components\\_text-divider.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_components\\_variables.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_components\\_variables.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_components\\mixins\\_app-brand.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_components\\mixins\\_app-brand.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_components\\mixins\\_avatar.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_components\\mixins\\_avatar.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_components\\mixins\\_footer.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_components\\mixins\\_footer.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_components\\mixins\\_menu.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_components\\mixins\\_menu.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_components\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_components\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_components\\mixins\\_navbar.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_components\\mixins\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_components\\mixins\\_text-divider.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_components\\mixins\\_text-divider.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_custom-variables\\_bootstrap-extended.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_custom-variables\\_bootstrap-extended.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_custom-variables\\_components.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_custom-variables\\_components.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_custom-variables\\_libs.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_custom-variables\\_libs.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_custom-variables\\_pages.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_custom-variables\\_pages.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_custom-variables\\_support.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_custom-variables\\_support.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_theme\\_common.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_theme\\_common.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\_theme\\_theme.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\_theme\\_theme.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\core.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\core.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\pages\\page-account-settings.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\pages\\page-account-settings.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\pages\\page-auth.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\pages\\page-auth.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\pages\\page-icons.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\pages\\page-icons.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\pages\\page-misc.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\pages\\page-misc.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\scss\\theme-default.scss",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\scss\\theme-default.scss"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\tasks\\build.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\tasks\\build.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\tasks\\prod.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\tasks\\prod.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\webpack.config.js",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\webpack.config.js"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\yarn.lock",
+      "PackagePath": "staticwebassets\\sneat-1.0.0\\yarn.lock"
+    },
+    {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\.gitattributes",
       "PackagePath": "staticwebassets\\soft-ui-dashboard\\.gitattributes"
     },
@@ -1335,6 +2299,10 @@
     {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\userimages\\7f2f28d5-c3f9-49e0-8ba5-dd93f7c414fd.jpg",
       "PackagePath": "staticwebassets\\userimages\\7f2f28d5-c3f9-49e0-8ba5-dd93f7c414fd.jpg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\userimages\\9ba0c9e5-969b-4ac4-b9f1-8fc840c49c44.jpg",
+      "PackagePath": "staticwebassets\\userimages\\9ba0c9e5-969b-4ac4-b9f1-8fc840c49c44.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.OnlineTravel.Microsoft.AspNetCore.StaticWebAssets.props",
