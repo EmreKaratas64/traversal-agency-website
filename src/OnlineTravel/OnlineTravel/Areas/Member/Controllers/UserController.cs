@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace OnlineTravel.Areas.Member.Controllers
 {
     [Area("Member")]
-    [Route("Member/[controller]/[action]")]
+    [Route("Member/[controller]/[action]/{id?}")]
     public class UserController : Controller
     {
         DestinationManager destinationManager = new DestinationManager(new EfDestinationDal());

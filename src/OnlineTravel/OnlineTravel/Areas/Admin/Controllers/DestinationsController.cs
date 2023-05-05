@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace OnlineTravel.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Route("Admin/[controller]/[action]/{id?}")]
     public class DestinationsController : Controller
     {
         DestinationManager destinationManager = new DestinationManager(new EfDestinationDal());
@@ -30,7 +31,7 @@ namespace OnlineTravel.Areas.Admin.Controllers
 
             model.Status = true;
             destinationManager.TAdd(model);
-            return RedirectToAction("DisplayDestinations", "Destinations", new { area = "Admin" });
+            return RedirectToAction("DisplayDestinations");
         }
 
         [HttpGet]
@@ -48,7 +49,7 @@ namespace OnlineTravel.Areas.Admin.Controllers
             if (model.City == null || model.DayNight == null || model.Image == null || model.Image2 == null || model.CoverImage == null || model.Description == null || model.Details1 == null || model.Details2 == null)
                 return BadRequest();
             destinationManager.TUpdate(model);
-            return RedirectToAction("DisplayDestinations", "Destinations", new { area = "Admin" });
+            return RedirectToAction("DisplayDestinations");
         }
     }
 }
