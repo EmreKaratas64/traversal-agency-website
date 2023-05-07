@@ -1,12 +1,14 @@
 ﻿using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using OnlineTravel.Models;
 using System.Diagnostics;
 
 namespace OnlineTravel.Controllers
 {
+    [AllowAnonymous]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -20,6 +22,9 @@ namespace OnlineTravel.Controllers
 
         public IActionResult ShowHome()
         {
+            //_logger.LogInformation("Home page showed");
+            //_logger.LogError("Home page error");
+            //_logger.LogWarning("Home page warning");
             return View();
         }
 

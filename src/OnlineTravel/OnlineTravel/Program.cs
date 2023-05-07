@@ -15,6 +15,12 @@ var builder = WebApplication.CreateBuilder(args);
 }
  */
 // Add services to the container.
+builder.Services.AddLogging(x =>
+{
+    x.ClearProviders();
+    x.SetMinimumLevel(LogLevel.Debug);
+    x.AddDebug();
+});
 builder.Services.AddDbContext<Context>();
 builder.Services.AddIdentity<AppUser, AppRole>().AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>().AddDefaultTokenProviders();
 // EF baðýmlýlýðýný azaltmak için gereken konfigürasyonlar aþaðýdaki ContainerDependencies fonksiyonunda
@@ -40,7 +46,15 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.SlidingExpiration = true;
 });
 
+
+
 var app = builder.Build();
+
+ILoggerFactory loggerFactory = LoggerFactory.Create(builder =>
+{
+    var path = Directory.GetCurrentDirectory();
+    builder.AddFile($"{path}\\Logs\\Log1.txt");
+});
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
