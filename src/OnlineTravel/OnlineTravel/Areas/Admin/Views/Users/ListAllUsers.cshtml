@@ -1,0 +1,61 @@
+﻿@model List<AppUser>
+@{
+    ViewData["Title"] = "User List";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+ <div class="card">
+        <h5 class="card-header">Users</h5>
+        <div class="table-responsive text-nowrap">
+            <table class="table">
+            <thead class="table-dark">
+                <tr>
+                <th>#</th>
+                <th>Name Surname</th>
+                <th>Mail</th>
+                <th>Ban</th>
+            @*    <th>Edit</th>*@
+                <th>Tour History</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0">
+
+                @foreach (var item in Model)
+                {
+                            <tr>
+                        <td><i class="far fa-user fa-lg text-black me-3"></i> <strong>@item.Id</strong></td>
+                        <td>@item.Name @item.Surname</td>
+                        <td>
+                            @item.Email
+                        </td>
+                            @*<td>
+                                <span class="badge bg-label-primary me-1">Banned </span>
+                                </td>*@
+   
+
+                        <td>
+                            <a href="#" class="btn rounded-pill btn-outline-danger">
+                                <i class="fas fa-ban"></i>&nbsp; Ban
+                            </a>
+                            </td>
+
+                          @*   <td>
+                            <a href="/Admin/Users/EditUser/@item.Id" class="btn rounded-pill btn-outline-warning">
+                                <i class="fas fa-edit"></i>&nbsp; Edit
+                            </a>
+                            </td>*@
+
+                             <td>
+                            <a href="/Admin/Users/UserReservationHistory/@item.Id" class="btn rounded-pill btn-outline-info">
+                                <i class="fas fa-plane"></i>&nbsp; Tours
+                            </a>
+                            </td>
+                    </tr>
+                }
+               
+            </tbody>
+            </table>
+                 
+        </div>
+</div>
+

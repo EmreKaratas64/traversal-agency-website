@@ -13,6 +13,38 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\simple-404-template-master\\404.html",
+      "PackagePath": "staticwebassets\\simple-404-template-master\\404.html"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\simple-404-template-master\\LICENSE",
+      "PackagePath": "staticwebassets\\simple-404-template-master"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\simple-404-template-master\\README.md",
+      "PackagePath": "staticwebassets\\simple-404-template-master\\README.md"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\simple-404-template-master\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\simple-404-template-master\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\simple-404-template-master\\assets\\images\\404.svg",
+      "PackagePath": "staticwebassets\\simple-404-template-master\\assets\\images\\404.svg"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\simple-404-template-master\\favicon.png",
+      "PackagePath": "staticwebassets\\simple-404-template-master\\favicon.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\simple-404-template-master\\screenshot\\dekstop-ss.png",
+      "PackagePath": "staticwebassets\\simple-404-template-master\\screenshot\\dekstop-ss.png"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\simple-404-template-master\\screenshot\\mobile-browser.png",
+      "PackagePath": "staticwebassets\\simple-404-template-master\\screenshot\\mobile-browser.png"
+    },
+    {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\.browserslistrc",
       "PackagePath": "staticwebassets\\sneat-1.0.0\\.browserslistrc"
     },

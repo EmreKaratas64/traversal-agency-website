@@ -34,5 +34,10 @@ namespace BusinessLayer.Concrete
         {
             _newsLetterDal.Update(entity);
         }
+
+        public void TDelete(NewsLetter entity)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

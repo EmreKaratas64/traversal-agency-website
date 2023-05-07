@@ -32,5 +32,10 @@ namespace BusinessLayer.Concrete
         {
             _guideDal.Update(entity);
         }
+
+        public void TDelete(Guide entity)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

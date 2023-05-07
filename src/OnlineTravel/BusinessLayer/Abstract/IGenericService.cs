@@ -7,6 +7,8 @@ namespace BusinessLayer.Abstract
 
         void TUpdate(T entity);
 
+        void TDelete(T entity);
+
         T TGetByID(int id);
 
         List<T> TGetAll();

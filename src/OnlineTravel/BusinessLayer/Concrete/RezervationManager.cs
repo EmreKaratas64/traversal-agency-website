@@ -38,5 +38,10 @@ namespace BusinessLayer.Concrete
         {
             _rezervationDal.Update(entity);
         }
+
+        public void TDelete(Rezervation entity)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

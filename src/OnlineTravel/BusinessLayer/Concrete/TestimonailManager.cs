@@ -32,5 +32,10 @@ namespace BusinessLayer.Concrete
         {
             _testimonialDal.Update(entity);
         }
+
+        public void TDelete(Testimonial entity)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

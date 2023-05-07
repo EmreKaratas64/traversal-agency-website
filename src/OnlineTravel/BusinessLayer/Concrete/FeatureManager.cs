@@ -33,5 +33,10 @@ namespace BusinessLayer.Concrete
         {
             _featureDal.Update(entity);
         }
+
+        public void TDelete(Feature entity)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

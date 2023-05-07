@@ -32,5 +32,10 @@ namespace BusinessLayer.Concrete
         {
             _contactDal.Update(entity);
         }
+
+        public void TDelete(Contact entity)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

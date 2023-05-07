@@ -17,7 +17,7 @@ namespace BusinessLayer.Concrete
 
         public Comment TGetByID(int id)
         {
-            throw new NotImplementedException();
+            return _commentDal.GetByID(id);
         }
 
         public void TAdd(Comment entity)
@@ -38,6 +38,16 @@ namespace BusinessLayer.Concrete
         public void TUpdate(Comment entity)
         {
             throw new NotImplementedException();
+        }
+
+        public List<Comment> GetCommentswithDestinations()
+        {
+            return _commentDal.GetCommentsWithDestinations();
+        }
+
+        public void TDelete(Comment entity)
+        {
+            _commentDal.Delete(entity);
         }
     }
 }

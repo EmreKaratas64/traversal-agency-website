@@ -8,10 +8,13 @@ namespace DataAccessLayer.Abstract
 
         void Update(T entity);
 
+        void Delete(T entity);
+
         T GetByID(int id);
 
         List<T> GetAll();
 
         List<T> GetListByFilter(Expression<Func<T, bool>> filter);
+
     }
 }

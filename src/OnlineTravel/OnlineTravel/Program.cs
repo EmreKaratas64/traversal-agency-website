@@ -1,3 +1,4 @@
+using BusinessLayer.Container;
 using DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authorization;
@@ -16,7 +17,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddDbContext<Context>();
 builder.Services.AddIdentity<AppUser, AppRole>().AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>().AddDefaultTokenProviders();
-
+// EF baðýmlýlýðýný azaltmak için gereken konfigürasyonlar aþaðýdaki ContainerDependencies fonksiyonunda
+builder.Services.ContainerDependencies();
 builder.Services.AddControllersWithViews();
 builder.Services.AddMvc().AddRazorOptions(options =>
 {
@@ -47,7 +49,7 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-
+app.UseStatusCodePagesWithReExecute("/ErrorPage/Error404/", "?code={0}");
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAuthentication();

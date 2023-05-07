@@ -32,5 +32,10 @@ namespace BusinessLayer.Concrete
         {
             _about2Dal.Update(entity);
         }
+
+        public void TDelete(About2 entity)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

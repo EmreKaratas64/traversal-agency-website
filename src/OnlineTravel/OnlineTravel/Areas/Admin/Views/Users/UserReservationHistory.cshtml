@@ -1,0 +1,60 @@
+﻿@model List<Rezervation>
+@{
+    ViewData["Title"] = "User Reservation History";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+ <div class="card">
+        <h5 class="card-header">User Tour History</h5>
+        <div class="table-responsive text-nowrap">
+            <table class="table">
+            <thead class="table-dark">
+                <tr>
+                <th>Destination</th>
+                <th>Number of people</th>
+                <th>Description</th>
+                <th>Date</th>
+                <th>Status</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0">
+
+                @foreach (var item in Model)
+                {
+                            <tr>
+                        <td><i class="fas fa-globe fa-lg text-primary me-3"></i> <strong>@item.Destination?.City</strong></td>
+                        <td>@item.PersonCount</td>
+                        <td>
+                            @item.Description
+                        </td>
+                            <td>
+                            @(((DateTime)item.ReservastionDate).ToString("dd-MMM-yyyy"))
+                        </td>
+                        @if(item.Status == EnumRezervationStatus.OnayBekleniyor)
+                        {
+                            <td><span class="badge bg-label-info me-1">Waiting Approval</span></td>
+                        }
+                        else if(item.Status == EnumRezervationStatus.OdemeBekleniyor)
+                        {
+                            <td><span class="badge bg-label-warning me-1">Waiting Payment</span></td>
+                        }
+                        else if(item.Status == EnumRezervationStatus.Onaylandi)
+                        {
+                            <td><span class="badge bg-label-success me-1">Approved</span></td>
+                        }
+                        else
+                        {
+                            <td><span class="badge bg-label-danger me-1">Canceled</span></td>
+                        }
+
+                       
+                    </tr>
+                }
+               
+            </tbody>
+            </table>
+            <br />
+                 
+        </div>
+</div>
+

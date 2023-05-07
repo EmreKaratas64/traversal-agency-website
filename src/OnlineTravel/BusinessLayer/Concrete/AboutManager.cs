@@ -33,5 +33,10 @@ namespace BusinessLayer.Concrete
         {
             _aboutDal.Update(entity);
         }
+
+        public void TDelete(About entity)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

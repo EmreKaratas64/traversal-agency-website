@@ -1,0 +1,99 @@
+﻿@model Guide
+@{
+    ViewData["Title"] = "New Guide";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="row">
+
+      <div class="col-xl">
+                  <div class="card mb-4">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0">Add New Guide</h5>
+                    </div>
+                    <div class="card-body">
+                      <form method="post">
+                        <div class="mb-3">
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-fullname2" class="input-group-text"
+                              ><i class="fas fa-user"></i></span>
+                            <input
+                              asp-for="Name"
+                              type="text"
+                              class="form-control"
+                              id="basic-icon-default-fullname"
+                              placeholder="Name"
+                              aria-describedby="basic-icon-default-fullname2"
+                            />
+                          </div>
+                        </div>
+                        <div class="mb-3">
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-company2" class="input-group-text"
+                              ><i class="fas fa-hourglass-start"></i></span>
+                            <input
+                                asp-for="Description"
+                              type="text"
+                              id="basic-icon-default-company"
+                              class="form-control"
+                              placeholder="Description"
+                              aria-describedby="basic-icon-default-company2"
+                            />
+                          </div>
+                        </div>
+
+                           <div class="mb-3">
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-company2" class="input-group-text"
+                              ><i class="fab fa-twitter"></i></span>
+                            <input
+                                asp-for="TwitterUrl"
+                              type="text"
+                              id="basic-icon-default-company"
+                              class="form-control"
+                              placeholder="Twitter Url"
+                              aria-describedby="basic-icon-default-company2"
+                            />
+                          </div>
+                        </div>
+                      
+                       
+                        <div class="mb-3">
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-company2" class="input-group-text"
+                              ><i class="fab fa-instagram"></i></span>
+                            <input
+                                asp-for="InstagramUrl"
+                              type="text"
+                              id="basic-icon-default-company"
+                              class="form-control"
+                              placeholder="Instagram Url"
+                              aria-describedby="basic-icon-default-company2"
+                            />
+                          </div>
+                        </div>
+
+                          <div class="mb-3">
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-company2" class="input-group-text"
+                              ><i class="far fa-image"></i></span>
+                            <input
+                                asp-for="Image"
+                              type="text"
+                              id="basic-icon-default-company"
+                              class="form-control"
+                              placeholder="https://yourdomainname.com/wwwroot/src/example.png"
+                              aria-describedby="basic-icon-default-company2"
+                            />
+                          </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Add</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+</div>
+
+

@@ -40,5 +40,12 @@ namespace DataAccessLayer.Repositories
             c.Update(entity);
             c.SaveChanges();
         }
+
+        public void Delete(T entity)
+        {
+            using var c = new Context();
+            c.Remove(entity);
+            c.SaveChanges();
+        }
     }
 }

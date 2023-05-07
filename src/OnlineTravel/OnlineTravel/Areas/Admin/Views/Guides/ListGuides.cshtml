@@ -1,0 +1,72 @@
+﻿@model List<Guide>
+@{
+    ViewData["Title"] = "Guides";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+ <div class="card">
+        <h5 class="card-header">Tours</h5>
+        <div class="table-responsive text-nowrap">
+            <table class="table">
+            <thead class="table-dark">
+                <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Status</th>
+                <th>Edit</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0">
+
+                @foreach (var item in Model)
+                {
+                            <tr>
+                                      <td>
+                          <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
+                            <li
+                              data-bs-toggle="tooltip"
+                              data-popup="tooltip-custom"
+                              data-bs-placement="top"
+                              class="avatar avatar-xs pull-up"
+                              title="@item.Name"
+                            >
+                              <img src="@item.Image" alt="Avatar" class="rounded-circle" style="width:40px;height:40px" />
+                          </ul>
+                        </td>
+                                
+                        <td><strong>@item.Name</strong></td>
+                        <td>@item.Description</td>
+                        @if(item.status == true)
+                        {
+                            <td>
+                             <a href="/Admin/Guides/ChangeGuideStatus/@item.GuideID" class="btn rounded-pill btn-outline-danger">
+                                 Deactivate</a>
+                                 </td>
+                        }
+                        else
+                        {
+                                 <td>
+                              <a href="/Admin/Guides/ChangeGuideStatus/@item.GuideID" class="btn rounded-pill btn-outline-success">
+                                 Activate</a>
+                                 </td>
+                        }
+
+                        <td>
+                            <a href="/Admin/Guides/EditGuide/@item.GuideID" class="btn rounded-pill btn-outline-warning">
+                                <i class="far fa-edit"></i>&nbsp; Edit
+                            </a></td>
+                            
+                    </tr>
+                }
+               
+            </tbody>
+            </table>
+            <br />
+                 
+        </div>
+            <a href="/Admin/Guides/AddGuide/" class="btn rounded-pill btn-outline-primary">
+                <i class="fas fa-plus-square"></i>&nbsp; New Guide
+            </a>
+</div>
+
