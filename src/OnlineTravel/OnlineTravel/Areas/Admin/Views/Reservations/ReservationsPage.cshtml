@@ -1,0 +1,148 @@
+﻿
+@{
+    ViewData["Title"] = "Reservations";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<button type="button" id="btngetlist" class="btn btn-outline-info mb-4">Show Reservations</button>
+
+<button type="button" id="btngetbyid" class="btn btn-outline-warning mb-4">Find Reservation</button>
+
+<button type="button" id="btnaddreservation" class="btn btn-outline-success mb-4">Add Reservation</button>
+
+<h4>Find Reservation</h4>
+<div class="mb-3">
+    <div class="input-group input-group-merge">
+        <span id="basic-icon-default-fullname2" class="input-group-text"
+            ><i class="fas fa-map-marker"></i></span>
+        <input
+            type="text"
+            class="form-control"
+            id="txtId"
+            placeholder="ID"
+            aria-describedby="basic-icon-default-fullname2"
+        />
+    </div>
+</div>
+
+<h4>Add Reservation</h4>
+<div class="mb-3">
+    <div class="input-group input-group-merge">
+        <span id="basic-icon-default-fullname2" class="input-group-text"
+            ><i class="fas fa-users"></i></span>
+        <input
+            type="text"
+            class="form-control"
+            id="txtpersoncount"
+            placeholder="Number of people"
+            aria-describedby="basic-icon-default-fullname2"
+        />
+    </div>
+     <div class="input-group input-group-merge">
+        <span id="basic-icon-default-fullname2" class="input-group-text"
+            ><i class="fas fa-calendar-alt"></i></span>
+        <input
+            type="date"
+            class="form-control"
+            id="txtdate"
+            placeholder="Date"
+            aria-describedby="basic-icon-default-fullname2"
+        />
+    </div>
+     <div class="input-group input-group-merge">
+        <span id="basic-icon-default-fullname2" class="input-group-text"
+            ><i class="fas fa-comment"></i></span>
+        <input
+            type="text"
+            class="form-control"
+            id="txtdescription"
+            placeholder="Description"
+            aria-describedby="basic-icon-default-fullname2"
+        />
+    </div>
+     <div class="input-group input-group-merge">
+        <span id="basic-icon-default-fullname2" class="input-group-text"
+            ><i class="fas fa-map-marker"></i></span>
+        <input
+            type="text"
+            class="form-control"
+            id="txtDestinationId"
+            placeholder="Destination Id"
+            aria-describedby="basic-icon-default-fullname2"
+        />
+    </div>
+</div>
+
+<div class="card mb-3">
+    <h5 class="card-header">Reservation by Id</h5>
+    <div class="table-responsive text-nowrap" id="reservationslistbyid">
+    Reservation by id will be shown here
+    </div>
+</div>
+
+<div class="card mb-3">
+    <h5 class="card-header">Reservations</h5>
+    <div class="table-responsive text-nowrap" id="reservationslist">
+    Reservations will be shown here
+    </div>
+</div>
+
+
+<script>
+
+    $("#btngetlist").click(function(){
+        $.ajax({
+            contentType:"application/json",
+            dataType:"json",
+            type:"Get",
+            url:"/Admin/Reservations/DisplayReservations/",
+            success:function(func){
+                let result = jQuery.parseJSON(func);
+                let tablehtml  = "<table class=table> <thead class=table-dark> <tr><th>Number of people</th><th>Date</th><th>Description</th>  </tr> </thead><tbody class=table-border-bottom-0>";
+                $.each(result, (index, value) => {
+                    tablehtml += `<tr> <td><strong>${value.PersonCount}</strong></td>  <td>${value.ReservastionDate}</td>  <td> ${value.Description} </td></tr>`
+                });
+                tablehtml += "</tbody></table>";
+                $("#reservationslist").html(tablehtml);
+            }
+        });
+    });
+
+    $("#btngetbyid").click(x=>{
+        let id = $("#txtId").val();
+
+        $.ajax({
+            contentType:"application/json",
+            dataType:"json",
+            type:"Get",
+            url:"/Admin/Reservations/FindReservation/",
+            data:{ReservationID:id},
+            success:function(fun2){
+                let result = jQuery.parseJSON(fun2);
+                console.log(result);
+                let htmlTable = `<table class=table> <thead class=table-dark> <tr><th>Number of people</th><th>Date</th><th>Description</th>  </tr> </thead><tbody class=table-border-bottom-0> <tr> <td><strong>${result.PersonCount}</strong></td>  <td>${result.ReservastionDate}</td>  <td> ${result.Description} </td></tr> </tbody></table>`;
+                $("#reservationslistbyid").html(htmlTable);
+            }
+        });
+    });
+
+    $("#btnaddreservation").click(function(){
+        let values = {
+            PersonCount:$("#txtpersoncount").val(),
+            ReservastionDate:$("#txtdate").val(),
+            Description:$("#txtdescription").val(),
+            DestinationID:$("#txtDestinationId").val()
+        };
+
+        $.ajax({
+            type:"post",
+            url:"/Admin/Reservations/AddReservation/",
+            data: values,
+            success:function(func){
+                let result = jQuery.parseJSON(func);
+                alert("Rezervasyon başarıyla eklendi");
+            }
+        });
+    });
+</script>

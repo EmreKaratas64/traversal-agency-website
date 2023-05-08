@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5RjnRrpH+FXPsb58jTW0GvLbQJqR1QTY5hW480kZgBE=",
+  "Hash": "ro7HO3K07M1PcKljIeoOViihhFQYkuXuiMc4UzOhBSI=",
   "Source": "OnlineTravel",
   "BasePath": "_content/OnlineTravel",
   "Mode": "Default",
@@ -66,6 +66,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\PdfReports\\dosya1.pdf",
+      "SourceId": "OnlineTravel",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\",
+      "BasePath": "_content/OnlineTravel",
+      "RelativePath": "PdfReports/dosya1.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PdfReports\\dosya1.pdf"
+    },
+    {
+      "Identity": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\PdfReports\\dosya2.pdf",
+      "SourceId": "OnlineTravel",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\",
+      "BasePath": "_content/OnlineTravel",
+      "RelativePath": "PdfReports/dosya2.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PdfReports\\dosya2.pdf"
     },
     {
       "Identity": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\simple-404-template-master\\404.html",

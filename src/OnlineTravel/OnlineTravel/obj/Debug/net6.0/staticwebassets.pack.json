@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\PdfReports\\dosya1.pdf",
+      "PackagePath": "staticwebassets\\PdfReports\\dosya1.pdf"
+    },
+    {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\PdfReports\\dosya2.pdf",
+      "PackagePath": "staticwebassets\\PdfReports\\dosya2.pdf"
+    },
+    {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

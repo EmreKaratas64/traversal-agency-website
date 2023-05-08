@@ -848,3 +848,14 @@ D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\De
 D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\SixLabors.Fonts.dll
 D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\System.IO.Packaging.dll
 D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\XLParser.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\iTextSharp.LGPLv2.Core.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\SkiaSharp.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\runtimes\osx\native\libSkiaSharp.dylib
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\runtimes\win-x64\native\libSkiaSharp.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\runtimes\win-x86\native\libSkiaSharp.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\MailKit.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\MimeKit.dll

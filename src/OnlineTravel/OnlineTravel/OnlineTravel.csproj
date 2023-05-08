@@ -253,6 +253,8 @@
   <ItemGroup>
     <PackageReference Include="ClosedXML" Version="0.101.0" />
     <PackageReference Include="EPPlus" Version="6.2.3" />
+    <PackageReference Include="iTextSharp.LGPLv2.Core" Version="3.3.5" />
+    <PackageReference Include="MailKit" Version="4.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.15" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.15" />
@@ -280,7 +282,7 @@
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Member\Data\" />
     <Folder Include="Logs\" />
-    <Folder Include="wwwroot\Logs\" />
+    <Folder Include="wwwroot\PdfReports\" />
     <Folder Include="wwwroot\userimages\" />
   </ItemGroup>
 

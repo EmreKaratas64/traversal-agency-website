@@ -16,7 +16,7 @@ namespace BusinessLayer.Concrete
 
         public Rezervation TGetByID(int id)
         {
-            throw new NotImplementedException();
+            return _rezervationDal.GetByID(id);
         }
 
         public List<Rezervation> GetReservationswithDestinationForUser(int userId)
