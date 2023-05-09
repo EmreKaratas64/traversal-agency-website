@@ -1,9 +1,28 @@
-﻿
+﻿@model Destination
 @{
     ViewData["Title"] = "Reservations";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+@if(TempData["ApprovalSuccess"] != null)
+{
+    <div class="alert alert-success alert-dismissible mb-4" role="alert">
+        @TempData["ApprovalSuccess"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    TempData["ApprovalSuccess"] = null;
+}
+
+@if(TempData["KeepingSuccess"] != null)
+{
+    <div class="alert alert-info alert-dismissible mb-4" role="alert">
+        @TempData["KeepingSuccess"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    TempData["KeepingSuccess"] = null;
+}
+
 
 <button type="button" id="btngetlist" class="btn btn-outline-info mb-4">Show Reservations</button>
 
@@ -11,7 +30,14 @@
 
 <button type="button" id="btnaddreservation" class="btn btn-outline-success mb-4">Add Reservation</button>
 
-<h4>Find Reservation</h4>
+<button type="button" id="btndeletereservation" class="btn btn-outline-danger mb-4">Delete Reservation</button>
+
+<button type="button" id="btnupdatereservation" class="btn btn-outline-secondary mb-4">Update Reservation</button>
+
+
+
+
+<h4>Find or Delete Reservation</h4>
 <div class="mb-3">
     <div class="input-group input-group-merge">
         <span id="basic-icon-default-fullname2" class="input-group-text"
@@ -20,12 +46,11 @@
             type="text"
             class="form-control"
             id="txtId"
-            placeholder="ID"
+            placeholder="ID to be retrieved or deleted"
             aria-describedby="basic-icon-default-fullname2"
         />
     </div>
 </div>
-
 <h4>Add Reservation</h4>
 <div class="mb-3">
     <div class="input-group input-group-merge">
@@ -64,13 +89,60 @@
      <div class="input-group input-group-merge">
         <span id="basic-icon-default-fullname2" class="input-group-text"
             ><i class="fas fa-map-marker"></i></span>
+        @Html.DropDownListFor(x=>x.DestinationID,(List<SelectListItem>)ViewBag.v,new {@class="form-control",@id="txtDestinationId"})
+    </div>
+</div>
+
+<h4>Edit Reservation</h4>
+<div class="mb-3">
+      <div class="input-group input-group-merge">
+        <span id="basic-icon-default-fullname2" class="input-group-text"
+            ><i class="fas fa-map-marker"></i></span>
         <input
             type="text"
             class="form-control"
-            id="txtDestinationId"
-            placeholder="Destination Id"
+            id="txtreservationeditId"
+            placeholder="Reservation Id"
             aria-describedby="basic-icon-default-fullname2"
         />
+    </div>
+    <div class="input-group input-group-merge">
+        <span id="basic-icon-default-fullname2" class="input-group-text"
+            ><i class="fas fa-users"></i></span>
+        <input
+            type="text"
+            class="form-control"
+            id="txtpersoncountedit"
+            placeholder="Number of people"
+            aria-describedby="basic-icon-default-fullname2"
+        />
+    </div>
+     <div class="input-group input-group-merge">
+        <span id="basic-icon-default-fullname2" class="input-group-text"
+            ><i class="fas fa-calendar-alt"></i></span>
+        <input
+            type="date"
+            class="form-control"
+            id="txtdateedit"
+            placeholder="Date"
+            aria-describedby="basic-icon-default-fullname2"
+        />
+    </div>
+     <div class="input-group input-group-merge">
+        <span id="basic-icon-default-fullname2" class="input-group-text"
+            ><i class="fas fa-comment"></i></span>
+        <input
+            type="text"
+            class="form-control"
+            id="txtdescriptionedit"
+            placeholder="Description"
+            aria-describedby="basic-icon-default-fullname2"
+        />
+    </div>
+     <div class="input-group input-group-merge">
+        <span id="basic-icon-default-fullname2" class="input-group-text"
+            ><i class="fas fa-map-marker"></i></span>
+        @Html.DropDownListFor(x=>x.DestinationID,(List<SelectListItem>)ViewBag.v,new {@class="form-control",@id="txtDestinationIdedit"})
     </div>
 </div>
 
@@ -99,9 +171,11 @@
             url:"/Admin/Reservations/DisplayReservations/",
             success:function(func){
                 let result = jQuery.parseJSON(func);
-                let tablehtml  = "<table class=table> <thead class=table-dark> <tr><th>Number of people</th><th>Date</th><th>Description</th>  </tr> </thead><tbody class=table-border-bottom-0>";
+                let tablehtml  = "<table class=table> <thead class=table-dark> <tr><th>ID</th><th>Destination</th><th>Number of people</th><th>Date</th><th>Description</th> <th>Beklet</th><th>Onayla</th> </tr> </thead><tbody class=table-border-bottom-0>";
                 $.each(result, (index, value) => {
-                    tablehtml += `<tr> <td><strong>${value.PersonCount}</strong></td>  <td>${value.ReservastionDate}</td>  <td> ${value.Description} </td></tr>`
+                    let dateOptions = {day: "numeric", month: "short", year: "numeric"};
+                    let dateValue = new Date(value.ReservastionDate).toLocaleDateString("en-US", dateOptions);
+                    tablehtml += `<tr><td>${value.ReservationID}</td><td>${value.Destination.City}</td> <td><strong>${value.PersonCount}</strong></td>  <td>${dateValue}</td>  <td> ${value.Description} </td><td><a href='/Admin/Reservations/KeepReservation/${value.ReservationID}' class='btn btn-outline-info'>Pause</a></td> <td><a href='/Admin/Reservations/ApproveReservation/${value.ReservationID}' class='btn btn-outline-success'>Approve</a></td> </tr>`
                 });
                 tablehtml += "</tbody></table>";
                 $("#reservationslist").html(tablehtml);
@@ -120,8 +194,9 @@
             data:{ReservationID:id},
             success:function(fun2){
                 let result = jQuery.parseJSON(fun2);
-                console.log(result);
-                let htmlTable = `<table class=table> <thead class=table-dark> <tr><th>Number of people</th><th>Date</th><th>Description</th>  </tr> </thead><tbody class=table-border-bottom-0> <tr> <td><strong>${result.PersonCount}</strong></td>  <td>${result.ReservastionDate}</td>  <td> ${result.Description} </td></tr> </tbody></table>`;
+                let dateOptions = {day: "numeric", month: "short", year: "numeric"};
+                let dateValue = new Date(result.ReservastionDate).toLocaleDateString("en-US", dateOptions);
+                let htmlTable = `<table class=table> <thead class=table-dark> <tr><th>ID</th><th>Destination</th><th>Number of people</th><th>Date</th><th>Description</th>  </tr> </thead><tbody class=table-border-bottom-0> <tr><td>${result.ReservationID}</td><td>${result.Destination.City}</td> <td><strong>${result.PersonCount}</strong></td>  <td>${dateValue}</td>  <td> ${result.Description} </td></tr> </tbody></table>`;
                 $("#reservationslistbyid").html(htmlTable);
             }
         });
@@ -141,8 +216,41 @@
             data: values,
             success:function(func){
                 let result = jQuery.parseJSON(func);
-                alert("Rezervasyon başarıyla eklendi");
+                alert("Rezervasyon is added successfully");
             }
         });
     });
+
+    $("#btndeletereservation").click(x=>{
+        let id = $("#txtId").val();
+        $.ajax({
+            url:"/Admin/Reservations/DeleteReservation/"+id,
+            type:"post",
+            contentType:"application/json",
+            dataType:"json",
+            success:function(fun3){
+                alert("Reservation is deleted");
+            }
+        });
+    });
+
+    $("#btnupdatereservation").click(function(){
+         let values = {
+            ReservationID:$("#txtreservationeditId").val(),
+            PersonCount:$("#txtpersoncountedit").val(),
+            ReservastionDate:$("#txtdateedit").val(),
+            Description:$("#txtdescriptionedit").val(),
+            DestinationID:$("#txtDestinationIdedit").val()
+        };
+
+        $.ajax({
+            type:"post",
+            url:"/Admin/Reservations/UpdateReservation/",
+            data:values,
+            success:function(fun4){
+                alert("Reservation is updated successfullty");
+            }
+        });
+    });
+
 </script>

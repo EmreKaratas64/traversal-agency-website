@@ -41,7 +41,17 @@ namespace BusinessLayer.Concrete
 
         public void TDelete(Rezervation entity)
         {
-            throw new NotImplementedException();
+            _rezervationDal.Delete(entity);
+        }
+
+        public List<Rezervation> GetAllReservationswithDestinations()
+        {
+            return _rezervationDal.GetAllReservationsWithDestination();
+        }
+
+        public Rezervation GetReservationwithDestinationById(int Id)
+        {
+            return _rezervationDal.GetReservationByIdWithDestination(Id);
         }
     }
 }
