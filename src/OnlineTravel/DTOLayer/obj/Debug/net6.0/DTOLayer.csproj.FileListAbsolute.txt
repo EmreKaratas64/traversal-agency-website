@@ -1,0 +1,12 @@
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\DTOLayer\bin\Debug\net6.0\DTOLayer.deps.json
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\DTOLayer\bin\Debug\net6.0\DTOLayer.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\DTOLayer\bin\Debug\net6.0\DTOLayer.pdb
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\DTOLayer\obj\Debug\net6.0\DTOLayer.csproj.AssemblyReference.cache
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\DTOLayer\obj\Debug\net6.0\DTOLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\DTOLayer\obj\Debug\net6.0\DTOLayer.AssemblyInfoInputs.cache
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\DTOLayer\obj\Debug\net6.0\DTOLayer.AssemblyInfo.cs
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\DTOLayer\obj\Debug\net6.0\DTOLayer.csproj.CoreCompileInputs.cache
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\DTOLayer\obj\Debug\net6.0\DTOLayer.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\DTOLayer\obj\Debug\net6.0\refint\DTOLayer.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\DTOLayer\obj\Debug\net6.0\DTOLayer.pdb
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\DTOLayer\obj\Debug\net6.0\ref\DTOLayer.dll

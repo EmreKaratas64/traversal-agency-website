@@ -1,6 +1,7 @@
 using BusinessLayer.Container;
 using DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Authorization;
@@ -23,9 +24,15 @@ builder.Services.AddLogging(x =>
 });
 builder.Services.AddDbContext<Context>();
 builder.Services.AddIdentity<AppUser, AppRole>().AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>().AddDefaultTokenProviders();
+
+
+builder.Services.AddHttpClient();
+builder.Services.AddAutoMapper(typeof(Program));
 // EF baðýmlýlýðýný azaltmak için gereken konfigürasyonlar aþaðýdaki ContainerDependencies fonksiyonunda
 builder.Services.ContainerDependencies();
 builder.Services.AddControllersWithViews();
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddFluentValidationClientsideAdapters();
 builder.Services.AddMvc().AddRazorOptions(options =>
 {
     options.ViewLocationFormats.Add("/Views/Home/{0}.cshtml");

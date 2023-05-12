@@ -1,0 +1,40 @@
+﻿@model List<NotificationListDto>
+@{
+    ViewData["Title"] = "ShowNotifications";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+ <div class="card">
+        <h5 class="card-header">Notifications</h5>
+        <div class="table-responsive text-nowrap">
+            <table class="table">
+            <thead class="table-dark">
+                <tr>
+                <th>Subject</th>
+                <th>Details</th>
+                <th>Date</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0">
+
+                @foreach (var item in Model)
+                {
+                            <tr>
+                        <td><i class="far fa-newspaper fa-lg text-info me-3"></i> <strong>@item.Subject</strong></td>
+                        <td>@item.Description</td>
+                        <td>
+                            @(((DateTime)item.Date).ToString("dd-MMM-yyyy"))
+                        </td>
+                    </tr>
+                }
+               
+            </tbody>
+            </table>
+                 
+        </div>
+          <a href="/Admin/Notification/AddNotification/" class="btn rounded-pill btn-outline-primary">
+                <i class="fas fa-plus-square"></i>&nbsp; Add Notification
+            </a>
+</div>
+
+

@@ -49,3 +49,5 @@ D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\BusinessLayer\obj\D
 D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\BusinessLayer\obj\Debug\net6.0\refint\BusinessLayer.dll
 D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\BusinessLayer\obj\Debug\net6.0\BusinessLayer.pdb
 D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\BusinessLayer\obj\Debug\net6.0\ref\BusinessLayer.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\BusinessLayer\bin\Debug\net6.0\DTOLayer.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\BusinessLayer\bin\Debug\net6.0\DTOLayer.pdb

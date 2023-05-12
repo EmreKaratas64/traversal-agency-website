@@ -45,6 +45,8 @@ namespace OnlineTravel.Controllers
         [HttpPost]
         public IActionResult AboutPage(Contact contact)
         {
+            contact.Status = true;
+            contact.ContactDate = DateTime.Now;
             contactManager.TAdd(contact);
             TempData["MessageSuccess"] = "We got your message, thanks";
             return RedirectToAction("ShowHome");

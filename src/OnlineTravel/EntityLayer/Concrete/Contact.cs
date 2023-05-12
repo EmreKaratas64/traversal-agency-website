@@ -12,5 +12,9 @@ namespace EntityLayer.Concrete
         public string? Description { get; set; }
 
         public string? Mail { get; set; }
+
+        public DateTime ContactDate { get; set; }
+
+        public bool? Status { get; set; }
     }
 }

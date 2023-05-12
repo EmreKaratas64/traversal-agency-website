@@ -1,0 +1,59 @@
+﻿@model NotificationAddDto
+@{
+    ViewData["Title"] = "Addotification";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+
+      <div class="col-xl">
+                  <div class="card mb-4">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0">Add New Guide</h5>
+                    </div>
+                    <div class="card-body">
+                      <form method="post">
+                        <div class="mb-3">
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-fullname2" class="input-group-text"
+                              ><i class="fas fa-user"></i></span>
+                            <input
+                              asp-for="Subject"
+                              type="text"
+                              class="form-control"
+                              id="basic-icon-default-fullname"
+                              placeholder="Subject"
+                              aria-describedby="basic-icon-default-fullname2"
+                            />
+                          </div>
+                        </div>
+                        <span asp-validation-for="Subject" style="color:darkred"></span>
+                          <div class="mb-3">
+                          <label class="form-label" for="basic-icon-default-message">Short Description</label>
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-message2" class="input-group-text"
+                              ><i class="bx bx-comment"></i
+                            ></span>
+                            <textarea
+                                asp-for="Description"
+                              id="basic-icon-default-message"
+                              class="form-control"
+                              placeholder="Description..."
+                              aria-describedby="basic-icon-default-message2"
+                              rows="7"
+                            ></textarea>
+                          </div>
+                           <span asp-validation-for="Description" style="color:darkred"></span>
+                        </div>
+                          
+                        
+
+                       
+                        <button type="submit" class="btn btn-primary">Add</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+</div>
+

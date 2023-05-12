@@ -859,3 +859,11 @@ D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\De
 D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
 D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\MailKit.dll
 D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\MimeKit.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\AutoMapper.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\FluentValidation.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\DTOLayer.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\DTOLayer.pdb
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\obj\Debug\net6.0\OnlineTravel.MvcApplicationPartsAssemblyInfo.cs

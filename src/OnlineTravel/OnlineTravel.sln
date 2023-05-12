@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayer", "BusinessLa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E61FFD88-E5A8-4550-83E1-8ED41240E099}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOLayer", "DTOLayer\DTOLayer.csproj", "{172EE7D8-1C7D-403D-B7BB-298C2105FDCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{C761099B-0AAE-4713-BDC5-1CFED6A921BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C761099B-0AAE-4713-BDC5-1CFED6A921BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C761099B-0AAE-4713-BDC5-1CFED6A921BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172EE7D8-1C7D-403D-B7BB-298C2105FDCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172EE7D8-1C7D-403D-B7BB-298C2105FDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172EE7D8-1C7D-403D-B7BB-298C2105FDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172EE7D8-1C7D-403D-B7BB-298C2105FDCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

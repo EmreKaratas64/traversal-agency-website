@@ -1,0 +1,46 @@
+﻿@model List<Contact>
+@{
+    ViewData["Title"] = "Contact Messages";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+ <div class="card">
+        <h5 class="card-header">User Comments</h5>
+        <div class="table-responsive text-nowrap">
+            <table class="table">
+            <thead class="table-dark">
+                <tr>
+                <th>Name</th>
+                <th>Mail</th>
+                <th>Content</th>
+                <th>Date</th>
+                <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0">
+
+                @foreach (var item in Model)
+                {
+                            <tr>
+                        <td><i class="far fa-user fa-lg text-info me-3"></i> <strong>@item.Name</strong></td>
+                        <td>@item.Mail</td>
+                        <td>
+                            @item.Description
+                        </td>
+                        <td>
+                            @(((DateTime)item.ContactDate).ToString("dd.MMM.yyyy"))
+                        </td>
+
+                        <td>
+                            <a href="/Admin/Message/DeleteMessage/@item.ContactID" class="btn rounded-pill btn-outline-danger">
+                                <i class="fas fa-trash-restore"></i>&nbsp; Delete
+                            </a></td>
+                    </tr>
+                }
+               
+            </tbody>
+            </table>
+                 
+        </div>
+</div>
+

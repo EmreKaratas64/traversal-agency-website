@@ -21,6 +21,10 @@ namespace BusinessLayer.Container
             services.AddScoped<IPdfService, PdfManager>();
             services.AddScoped<IDestinationService, DestinationManager>();
             services.AddScoped<IDestinationDal, EfDestinationDal>();
+            services.AddScoped<IContactService, ContactManager>();
+            services.AddScoped<IContactDal, EfContactDal>();
+            services.AddScoped<INotificationService, NotificationManager>();
+            services.AddScoped<INotificationDal, EfNotificationDal>();
         }
     }
 }

@@ -32,5 +32,7 @@ namespace DataAccessLayer.Concrete
         public DbSet<Comment> Comments { get; set; } = null!;
 
         public DbSet<Rezervation> Rezervations { get; set; } = null!;
+
+        public DbSet<Notification> Notifications { get; set; } = null!;
     }
 }

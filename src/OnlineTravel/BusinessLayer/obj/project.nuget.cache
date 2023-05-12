@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "MVWeEojG8gzTpu53r1mfMPJ9p8XxV+nGwtnVdZQBP3JohL0jvaOM9kRFzn+grHCuP/YwcD2BAwo0cWeaZ9WYAA==",
+  "dgSpecHash": "rOboDi2lHAstSPfxEQukIDcsTJw0DalcZdOI/C4vbO31jjbdktQs59Yyym/HBw2i3Hb5QlI56X4w0/blyQ8CHw==",
   "success": true,
   "projectFilePath": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EMRE\\.nuget\\packages\\epplus\\6.2.3\\epplus.6.2.3.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\epplus.interfaces\\6.1.1\\epplus.interfaces.6.1.1.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\epplus.system.drawing\\6.1.1\\epplus.system.drawing.6.1.1.nupkg.sha512",
+    "C:\\Users\\EMRE\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\EMRE\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\EMRE\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
