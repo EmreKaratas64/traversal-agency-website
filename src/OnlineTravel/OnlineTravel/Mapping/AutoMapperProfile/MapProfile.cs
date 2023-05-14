@@ -15,6 +15,9 @@ namespace OnlineTravel.Mapping.AutoMapperProfile
             CreateMap<Notification, NotificationListDto>();
             CreateMap<NotificationListDto, Notification>();
 
+            CreateMap<Notification, NotificationUpdateDto>();
+            CreateMap<NotificationUpdateDto, Notification>();
+
             CreateMap<AppUser, RegisterViewModelDto>();
             CreateMap<RegisterViewModelDto, AppUser>();
 

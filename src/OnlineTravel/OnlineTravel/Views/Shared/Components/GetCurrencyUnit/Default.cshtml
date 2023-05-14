@@ -1,0 +1,24 @@
+﻿@using OnlineTravel.Areas.Admin.Models;
+@model CurrencyUnits
+
+ <div class="btn-group">
+    <form asp-action="ShowCurrencies" asp-controller="CurrencyAPI" asp-area="Admin" method="post">
+        <button
+        type="button"
+        class="btn btn-outline-danger dropdown-toggle"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+        >
+        Currencies
+        </button>
+        <select asp-for="SelectedValue" class="dropdown-menu">
+            @foreach (var item in Model.AvailableValues)
+            {
+                <option value="@item.Value" class="dropdown-item">@item.Text</option>
+            }
+                     
+        </select>
+         <button type="submit" class="btn btn-outline-info">Get Currencies</button>
+    </form>
+    </div>
+    <br /><br />

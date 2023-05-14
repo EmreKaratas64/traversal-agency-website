@@ -1,8 +1,11 @@
-﻿
-using BusinessLayer.Abstract;
+﻿using BusinessLayer.Abstract;
 using BusinessLayer.Concrete;
+using BusinessLayer.ValidationRules;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.EntityFramework;
+using DTOLayer.DTOs.NotificationDTOs;
+using DTOLayer.DTOs.VisitorDTOs;
+using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace BusinessLayer.Container
@@ -25,6 +28,16 @@ namespace BusinessLayer.Container
             services.AddScoped<IContactDal, EfContactDal>();
             services.AddScoped<INotificationService, NotificationManager>();
             services.AddScoped<INotificationDal, EfNotificationDal>();
+        }
+
+        public static void CustomValidator(this IServiceCollection services)
+        {
+            services.AddTransient<IValidator<NotificationAddDto>, NotificationAddValidator>();
+            services.AddTransient<IValidator<NotificationUpdateDto>, NotificationUpdateValidator>();
+
+            services.AddTransient<IValidator<VisitorModelDto>, VisitorAddValidator>();
+            services.AddTransient<IValidator<VisitorModelDto>, VisitorUpdateValidator>();
+
         }
     }
 }

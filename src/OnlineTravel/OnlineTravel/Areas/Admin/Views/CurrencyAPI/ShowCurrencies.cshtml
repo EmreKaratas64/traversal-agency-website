@@ -1,0 +1,35 @@
+﻿@model IEnumerable<ExchangeModelDto.Exchange_Rates>
+@{
+    ViewData["Title"] = "ShowCurrencies";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+    @await Component.InvokeAsync("GetCurrencyUnit")
+   
+ <div class="card">
+        <h5 class="card-header">Value of currencies</h5>
+        <div class="table-responsive text-nowrap">
+            <table class="table">
+            <thead class="table-dark">
+                <tr>
+                <th>Currency</th>
+                <th>Value</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0">
+
+                @foreach (var item in Model)
+                {
+                            <tr>
+                        <td><i class="fas fa-coins fa-lg text-info me-3"></i> <strong>@item.currency</strong></td>
+                        <td>@item.exchange_rate_buy</td>
+                       
+                    </tr>
+                }
+               
+            </tbody>
+            </table>
+                 
+        </div>
+</div>
+

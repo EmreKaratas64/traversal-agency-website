@@ -1,0 +1,77 @@
+﻿@model IEnumerable<HotelModelDto.Result>
+@{
+    ViewData["Title"] = "Hotels";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+ <div class="col-md-6">
+        <div class="card mb-4">
+        <div class="card-body">
+            <input
+                type="text"
+                class="form-control"
+                id="Hotelcity"
+                placeholder="Type the name of the city, Example: London"
+                style="width:80%;display:inline-block"
+            />
+            <button type="button" id="btngethotelsbyId" class="btn btn-outline-info">Get Hotels</button>
+             
+        </div>
+        </div>
+</div>
+</div>
+
+ <div class="card">
+        <h5 class="card-header">Hotels</h5>
+        <div class="table-responsive text-nowrap" id="hotelsList">
+            <table class="table">
+            <thead class="table-dark">
+                <tr>
+                    <th>Name</th>
+                    <th>Rating</th>
+                    <th>Price</th>
+                    <th>From CheckIn</th>
+                    <th>Until CheckIn</th>
+                    <th>From CheckOut</th>
+                    <th>Until CheckOut</th>
+                    <th>Photo</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0">
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td><i class="fas fa-hotel fa-lg text-dark me-3"></i> <strong>@item.name</strong></td>
+                        <td>@item.reviewScore</td>
+                        <td>@item.priceBreakdown?.grossPrice?.value @item.currency</td>
+                        <td>
+                            @item.checkin?.fromTime
+                        </td>
+
+                        <td>
+                           @item.checkin?.untilTime
+                         </td>
+
+                         <td>
+                           @item.checkout?.fromTime
+                         </td>
+
+                         <td>
+                           @item.checkout?.untilTime
+                         </td>
+
+                        <td>
+                            <a href="@item.photoMainUrl" class="btn rounded-pill btn-outline-primary">
+                                <i class="fas fa-eye"></i>&nbsp; Photo
+                            </a>
+                         </td>
+                    </tr>
+                }
+               
+            </tbody>
+            </table>
+                 
+        </div>
+</div>

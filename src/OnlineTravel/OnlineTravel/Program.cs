@@ -27,6 +27,7 @@ builder.Services.AddIdentity<AppUser, AppRole>().AddErrorDescriber<CustomIdentit
 
 
 builder.Services.AddHttpClient();
+builder.Services.CustomValidator();
 builder.Services.AddAutoMapper(typeof(Program));
 // EF baðýmlýlýðýný azaltmak için gereken konfigürasyonlar aþaðýdaki ContainerDependencies fonksiyonunda
 builder.Services.ContainerDependencies();

@@ -1,0 +1,85 @@
+﻿@model List<MovieModelDto>
+@*array den gelen değerler IEnumarable olarak tanımlanmalı modelde*@
+@{
+    ViewData["Title"] = "ShowTop100Movies";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+ <div class="card">
+        <h5 class="card-header">IDMB Top 100 Movies</h5>
+        <div class="table-responsive text-nowrap">
+            <table class="table">
+            <thead class="table-dark">
+                <tr>
+                    <th>Rank</th>
+                    <th>Title</th>
+                    <th>Rating</th>
+                    <th>Year</th>
+                    <th>Description</th>
+                    <th>Trailer</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0">
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td><i class="fas fa-star-half-alt fa-lg text-info me-3"></i> <strong>@item.Rank</strong></td>
+                        <td>@item.Title</td>
+                        <td>
+                            @item.Rating
+                        </td>
+
+                        <td>
+                           @item.Year
+                         </td>
+
+                         
+                        <td>
+                             <button
+                          type="button"
+                          class="btn rounded-pill btn-outline-dark"
+                          data-bs-toggle="modal"
+                          data-bs-target="#@item.Imdbid"
+                        >
+                         <i class="fas fa-info"></i>&nbsp; Description  
+                        </button>
+
+                               <div class="modal fade" id="@item.Imdbid" tabindex="-1" aria-hidden="true">
+                          <div class="modal-dialog modal-fullscreen" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="modalFullTitle">Description</h5>
+                                <button
+                                  type="button"
+                                  class="btn-close"
+                                  data-bs-dismiss="modal"
+                                  aria-label="Close"
+                                ></button>
+                              </div>
+                              <div class="modal-body">
+                                <p>
+                                  @item.Description
+                                </p>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                         </td>
+
+                    
+
+                        <td>
+                            <a href="@item.Trailer" class="btn rounded-pill btn-outline-success">
+                                <i class="fas fa-eye"></i>&nbsp; Watch Trailer  
+                            </a>
+                         </td>
+                    </tr>
+                }
+               
+            </tbody>
+            </table>
+                 
+        </div>
+</div>

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace OnlineTravel.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Route("/Admin/[controller]/[action]/{id?}")]
     public class NotificationController : Controller
     {
         private readonly INotificationService _notificationService;
@@ -38,7 +39,46 @@ namespace OnlineTravel.Areas.Admin.Controllers
                     Description = model.Description,
                     Date = DateTime.Now
                 });
-                return RedirectToAction("AdminDashboard", "Dashboard");
+                return RedirectToAction("ShowNotifications");
+            }
+            return View(model);
+        }
+
+        public IActionResult DeleteNotification(int id)
+        {
+            var notf = _notificationService.TGetByID(id);
+            if (notf == null)
+                return NotFound();
+            else
+                _notificationService.TDelete(notf);
+
+            return RedirectToAction("ShowNotifications");
+        }
+
+        [HttpGet]
+        public IActionResult UpdateNotification(int id)
+        {
+            var notification = _mapper.Map<NotificationUpdateDto>(_notificationService.TGetByID(id));
+            if (notification == null) return NotFound();
+            else
+            {
+                return View(notification);
+            }
+        }
+
+        [HttpPost]
+        public IActionResult UpdateNotification(NotificationUpdateDto model)
+        {
+            if (ModelState.IsValid)
+            {
+                _notificationService.TUpdate(new Notification
+                {
+                    NotificationID = model.NotificationID,
+                    Subject = model.Subject,
+                    Description = model.Description,
+                    Date = DateTime.Now
+                });
+                return RedirectToAction("ShowNotifications");
             }
             return View(model);
         }

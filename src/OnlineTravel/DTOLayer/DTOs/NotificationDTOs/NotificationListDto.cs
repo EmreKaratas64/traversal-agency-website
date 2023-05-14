@@ -3,6 +3,8 @@ namespace DTOLayer.DTOs.NotificationDTOs
 {
     public class NotificationListDto
     {
+        public int NotificationID { get; set; }
+
         public string? Subject { get; set; }
 
         public string? Description { get; set; }
