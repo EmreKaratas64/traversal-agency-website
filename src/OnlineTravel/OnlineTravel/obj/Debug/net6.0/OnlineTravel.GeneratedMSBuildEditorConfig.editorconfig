@@ -28,6 +28,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXEFkbWluRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Areas/Admin/Views/DestinationCQRS/AddDestination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVzdGluYXRpb25DUVJTXEFkZERlc3RpbmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Areas/Admin/Views/DestinationCQRS/GetDestinationById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVzdGluYXRpb25DUVJTXEdldERlc3RpbmF0aW9uQnlJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Areas/Admin/Views/DestinationCQRS/ShowDestinations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVzdGluYXRpb25DUVJTXFNob3dEZXN0aW5hdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Areas/Admin/Views/Destinations/AddNewDestination.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVzdGluYXRpb25zXEFkZE5ld0Rlc3RpbmF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,6 +50,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Areas/Admin/Views/Destinations/EditTour.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVzdGluYXRpb25zXEVkaXRUb3VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Areas/Admin/Views/GuideMediatR/AddGuide.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3VpZGVNZWRpYXRSXEFkZEd1aWRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Areas/Admin/Views/GuideMediatR/GetGuide.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3VpZGVNZWRpYXRSXEdldEd1aWRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Areas/Admin/Views/GuideMediatR/ShowGuides.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3VpZGVNZWRpYXRSXFNob3dHdWlkZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Areas/Admin/Views/Guides/AddGuide.cshtml]

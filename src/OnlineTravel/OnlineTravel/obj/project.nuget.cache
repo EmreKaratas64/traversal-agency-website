@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GFEXMB/EXe6B6+H3z1AM9xPvWaKtcLGgk3IiaZBPFuLBa7UZD3j1RM6HZm+v7sawLCxfuZoeQ27Oj+3zePS4OQ==",
+  "dgSpecHash": "Sp24KvMCd9jO9Hy2suN7sOEPihOFP5x9dM9dp1lSBCX3Py14dAnehcm9wxaQ3TKYD+Ox9G1dx6cPsT+sYkcKUg==",
   "success": true,
   "projectFilePath": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\OnlineTravel.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,9 @@
     "C:\\Users\\EMRE\\.nuget\\packages\\irony.netcore\\1.0.11\\irony.netcore.1.0.11.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\itextsharp.lgplv2.core\\3.3.5\\itextsharp.lgplv2.core.3.3.5.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\mailkit\\4.0.0\\mailkit.4.0.0.nupkg.sha512",
+    "C:\\Users\\EMRE\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\EMRE\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\EMRE\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",

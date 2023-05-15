@@ -1,0 +1,88 @@
+﻿@model GetDestinationByIDQueryResult
+@{
+    ViewData["Title"] = "GetDestinationById";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+
+      <div class="col-xl">
+                  <div class="card mb-4">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0">Edit Tour</h5>
+                    </div>
+                    <div class="card-body">
+                      <form method="post">
+                          <input type="hidden" asp-for="DestinationID" />
+                        <div class="mb-3">
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-fullname2" class="input-group-text"
+                              ><i class="fas fa-user"></i></span>
+                            <input
+                              asp-for="City"
+                              type="text"
+                              class="form-control"
+                              id="basic-icon-default-fullname"
+                              placeholder="City"
+                              aria-describedby="basic-icon-default-fullname2"
+                            />
+                          </div>
+                        </div>
+                        <div class="mb-3">
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-company2" class="input-group-text"
+                              ><i class="fas fa-hourglass-start"></i></span>
+                            <input
+                                asp-for="DayNight"
+                              type="text"
+                              id="basic-icon-default-company"
+                              class="form-control"
+                              placeholder="Duration"
+                              aria-describedby="basic-icon-default-company2"
+                            />
+                          </div>
+                        </div>
+
+                         
+                      
+                       
+                        <div class="mb-3">
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-company2" class="input-group-text"
+                              ><i class="fab fa-instagram"></i></span>
+                            <input
+                                asp-for="Price"
+                              type="text"
+                              id="basic-icon-default-company"
+                              class="form-control"
+                              placeholder="Price"
+                              aria-describedby="basic-icon-default-company2"
+                            />
+                          </div>
+                        </div>
+
+                             <div class="mb-3">
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-company2" class="input-group-text"
+                              ><i class="fab fa-instagram"></i></span>
+                            <input
+                                asp-for="Capacity"
+                              type="text"
+                              id="basic-icon-default-company"
+                              class="form-control"
+                              placeholder="Price"
+                              aria-describedby="basic-icon-default-company2"
+                            />
+                          </div>
+                        </div>
+
+                          
+                        <button type="submit" class="btn btn-primary">Edit</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+</div>
+
+

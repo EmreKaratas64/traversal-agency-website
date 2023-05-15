@@ -2,9 +2,11 @@ using BusinessLayer.Container;
 using DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
 using FluentValidation.AspNetCore;
+using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using OnlineTravel.CQRS.Handlers.DestinationHandlers;
 using OnlineTravel.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +18,14 @@ var builder = WebApplication.CreateBuilder(args);
 }
  */
 // Add services to the container.
+
+builder.Services.AddScoped<GetDestinationQueryHandler>();
+builder.Services.AddScoped<GetDestinationByIDQueryHandler>();
+builder.Services.AddScoped<AddDestinationQueryHandler>();
+builder.Services.AddScoped<UpdateDestinationQueryHandler>();
+
+builder.Services.AddMediatR(typeof(Program));
+
 builder.Services.AddLogging(x =>
 {
     x.ClearProviders();

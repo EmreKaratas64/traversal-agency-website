@@ -867,3 +867,6 @@ D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\De
 D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\DTOLayer.dll
 D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\DTOLayer.pdb
 D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\obj\Debug\net6.0\OnlineTravel.MvcApplicationPartsAssemblyInfo.cs
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\MediatR.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\MediatR.Contracts.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

@@ -1,0 +1,57 @@
+﻿@model List<GetDestinationQueryResult>
+@{
+    ViewData["Title"] = "ShowDestinations";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+ <div class="card">
+        <h5 class="card-header">Tours</h5>
+        <div class="table-responsive text-nowrap">
+            <table class="table">
+            <thead class="table-dark">
+                <tr>
+                <th>Id</th>
+                <th>City</th>
+                <th>Duration</th>
+                <th>Price</th>
+                <th>Capacity</th>
+                <th>Delete</th>
+                <th>Update</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0">
+
+                @foreach (var item in Model)
+                {
+                            <tr>
+                        <td><i class="far fa-comment fa-lg text-info me-3"></i> <strong>@item.id</strong></td>
+                        <td>@item.city</td>
+                        <td>
+                            @item.daynight
+                        </td>
+                              <td>
+                            @item.price $
+                        </td>
+                              <td>
+                            @item.capacity
+                        </td>
+                        <td>
+                            <a href="#" class="btn rounded-pill btn-outline-danger">
+                                <i class="fas fa-trash-restore"></i>&nbsp; Delete
+                            </a></td>
+                                     <td>
+                            <a href="/Admin/DestinationCQRS/GetDestinationById/@item.id" class="btn rounded-pill btn-outline-warning">
+                                <i class="fas fa-trash-restore"></i>&nbsp; Update
+                            </a></td>
+                    </tr>
+                }
+               
+            </tbody>
+            </table>
+                 
+        </div>
+         <a href="/Admin/DestinationCQRS/AddDestination/" class="btn rounded-pill btn-outline-info">
+            <i class="fas fa-plus"></i>&nbsp; Add New Destination
+        </a>
+</div>
+
