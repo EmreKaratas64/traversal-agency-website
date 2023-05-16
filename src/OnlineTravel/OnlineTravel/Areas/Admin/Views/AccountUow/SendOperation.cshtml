@@ -1,0 +1,69 @@
+﻿@model SendOperationModelDto
+@{
+    ViewData["Title"] = "SendOperation";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+
+      <div class="col-xl">
+                  <div class="card mb-4">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0">Unit Of Work Send Employee Prims</h5>
+                    </div>
+                    <div class="card-body">
+                      <form method="post">
+                        <div class="mb-3">
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-fullname2" class="input-group-text"
+                              ><i class="fas fa-user"></i></span>
+                            <input
+                              asp-for="SenderID"
+                              type="text"
+                              class="form-control"
+                              id="basic-icon-default-fullname"
+                              placeholder="Sender Id"
+                              aria-describedby="basic-icon-default-fullname2"
+                            />
+                          </div>
+                        </div>
+
+
+                        <div class="mb-3">
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-company2" class="input-group-text"
+                              ><i class="fas fa-user"></i></span>
+                            <input
+                                asp-for="ReceiverID"
+                              type="text"
+                              id="basic-icon-default-company"
+                              class="form-control"
+                              placeholder="Receiver Id"
+                              aria-describedby="basic-icon-default-company2"
+                            />
+                          </div>
+                        </div>
+
+                              <div class="mb-3">
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-company2" class="input-group-text"
+                              ><i class="fas fa-dollar-sign"></i></span>
+                            <input
+                                asp-for="Amount"
+                              type="text"
+                              id="basic-icon-default-company"
+                              class="form-control"
+                              placeholder="Amount(Max:500.000)"
+                              aria-describedby="basic-icon-default-company2"
+                            />
+                          </div>
+                        </div>
+                          
+                        <button type="submit" class="btn btn-danger">Send</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+</div>
+

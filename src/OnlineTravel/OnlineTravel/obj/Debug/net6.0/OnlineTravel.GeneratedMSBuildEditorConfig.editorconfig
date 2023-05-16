@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Areas/Admin/Views/AccountUow/SendOperation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFVvd1xTZW5kT3BlcmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Areas/Admin/Views/Comments/ListComments.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudHNcTGlzdENvbW1lbnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

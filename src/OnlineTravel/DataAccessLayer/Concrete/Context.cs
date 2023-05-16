@@ -34,5 +34,7 @@ namespace DataAccessLayer.Concrete
         public DbSet<Rezervation> Rezervations { get; set; } = null!;
 
         public DbSet<Notification> Notifications { get; set; } = null!;
+
+        public DbSet<Account> Accounts { get; set; } = null!;
     }
 }
