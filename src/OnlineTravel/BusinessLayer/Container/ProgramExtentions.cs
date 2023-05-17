@@ -9,6 +9,7 @@ using DataAccessLayer.UnitOfWork;
 using DataAccessLayer.UOWAbstract;
 using DataAccessLayer.UOWEntityFramework;
 using DTOLayer.DTOs.AccountUowDTOs;
+using DTOLayer.DTOs.ContactDTOs;
 using DTOLayer.DTOs.NotificationDTOs;
 using DTOLayer.DTOs.VisitorDTOs;
 using FluentValidation;
@@ -34,22 +35,27 @@ namespace BusinessLayer.Container
             services.AddScoped<IContactDal, EfContactDal>();
             services.AddScoped<INotificationService, NotificationManager>();
             services.AddScoped<INotificationDal, EfNotificationDal>();
-
             services.AddScoped<IAccountService, AccountManager>();
             services.AddScoped<IAccountDal, EfAccountDal>();
+            services.AddScoped<IContactService, ContactManager>();
+            services.AddScoped<IContactDal, EfContactDal>();
+
 
             services.AddScoped<IUnitOfWorkDal, UnitOfWorkDal>();
+
+
         }
 
         public static void CustomValidator(this IServiceCollection services)
         {
             services.AddTransient<IValidator<NotificationAddDto>, NotificationAddValidator>();
             services.AddTransient<IValidator<NotificationUpdateDto>, NotificationUpdateValidator>();
-
             services.AddTransient<IValidator<VisitorModelDto>, VisitorAddValidator>();
             services.AddTransient<IValidator<VisitorModelDto>, VisitorUpdateValidator>();
 
             services.AddTransient<IValidator<SendOperationModelDto>, SendOperationValidator>();
+
+            services.AddTransient<IValidator<ContactMessageAddDto>, ContactMessageAddValidator>();
 
         }
     }

@@ -1824,9 +1824,6 @@ footer {
     overflow: hidden;
 }
 
-    .member:not(:last-child) {
-        margin-bottom: 4rem;
-    }
 
     .member img {
         width: 100%;
@@ -3204,15 +3201,13 @@ footer {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            flex-wrap:wrap
         }
 
     .member {
         width: 23%;
+        margin-bottom:2rem;
     }
-
-        .member:not(:last-child) {
-            margin-bottom: 0;
-        }
 
     .destinations {
         padding-left: 5rem;

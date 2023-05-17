@@ -17,7 +17,7 @@ namespace OnlineTravel.Areas.Admin.Controllers
 
         public IActionResult ListComments()
         {
-            var comments = _commentService.GetCommentswithDestinations();
+            var comments = _commentService.TGetCommentsWithDestinationsandUser();
             return View(comments);
         }
 

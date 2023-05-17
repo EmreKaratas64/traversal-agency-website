@@ -9,9 +9,9 @@
                                 if(item.IsBigImage == true)
                                 {
                                       <div class="home-img-wrapper">
-                                                <img src="@item.Image" alt="">
+                                                <img src="@item.Image" alt="" style="height:520px;">
                                                 <div class="text">@item.Name</div>
-                                                <div class="text-none">@item.Description₺</div>
+                                                <div class="text-none">@item.Description</div>
                                             </div>
                                 }
                 
@@ -26,9 +26,9 @@
                                                     @if(item.IsBigImage == false)
                                                     {
                                                         <div class="home-img-wrapper mini">
-                                                            <img src="@item.Image" alt="">
+                                                            <img src="@item.Image" alt="" style="height:250px;">
                                                             <div class="text">@item.Name</div>
-                                                            <div class="text-none">@item.Description₺</div>
+                                                            @*<div class="text-none">@item.Description</div>*@
                                                         </div>
                                                     }
                                      

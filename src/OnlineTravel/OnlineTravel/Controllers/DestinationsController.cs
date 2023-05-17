@@ -1,10 +1,12 @@
 ﻿using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace OnlineTravel.Controllers
 {
     // ctrl + M + G viewdan controllere
+    [AllowAnonymous]
     public class DestinationsController : Controller
     {
         DestinationManager destinationManager = new DestinationManager(new EfDestinationDal());

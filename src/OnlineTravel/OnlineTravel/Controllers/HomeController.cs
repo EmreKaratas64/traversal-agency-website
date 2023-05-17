@@ -1,5 +1,5 @@
-﻿using BusinessLayer.Concrete;
-using DataAccessLayer.EntityFramework;
+﻿using BusinessLayer.Abstract;
+using DTOLayer.DTOs.ContactDTOs;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -12,12 +12,12 @@ namespace OnlineTravel.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IContactService _contactService;
 
-        ContactManager contactManager = new ContactManager(new EfContactDal());
-
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IContactService contactService)
         {
             _logger = logger;
+            _contactService = contactService;
         }
 
         public IActionResult ShowHome()
@@ -43,13 +43,24 @@ namespace OnlineTravel.Controllers
         }
 
         [HttpPost]
-        public IActionResult AboutPage(Contact contact)
+        public IActionResult AboutPage(ContactMessageAddDto contact)
         {
-            contact.Status = true;
-            contact.ContactDate = DateTime.Now;
-            contactManager.TAdd(contact);
-            TempData["MessageSuccess"] = "We got your message, thanks";
-            return RedirectToAction("ShowHome");
+            if (ModelState.IsValid)
+            {
+                Contact cont = new Contact()
+                {
+                    Name = contact.Name,
+                    Description = contact.Description,
+                    Mail = contact.Mail,
+                    Status = true,
+                    ContactDate = DateTime.Now
+                };
+                _contactService.TAdd(cont);
+                TempData["MessageSuccess"] = "We got your message, thanks";
+                return RedirectToAction("ShowHome");
+            }
+            TempData["MessageFail"] = "Message could not be sent";
+            return View(contact);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

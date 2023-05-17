@@ -4,12 +4,20 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace OnlineTravel.ViewComponents.Home
 {
-    public class DestinationsInHome:ViewComponent
+    public class DestinationsInHome : ViewComponent
     {
         DestinationManager destinationManager = new DestinationManager(new EfDestinationDal());
 
+        [HttpGet]
         public IViewComponentResult Invoke()
         {
+            //List<SelectListItem> values = (from x in destinationManager.TGetAll()
+            //                               select new SelectListItem
+            //                               {
+            //                                   Text = x.City,
+            //                                   Value = x.City
+            //                               }).ToList();
+            //ViewBag.v = values;
             var destinations = destinationManager.TGetAll();
             return View(destinations);
         }

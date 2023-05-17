@@ -1,18 +1,17 @@
 ﻿@model List<Comment>
 
 
-<div class="comment-text">Comments (2)</div>        
+<div class="comment-text">Comments (@ViewBag.numofComments)</div>        
 @foreach (var item in Model)
 {
         <div class="comment-wrapper">
         <div class="img-wrapper">
-            <img src="~/traversal-agency-website-main/src/assets/images/c3.jpg" alt="">
+            <img src="~/userimages/@item.AppUser.ImageUrl" alt="">
         </div>
         <div class="content-wrapper">
-            <div class="name">@item.CommentUser</div>
+            <div class="name">@item.AppUser?.Name @item.AppUser?.Surname</div>
             <div class="wrapper-mid">
                 <div class="date">@DateTime.Parse(item.CommentDate.ToString()).ToString("dd-MMM-yyyy HH:mm")</div>
-                <div class="reply">Reply</div>
             </div>
             <div class="comment">
                 @item.CommentText

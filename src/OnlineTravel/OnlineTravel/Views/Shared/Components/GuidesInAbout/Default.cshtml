@@ -1,0 +1,24 @@
+﻿@model List<Guide>
+
+<section id="guides" class="team">
+    <h3>Meet Our Guides</h3>
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            
+            <div class="member">
+                <img src="@item.Image" alt="" style="height:320px;">
+                <div class="label">
+                    <div class="text1">@item.Name</div>
+                </div>
+                <div class="hover">
+                    <div class="text1">@item.Name</div>
+                    <div class="socials">
+                        <a href="@item.TwitterUrl"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="@item.InstagramUrl"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>    
+        }             
+    </div>
+</section>

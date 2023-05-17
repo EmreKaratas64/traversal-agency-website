@@ -38,5 +38,10 @@ namespace BusinessLayer.Concrete
         {
             throw new NotImplementedException();
         }
+
+        public List<Destination> TGetDestinationsByName(string p)
+        {
+            return _destinationDal.GetDestinationsByName(p);
+        }
     }
 }

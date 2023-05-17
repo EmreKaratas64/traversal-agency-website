@@ -23,15 +23,15 @@
         <form id="form-action" asp-action="SignUp" asp-controller="Account" method="POST" autocomplete="off" autocapitalize="off" autocorrect="off"
             spellcheck="false" novalidate>
             <input type="text" asp-for="@Model.name" placeholder="Name" id="input-name">
-            @*<span asp-validation-for="@Model.name"></span>*@
+
             <input type="text" asp-for="@Model.surname" placeholder="Surname" id="input-name">
-            @*<span asp-validation-for="@Model.surname"></span>*@
+
             <input type="email" asp-for="@Model.email" placeholder="Email" id="input-email">
-            @*<span asp-validation-for="@Model.email"></span>*@
+
             <input type="password" asp-for="@Model.password" placeholder="Password" id="input-password">
-            @*<span asp-validation-for="@Model.password"></span>*@
+
             <input type="password" asp-for="@Model.passwordConfirm" placeholder="Password confirm" id="input-repassword">
-            @*<span asp-validation-for="@Model.passwordConfirm"></span>*@
+
             <div class="row">
                 <label class="rememberme" for="rememberme">
                     <input type="checkbox" name="rememberme" id="rememberme">
@@ -42,7 +42,6 @@
                 </label>
             </div>
             <input type="submit" name="register" value="Register" class="btn-action" id="btn-action">
-            @*<div class="model-error" asp-validation-summary="ModelOnly"></div>*@
         </form>
     </section>
 

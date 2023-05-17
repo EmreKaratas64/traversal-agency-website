@@ -30,24 +30,24 @@ namespace BusinessLayer.Concrete
             throw new NotImplementedException();
         }
 
-        public List<Comment> TGetByFilter(int id)
-        {
-            return _commentDal.GetListByFilter(x => x.DestinationID == id);
-        }
-
         public void TUpdate(Comment entity)
         {
             throw new NotImplementedException();
         }
 
-        public List<Comment> GetCommentswithDestinations()
+        public List<Comment> TGetCommentsWithDestinationsandUser()
         {
-            return _commentDal.GetCommentsWithDestinations();
+            return _commentDal.GetCommentsWithDestinationsandUser();
         }
 
         public void TDelete(Comment entity)
         {
             _commentDal.Delete(entity);
+        }
+
+        public List<Comment> TGetCommentsWithUserByDestinationId(int DestinationId)
+        {
+            return _commentDal.GetCommentsWithUserByDestinationId(DestinationId);
         }
     }
 }

@@ -1,27 +1,40 @@
-﻿using BusinessLayer.Concrete;
-using DataAccessLayer.EntityFramework;
+﻿using BusinessLayer.Abstract;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace OnlineTravel.Controllers
 {
+    [AllowAnonymous]
     public class CommentsController : Controller
     {
-        CommentManager commentManager = new CommentManager(new EfCommentDal());
+        private readonly UserManager<AppUser> _userManager;
+        private readonly ICommentService _commentService;
+
+        public CommentsController(UserManager<AppUser> userManager, ICommentService commentService)
+        {
+            _userManager = userManager;
+            _commentService = commentService;
+        }
 
         [HttpGet]
-        public PartialViewResult AddComment()
+        public PartialViewResult AddComment(int Id)
         {
+            ViewBag.Id = Id;
             return PartialView();
         }
 
         [HttpPost]
-        public IActionResult AddComment(Comment comment)
+        public async Task<IActionResult> AddComment(Comment comment)
         {
+            if (User.Identity?.Name == null) return RedirectToAction("SignUp", "Account");
+            var currentUser = await _userManager.FindByNameAsync(User.Identity?.Name);
             comment.CommentDate = DateTime.Now;
-            comment.CommentStatus = true;
+            comment.CommentStatus = false;
             comment.DestinationID = comment.DestinationID;
-            commentManager.TAdd(comment);
+            comment.AppUserID = currentUser.Id;
+            _commentService.TAdd(comment);
             TempData["CommentSuccess"] = "Your comment is saved. Thanks for the comment!";
             return RedirectToAction("ShowHome", "Home");
         }

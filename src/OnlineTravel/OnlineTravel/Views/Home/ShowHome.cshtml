@@ -30,39 +30,7 @@
 
 
     <section class="visit">
-        <div class="top">
-            <div class="top-left">
-                <h3>VISIT</h3>
-                <h4>Popular Destinations</h4>
-            </div>
-            <form class="top-right" action="" method="POST" autocomplete="off" autocapitalize="off"
-                autocorrect="off" spellcheck="false" novalidate>
-                <div class="box destination-toggler">
-                    <div class="destination-text">Destination</div>
-                    <i class="fa-solid fa-chevron-down"></i>
-                    <select name="destination" id="destination-select">
-                        <option id="destination1" value="1"></option>
-                        <option id="destination2" value="2"></option>
-                        <option id="destination3" value="3"></option>
-                        <option id="destination4" value="4"></option>
-                        <option id="destination5" value="5"></option>
-                    </select>
-                    <div class="destination-list">
-                        <div class="list-item" data-id="1" data-value="Paris">Paris</div>
-                        <div class="list-item" data-id="2" data-value="London">London</div>
-                        <div class="list-item" data-id="3" data-value="London2">London2</div>
-                        <div class="list-item" data-id="4" data-value="London3">London3</div>
-                        <div class="list-item" data-id="5" data-value="London4">London4</div>
-                    </div>
-                </div>
-                <input type="date" name="date">
-                <button type="submit" class="box search-destination">
-                    Search
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
-            </form>
-        </div>
-
+    
     @await Component.InvokeAsync("DestinationsInHome")
                           
 </section>

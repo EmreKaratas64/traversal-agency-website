@@ -7,8 +7,6 @@ namespace EntityLayer.Concrete
         [Key]
         public int CommentID { get; set; }
 
-        public string? CommentUser { get; set; }
-
         public DateTime CommentDate { get; set; }
 
         public string? CommentText { get; set; }
@@ -18,6 +16,10 @@ namespace EntityLayer.Concrete
         public int DestinationID { get; set; }
 
         public Destination? Destination { get; set; }
+
+        public int AppUserID { get; set; }
+
+        public AppUser? AppUser { get; set; }
 
 
     }

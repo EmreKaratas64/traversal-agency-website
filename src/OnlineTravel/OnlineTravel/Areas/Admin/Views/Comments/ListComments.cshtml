@@ -22,7 +22,7 @@
                 @foreach (var item in Model)
                 {
                             <tr>
-                        <td><i class="far fa-comment fa-lg text-info me-3"></i> <strong>@item.CommentUser</strong></td>
+                        <td><i class="far fa-comment fa-lg text-info me-3"></i> <strong>@item.AppUser?.Name @item.AppUser?.Surname</strong></td>
                         <td>@item.Destination?.City</td>
                         <td>
                             @item.CommentText

@@ -21,7 +21,7 @@
                                 <img class="img-2" src="@Model.Image" alt="">
                                 <img class="img-2" src="@Model.Image2" alt="">
                             </div>
-                            <h2>2.Paragraf</h2>
+                            <h2>@Model.City</h2>
                             <p>@Model.Details2</p>
                            
                          
@@ -33,9 +33,9 @@
                                         <div class="tag">Süre: @Model.DayNight</div>
                                         <div class="tag">Fiyat: @Model.Price₺</div>
                                         <div class="tag">Kapasite: @Model.Capacity</div>
-                                        <div class="tag">Online Travel</div>
-                                        <div class="tag">Rezervasyon</div>
-                                        <div class="tag">Rotalar</div>
+                                        <div class="tag">Travel Online</div>
+                                        <div class="tag">Reservation</div>
+                                        <div class="tag">Tours</div>
                                     </div>
                                 </div>
                                 <div class="share">
@@ -52,7 +52,7 @@
                             @await Component.InvokeAsync("CommentsInShowDestDetails",new{id=ViewBag.Id})
 
 
-                            @await Html.PartialAsync("~/Views/Comments/AddComment.cshtml")
+                            @await Html.PartialAsync("~/Views/Comments/AddComment.cshtml",new{id=ViewBag.Id})
                         </div>
                     </div>
                 </section>
