@@ -11,6 +11,10 @@
                 </div>
                 <div class="menu hidden">
                     <nav>
+                @if(User.Identity?.IsAuthenticated == true)
+                {
+                    <a href="/Member/User/UserDashboard/" class="item">Account</a>
+                }
                         <a href="/Home/ShowHome/" class="item">Home</a>
                         <a href="/Home/AboutPage/" class="item">About Us</a>
                         <a href="/Destinations/ShowDestinations/" class="item">Tour Routes</a>

@@ -11,6 +11,17 @@
  <section class="blogsingle">
                     <div class="top-content">
                         <h1>@Model.City</h1>
+                        <div class="row-author">
+                            <img src="~/traversal-agency-website-main/src/assets/images/micadmin.png" alt="" style="height:64px;width:64px">
+                            <div class="texts">
+                                <a href="#">Admin</a>
+                                <span class="text">in</span>
+                                <a href="#">Travel Online</a>
+                                <div class="date-row">
+                                    <div>@(((DateTime)Model.Date).ToString("dd-MMM-yyyy HH:mm"))</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="blog-content">
                         <img class="img-1" src="@Model.CoverImage" alt="">

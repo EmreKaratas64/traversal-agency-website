@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Abstract;
+using DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -11,6 +12,7 @@ namespace OnlineTravel.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly ICommentService _commentService;
+        Context c = new Context();
 
         public CommentsController(UserManager<AppUser> userManager, ICommentService commentService)
         {
@@ -28,7 +30,13 @@ namespace OnlineTravel.Controllers
         [HttpPost]
         public async Task<IActionResult> AddComment(Comment comment)
         {
-            if (User.Identity?.Name == null) return RedirectToAction("SignUp", "Account");
+            if (User.Identity?.IsAuthenticated == false) return RedirectToAction("SignUp", "Account");
+            bool exists = c.Destinations.Any(x => x.DestinationID == comment.DestinationID);
+            if (!exists)
+            {
+                TempData["NotExists"] = "Invalid data!";
+                return RedirectToAction("ShowHome", "Home");
+            }
             var currentUser = await _userManager.FindByNameAsync(User.Identity?.Name);
             comment.CommentDate = DateTime.Now;
             comment.CommentStatus = false;

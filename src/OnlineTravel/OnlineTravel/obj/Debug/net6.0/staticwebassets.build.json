@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ro7HO3K07M1PcKljIeoOViihhFQYkuXuiMc4UzOhBSI=",
+  "Hash": "J8c3w1JDaZtRwzt20eb01jBopQWC1Qx7ScYailYu/qQ=",
   "Source": "OnlineTravel",
   "BasePath": "_content/OnlineTravel",
   "Mode": "Default",
@@ -9603,6 +9603,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\traversal-agency-website-main\\src\\assets\\images\\img-sprite.png"
+    },
+    {
+      "Identity": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\micadmin.png",
+      "SourceId": "OnlineTravel",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\",
+      "BasePath": "_content/OnlineTravel",
+      "RelativePath": "traversal-agency-website-main/src/assets/images/micadmin.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\traversal-agency-website-main\\src\\assets\\images\\micadmin.png"
     },
     {
       "Identity": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\assets\\images\\team1.jpg",

@@ -32,5 +32,7 @@ namespace EntityLayer.Concrete
         public List<Comment>? Comments { get; set; }
 
         public List<Rezervation>? Rezervations { get; set; }
+
+        public DateTime Date { get; set; }
     }
 }

@@ -23,6 +23,15 @@
     </div>
     TempData["CommentSuccess"] = null;
 }
+@if(TempData["NotExists"] != null)
+{
+    <div class="notification">
+        <div class="wrapper danger">
+            @TempData["NotExists"]
+        </div>
+    </div>
+    TempData["NotExists"] = null;
+}
 
 
 

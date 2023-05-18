@@ -14,7 +14,7 @@ namespace OnlineTravel.ViewComponents.About
 
         public IViewComponentResult Invoke()
         {
-            var guides = _guideService.TGetAll();
+            var guides = _guideService.TGetAll().Take(4).ToList();
             return View(guides);
         }
     }
