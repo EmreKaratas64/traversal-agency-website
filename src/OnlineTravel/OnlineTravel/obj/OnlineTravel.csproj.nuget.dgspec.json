@@ -197,7 +197,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -403,6 +407,14 @@
             "Serilog.Extensions.Logging.File": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "X.PagedList": {
+              "target": "Package",
+              "version": "[8.4.7, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[8.4.7, )"
             },
             "iTextSharp.LGPLv2.Core": {
               "target": "Package",

@@ -11,6 +11,7 @@ using DataAccessLayer.UOWEntityFramework;
 using DTOLayer.DTOs.AccountUowDTOs;
 using DTOLayer.DTOs.ContactDTOs;
 using DTOLayer.DTOs.NotificationDTOs;
+using DTOLayer.DTOs.ReservationDTOs;
 using DTOLayer.DTOs.VisitorDTOs;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
@@ -56,7 +57,8 @@ namespace BusinessLayer.Container
             services.AddTransient<IValidator<SendOperationModelDto>, SendOperationValidator>();
 
             services.AddTransient<IValidator<ContactMessageAddDto>, ContactMessageAddValidator>();
-
+            services.AddTransient<IValidator<ReservationAddDto>, ReservationAddValidator>();
+            services.AddTransient<IValidator<ReservationUpdateDto>, ReservationUpdateValidator>();
         }
     }
 }

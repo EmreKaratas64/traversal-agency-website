@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "J8c3w1JDaZtRwzt20eb01jBopQWC1Qx7ScYailYu/qQ=",
+  "Hash": "CS4FV23q4z4VGbUxWuUVvVYA/jWzS+KFpCwOHu7MJO0=",
   "Source": "OnlineTravel",
   "BasePath": "_content/OnlineTravel",
   "Mode": "Default",
@@ -4962,6 +4962,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\soft-ui-dashboard\\assets\\img\\marie.jpg"
+    },
+    {
+      "Identity": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\notification.png",
+      "SourceId": "OnlineTravel",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\",
+      "BasePath": "_content/OnlineTravel",
+      "RelativePath": "soft-ui-dashboard/assets/img/notification.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\soft-ui-dashboard\\assets\\img\\notification.png"
     },
     {
       "Identity": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\shapes\\waves-white.svg",

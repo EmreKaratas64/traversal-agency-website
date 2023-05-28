@@ -1,11 +1,20 @@
-﻿@model List<Destination>
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@using X.PagedList.Web.Common
+@model IPagedList<EntityLayer.Concrete.Destination>
 @{
     ViewData["Title"] = "ShowDestinations";
     Layout = "~/Views/Shared/_HomeLayout.cshtml";
 }
 
+<style>
+    .pagination li {
+  list-style: none; /* Hide the default markers */
+}
+</style>
+
 <section class="tree-wrapper">
-    <h1>Tur Rotalarımız</h1>
+    <h1>Tours</h1>
 </section>
 
 
@@ -20,10 +29,10 @@
                      <div class="o-text">@item.DayNight</div>
             </div>
             <div class="description">
-                @item.Description
+                @item.Description.Substring(0,item.Description.Substring(0,250).LastIndexOf("")) ...
             </div>
                 <div class="money-wrapper">
-                    <div class="start">Başlangıç Fiyatı</div>
+                    <div class="start">Starting Price</div>
                     <div class="money">$ @item.Price</div>
                 </div>
         </div>
@@ -35,13 +44,13 @@
 </div>
    </section>
 
-       <div class="pagination">
-        <div class="page disable"><i class="fa-solid fa-angle-left"></i></div>
-        <a class="page active" href="">1</a>
-        <a class="page" href="">2</a>
-        <a class="page" href="">3</a>
-        <a class="page" href="">4</a>
-        <div class="page disable">...</div>
-        <a class="page" href="">15</a>
-        <div class="page"><i class="fa-solid fa-chevron-right"></i></div>
-        </div>
+
+    <div class="pagination">
+
+    @Html.PagedListPager((IPagedList)Model, page => Url.Action("ShowDestinations", new { page }), new PagedListRenderOptions
+        {
+                
+            PageClasses = new string[] { "page" }
+        })
+              
+    </div>

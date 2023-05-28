@@ -1,0 +1,66 @@
+﻿@model List<Rezervation>
+
+<div class="col-12 mt-4">
+          <div class="card mb-4">
+            <div class="card-header pb-0 p-3">
+              <h6 class="mb-1">Last Reservations</h6>
+            </div>
+              <div class="card-body p-3">
+              <div class="table-responsive p-0">
+                <table class="table align-items-center mb-0">
+                  <thead>
+                    <tr>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Number of people</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Tour</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Price</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Tour Date</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      @foreach (var item in Model)
+                            {
+                            <tr>
+                                  <td>
+                                    <div class="d-flex px-2 py-1">
+                                      <div class="d-flex flex-column justify-content-center">
+                                        <h6 class="mb-0 text-sm">@item.PersonCount</h6>
+                                      </div>
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <p class="font-weight-bold mb-0">@item.Destination.City</p>
+                                  </td>
+                                    <td>
+                                    <p class="font-weight-bold mb-0">@item.Destination.Price$</p>
+                                  </td>
+                                     <td>
+                                   @(((DateTime)item.ReservastionDate).ToString("dd-MMM-yyyy"))
+                                  </td>
+                                     <td class="align-middle text-center text-sm">
+                                        @if(item.Status == EnumRezervationStatus.OdemeBekleniyor)
+                                        {
+                                            <span class="badge badge-sm bg-gradient-warning">Waiting Payment</span>
+                                        }
+                                        else if(item.Status == EnumRezervationStatus.OnayBekleniyor)
+                                        {
+                                            <span class="badge badge-sm bg-gradient-info">Waiting Approval</span>
+                                        }
+                                        else if(item.Status == EnumRezervationStatus.Onaylandi)
+                                        {
+                                            <span class="badge badge-sm bg-gradient-success">Approved</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge badge-sm bg-gradient-danger">Canceled</span>
+                                        }
+                                  </td>
+                            </tr>
+                        }
+                  
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>

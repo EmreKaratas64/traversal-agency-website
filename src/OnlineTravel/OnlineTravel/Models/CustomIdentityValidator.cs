@@ -9,7 +9,7 @@ namespace OnlineTravel.Models
             return new IdentityError()
             {
                 Code = "PasswordTooShort",
-                Description = $"Şifre en az {length} karakter olmalıdır"
+                Description = $"Password must be at least {length} characters"
             };
         }
 
@@ -18,7 +18,7 @@ namespace OnlineTravel.Models
             return new IdentityError()
             {
                 Code = "PasswordRequiresDigit",
-                Description = "Şifre en az bir adet rakam içermelidir"
+                Description = "Password must contain at least one digit"
             };
         }
 
@@ -27,7 +27,7 @@ namespace OnlineTravel.Models
             return new IdentityError()
             {
                 Code = "PasswordRequiresLower",
-                Description = "Şifre en az bir adet küçük harf içermelidir"
+                Description = "Password must contain at least one lowercase letter"
             };
         }
 
@@ -36,7 +36,7 @@ namespace OnlineTravel.Models
             return new IdentityError()
             {
                 Code = "PasswordRequiresUpper",
-                Description = "Şifre en az bir adet büyük harf içermelidir"
+                Description = "Password must contain at least one uppercase letter"
             };
         }
 
@@ -45,7 +45,7 @@ namespace OnlineTravel.Models
             return new IdentityError()
             {
                 Code = "PasswordRequiresNonAlphanumeric",
-                Description = "Şifre en az bir adet özel karakter içermelidir"
+                Description = "Password must contain at least one alphanumeric character"
             };
         }
     }

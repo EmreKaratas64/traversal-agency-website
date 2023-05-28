@@ -12,8 +12,7 @@ namespace OnlineTravel.Areas.Member.Controllers
 
         public IActionResult UserDashboard()
         {
-            var destinations = destinationManager.TGetAll().OrderByDescending(x => x.DestinationID).ToList();
-            return View(destinations);
+            return View();
         }
     }
 }

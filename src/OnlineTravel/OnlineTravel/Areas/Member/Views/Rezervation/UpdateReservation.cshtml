@@ -1,0 +1,39 @@
+﻿@model ReservationUpdateDto
+@{
+    ViewData["Title"] = "Travel Online - Update Reservation";
+    Layout = "~/Views/Shared/_MemberLayout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h3 class="text-center">Update Reservation</h3>
+            <br />
+            <form method="post">
+                <input type="hidden" asp-for="ReservationID" >
+                <div class="form-group">
+                    @Html.DropDownListFor(x=>x.DestinationID,(List<SelectListItem>)ViewBag.v,new {@class="form-control"})
+                </div>
+
+                  <div class="form-group">
+                      <input type="date" asp-for="ReservationDate" class="form-control" placeholder="Number of people" />
+                  </div>
+
+                 <div class="form-group">
+                      <input type="number" asp-for="PersonCount" class="form-control" placeholder="Number of people" />
+                        <span asp-validation-for="PersonCount" style="color:red"></span>
+                  </div>
+
+                <div class="form-group">
+                      <textarea type="text" asp-for="Description" class="form-control" placeholder="Any notes..." rows="8"></textarea>
+                 <span asp-validation-for="Description" style="color:red"></span>
+                  </div>
+  
+                <br />
+                <button class="btn btn-info"><i class="fas fa-upload"></i>&nbsp;Update</button>
+            </form>
+                 <a href="/Member/Rezervation/CancelReservation/@Model.ReservationID" class="btn btn-danger" onclick="return confirm('Are you sure to cancel this reservation!!!')"><i class="fas fa-exclamation-triangle"></i>&nbsp; Cancel Reservation</a>
+        </div>
+    </div>
+</div>
+

@@ -1,4 +1,4 @@
-﻿@model Rezervation
+﻿@model ReservationAddDto
 @{
     ViewData["Title"] = "Travel Online - New Reservation";
     Layout = "~/Views/Shared/_MemberLayout.cshtml";
@@ -21,16 +21,18 @@
                 </div>
 
                   <div class="form-group">
-                      <input type="date" asp-for="ReservastionDate" class="form-control" placeholder="Number of people" />
-                </div>
+                      <input type="date" asp-for="ReservationDate" class="form-control" placeholder="Number of people" />
+                  </div>
 
                  <div class="form-group">
-                      <input type="text" asp-for="PersonCount" class="form-control" placeholder="Number of people" />
-                </div>
+                      <input type="number" asp-for="PersonCount" class="form-control" placeholder="Number of people" />
+                        <span asp-validation-for="PersonCount" style="color:red"></span>
+                  </div>
 
                 <div class="form-group">
                       <textarea type="text" asp-for="Description" class="form-control" placeholder="Any notes..." rows="8"></textarea>
-                </div>
+                 <span asp-validation-for="Description" style="color:red"></span>
+                  </div>
   
                 <br />
                 <button class="btn btn-primary"><i class="far fa-save"></i>&nbsp; Save</button>

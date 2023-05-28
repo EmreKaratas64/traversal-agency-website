@@ -18,7 +18,7 @@ namespace OnlineTravel.ViewComponents.Home
             //                                   Value = x.City
             //                               }).ToList();
             //ViewBag.v = values;
-            var destinations = destinationManager.TGetAll();
+            var destinations = destinationManager.TGetAll().OrderByDescending(x => x.DestinationID).Take(6).ToList();
             return View(destinations);
         }
     }

@@ -10,4 +10,8 @@
     <Folder Include="DTOs\ContactDTOs\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EntityLayer\EntityLayer.csproj" />
+  </ItemGroup>
+
 </Project>

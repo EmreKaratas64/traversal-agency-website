@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Sp24KvMCd9jO9Hy2suN7sOEPihOFP5x9dM9dp1lSBCX3Py14dAnehcm9wxaQ3TKYD+Ox9G1dx6cPsT+sYkcKUg==",
+  "dgSpecHash": "vhTzezd6oZlbKZFD1Tg/N32nr9G5Ix92KbrbP1RxSjfCxpsefWEQmiLc+jxWE5pPsztzatFwCk4Uc8Ns1srMUg==",
   "success": true,
   "projectFilePath": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\OnlineTravel.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "C:\\Users\\EMRE\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\irony.netcore\\1.0.11\\irony.netcore.1.0.11.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\itextsharp.lgplv2.core\\3.3.5\\itextsharp.lgplv2.core.3.3.5.nupkg.sha512",
+    "C:\\Users\\EMRE\\.nuget\\packages\\jetbrains.annotations\\2022.3.1\\jetbrains.annotations.2022.3.1.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\mailkit\\4.0.0\\mailkit.4.0.0.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
@@ -244,6 +245,8 @@
     "C:\\Users\\EMRE\\.nuget\\packages\\system.xml.readerwriter\\4.3.1\\system.xml.readerwriter.4.3.1.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\EMRE\\.nuget\\packages\\x.pagedlist\\8.4.7\\x.pagedlist.8.4.7.nupkg.sha512",
+    "C:\\Users\\EMRE\\.nuget\\packages\\x.pagedlist.mvc.core\\8.4.7\\x.pagedlist.mvc.core.8.4.7.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\xlparser\\1.5.2\\xlparser.1.5.2.nupkg.sha512"
   ],
   "logs": []

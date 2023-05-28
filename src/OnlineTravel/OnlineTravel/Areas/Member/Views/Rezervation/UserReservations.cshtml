@@ -16,7 +16,7 @@
         {
             <div class="card mb-4">
             <div class="card-header pb-0">
-              <h6>Tour Routes</h6>
+              <h6>Reservations</h6>
             </div>
             <div class="card-body px-0 pt-0 pb-2">
               <div class="table-responsive p-0">
@@ -34,7 +34,7 @@
                   <tbody>
                       @foreach (var item in Model)
                             {
-                                          <tr>
+                            <tr>
                               <td>
                                 <div class="d-flex px-2 py-1">
                                   <div class="d-flex flex-column justify-content-center">
@@ -71,9 +71,13 @@
                               </td>
                              
                                 <td class="align-middle">
-                                    <a href="#" class="btn btn-primary">
+                                    @if(item.Status != EnumRezervationStatus.IptalEdildi)
+                                    {
+                                            <a href="/Member/Rezervation/UpdateReservation/@item.ReservationID" class="btn btn-primary">
                                         Details
                                     </a>
+                                    }
+                                         
                                 </td>
                             </tr>
                         }

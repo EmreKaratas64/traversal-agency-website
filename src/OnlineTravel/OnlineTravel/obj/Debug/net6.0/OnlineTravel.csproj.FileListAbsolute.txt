@@ -870,3 +870,6 @@ D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\obj\De
 D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\MediatR.dll
 D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\MediatR.Contracts.dll
 D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\JetBrains.Annotations.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\X.PagedList.dll
+D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\OnlineTravel\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll

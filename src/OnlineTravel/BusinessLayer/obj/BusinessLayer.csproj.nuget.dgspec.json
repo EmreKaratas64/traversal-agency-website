@@ -197,7 +197,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

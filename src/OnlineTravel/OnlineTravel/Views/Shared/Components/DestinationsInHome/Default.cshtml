@@ -47,7 +47,7 @@
                 <div class="o-text">@item.DayNight</div>
             </div>
             <div class="description">
-                @item.Description
+                @item.Description.Substring(0,item.Description.Substring(0,250).LastIndexOf("")) ...
             </div>
             <div class="money-wrapper">
                 <div class="start">Starting Price</div>

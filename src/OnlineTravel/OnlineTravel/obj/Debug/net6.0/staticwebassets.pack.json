@@ -1181,6 +1181,10 @@
       "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\marie.jpg"
     },
     {
+      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\notification.png",
+      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\notification.png"
+    },
+    {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\shapes\\waves-white.svg",
       "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\shapes\\waves-white.svg"
     },

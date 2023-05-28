@@ -2,6 +2,7 @@
 using DataAccessLayer.EntityFramework;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using X.PagedList;
 
 namespace OnlineTravel.Controllers
 {
@@ -11,9 +12,9 @@ namespace OnlineTravel.Controllers
     {
         DestinationManager destinationManager = new DestinationManager(new EfDestinationDal());
 
-        public IActionResult ShowDestinations()
+        public IActionResult ShowDestinations(int page = 1)
         {
-            var values = destinationManager.TGetAll();
+            var values = destinationManager.TGetAll().ToPagedList(page, 8);
             return View(values);
         }
 
