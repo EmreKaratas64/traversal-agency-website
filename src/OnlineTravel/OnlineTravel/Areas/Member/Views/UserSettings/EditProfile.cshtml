@@ -22,15 +22,11 @@
                 <input type="text" asp-for="surname" class="form-control" placeholder="Your surname"/>
                 <br />
 
-
-                <input type="email" asp-for="mail" class="form-control" placeholder="Your mail address" required />
-                <span class="text-danger font-weight-bold" asp-validation-for="mail"></span>
-                <br />
-
                 <input type="password" asp-for="password" class="form-control" placeholder="Your password" />
                 <br />
 
                 <input type="password" asp-for="passwordConfirm" class="form-control" placeholder="Your password again" />
+                <span asp-validation-for="passwordConfirm" style="color:red"></span>
                 <br />
 
               

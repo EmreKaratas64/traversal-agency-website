@@ -14,7 +14,7 @@ namespace OnlineTravel.Controllers
 
         public IActionResult ShowDestinations(int page = 1)
         {
-            var values = destinationManager.TGetAll().ToPagedList(page, 8);
+            var values = destinationManager.TGetAll().Where(y => y.Status == true).ToPagedList(page, 8);
             return View(values);
         }
 

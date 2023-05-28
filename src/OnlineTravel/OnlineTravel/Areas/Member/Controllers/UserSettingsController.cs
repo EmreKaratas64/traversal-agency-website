@@ -27,7 +27,6 @@ namespace OnlineTravel.Areas.Member.Controllers
                 {
                     name = currentUser.Name,
                     surname = currentUser.Surname,
-                    mail = currentUser.Email
                 };
                 return View(model);
             }
@@ -37,26 +36,29 @@ namespace OnlineTravel.Areas.Member.Controllers
         public async Task<IActionResult> EditProfile(EditUserProfile model)
         {
             var user = await _userManager.FindByNameAsync(User.Identity?.Name);
+            if (ModelState.IsValid)
+            {
+                if (model.Image != null)
+                {
+                    var resource = Directory.GetCurrentDirectory();
+                    var extension = Path.GetExtension(model.Image.FileName);
+                    var imagename = Guid.NewGuid() + extension;
+                    var savelocation = resource + "/wwwroot/userimages/" + imagename;
+                    var stream = new FileStream(savelocation, FileMode.Create);
+                    await model.Image.CopyToAsync(stream);
+                    user.ImageUrl = imagename;
+                }
+                user.Name = model.name;
+                user.Surname = model.surname;
+                if (model.passwordChange == true)
+                    user.PasswordHash = _userManager.PasswordHasher.HashPassword(user, model.password);
+                var result = await _userManager.UpdateAsync(user);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("LogOut", "Account", new { area = "" });
+                }
+            }
 
-            if (model.Image != null)
-            {
-                var resource = Directory.GetCurrentDirectory();
-                var extension = Path.GetExtension(model.Image.FileName);
-                var imagename = Guid.NewGuid() + extension;
-                var savelocation = resource + "/wwwroot/userimages/" + imagename;
-                var stream = new FileStream(savelocation, FileMode.Create);
-                await model.Image.CopyToAsync(stream);
-                user.ImageUrl = imagename;
-            }
-            user.Name = model.name;
-            user.Surname = model.surname;
-            if (model.passwordChange == true)
-                user.PasswordHash = _userManager.PasswordHasher.HashPassword(user, model.password);
-            var result = await _userManager.UpdateAsync(user);
-            if (result.Succeeded)
-            {
-                return RedirectToAction("SignIn", "Account");
-            }
             return View(model);
         }
     }

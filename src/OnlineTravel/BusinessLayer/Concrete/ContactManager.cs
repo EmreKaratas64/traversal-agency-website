@@ -35,7 +35,7 @@ namespace BusinessLayer.Concrete
 
         public void TDelete(Contact entity)
         {
-            throw new NotImplementedException();
+            _contactDal.Delete(entity);
         }
     }
 }

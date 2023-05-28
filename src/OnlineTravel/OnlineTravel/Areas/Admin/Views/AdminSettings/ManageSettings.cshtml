@@ -1,0 +1,93 @@
+﻿@model AdminSettings
+@{
+    ViewData["Title"] = "Travel Online - Admin Ayarlar";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+
+      <div class="col-xl">
+                  <div class="card mb-4">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0">Admin Settings</h5>
+                    </div>
+                    <div class="card-body">
+                      <form method="post">
+                        <div class="mb-3">
+                          <label class="form-label" for="basic-icon-default-fullname">Destination</label>
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-fullname2" class="input-group-text"
+                              ><i class="fas fa-user"></i></span>
+                            <input
+                              asp-for="name"
+                              type="text"
+                              class="form-control"
+                              id="basic-icon-default-fullname"
+                              placeholder="Name"
+                              aria-describedby="basic-icon-default-fullname2"
+                            />
+                          </div>
+                        </div>
+                        <div class="mb-3">
+                          <label class="form-label" for="basic-icon-default-company">Duration</label>
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-company2" class="input-group-text"
+                              ><i class="fas fa-user"></i></span>
+                            <input
+                                asp-for="surname"
+                              type="text"
+                              id="basic-icon-default-company"
+                              class="form-control"
+                              placeholder="Surname"
+                              aria-describedby="basic-icon-default-company2"
+                            />
+                          </div>
+                        </div>
+                         <div class="mb-3">
+                          <label class="form-label" for="basic-icon-default-company">Price</label>
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-company2" class="input-group-text"
+                              ><i class="fas fa-lock"></i></span>
+                            <input
+                                asp-for="password"
+                              type="password"
+                              id="basic-icon-default-company"
+                              class="form-control"
+                              placeholder="Password"
+                              aria-describedby="basic-icon-default-company2"
+                            />
+                          </div>
+                        </div>
+                           <div class="mb-3">
+                          <label class="form-label" for="basic-icon-default-company">Capacity</label>
+                          <div class="input-group input-group-merge">
+                            <span id="basic-icon-default-company2" class="input-group-text"
+                              ><i class="fas fa-lock"></i></span>
+                            <input
+                                asp-for="passwordConfirm"
+                              type="password"
+                              id="basic-icon-default-company"
+                              class="form-control"
+                              placeholder="Password confirm"
+                              aria-describedby="basic-icon-default-company2"
+                            />
+                          </div>
+                          <span asp-validation-for="passwordConfirm" style="color:red"></span>
+                        </div>
+
+
+                           <div class="mb-3">
+                          <label class="form-label" for="basic-icon-default-message">Change Password</label>
+                             <div class="form-check">
+                                <input class="form-check-input" type="checkbox" asp-for="passwordChange" id="defaultCheck3" />
+                            </div>
+                       
+                        </div>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+</div>
+

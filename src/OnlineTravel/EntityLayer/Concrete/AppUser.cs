@@ -13,5 +13,7 @@ namespace EntityLayer.Concrete
         public bool Gender { get; set; }
 
         public List<Rezervation>? Rezervations { get; set; }
+
+        public bool Status { get; set; }
     }
 }

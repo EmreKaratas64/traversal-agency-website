@@ -10,12 +10,9 @@ namespace OnlineTravel.Areas.Member.Models
 
         public IFormFile? Image { get; set; }
 
-        [Required(ErrorMessage = "Please enter a mail address")]
-        [EmailAddress(ErrorMessage = "Please enter a vaild mail address")]
-        public string? mail { get; set; }
-
         public string? password { get; set; }
 
+        [Compare("password", ErrorMessage = "Passwords does not match!")]
         public string? passwordConfirm { get; set; }
 
         public bool passwordChange { get; set; }

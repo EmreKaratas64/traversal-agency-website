@@ -14,8 +14,8 @@
                 <th>Name Surname</th>
                 <th>Mail</th>
                 <th>Ban</th>
-            @*    <th>Edit</th>*@
                 <th>Tour History</th>
+                <th>Rolling</th>
                 </tr>
             </thead>
             <tbody class="table-border-bottom-0">
@@ -28,16 +28,23 @@
                         <td>
                             @item.Email
                         </td>
-                            @*<td>
-                                <span class="badge bg-label-primary me-1">Banned </span>
-                                </td>*@
    
 
                         <td>
-                            <a href="#" class="btn rounded-pill btn-outline-danger">
+                            @if(item.Status == true)
+                            {
+                                  <a href="/Admin/Users/BanUserAccount/@item.Id" class="btn rounded-pill btn-outline-danger">
                                 <i class="fas fa-ban"></i>&nbsp; Ban
+                                </a>
+                            }
+                            else
+                            {
+                                 <a href="/Admin/Users/BanUserAccount/@item.Id" class="btn rounded-pill btn-outline-info">
+                                <i class="fas fa-ban"></i>&nbsp; Remove Ban
                             </a>
-                            </td>
+                            }
+                           
+                        </td>
 
                           @*   <td>
                             <a href="/Admin/Users/EditUser/@item.Id" class="btn rounded-pill btn-outline-warning">
@@ -48,6 +55,12 @@
                              <td>
                             <a href="/Admin/Users/UserReservationHistory/@item.Id" class="btn rounded-pill btn-outline-info">
                                 <i class="fas fa-plane"></i>&nbsp; Tours
+                            </a>
+                            </td>
+
+                              <td>
+                            <a href="/Admin/Users/ManageRoles/@item.Id" class="btn rounded-pill btn-outline-dark">
+                                <i class="fas fa-shield-alt"></i>&nbsp; Roles
                             </a>
                             </td>
                     </tr>

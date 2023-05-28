@@ -38,7 +38,7 @@ namespace OnlineTravel.Areas.Member.Controllers
         [HttpGet]
         public IActionResult NewReservation()
         {
-            List<SelectListItem> values = (from x in _destinationService.TGetAll()
+            List<SelectListItem> values = (from x in _destinationService.TGetAll().Where(x => x.Status == true)
                                            select new SelectListItem
                                            {
                                                Text = x.City,
@@ -65,7 +65,7 @@ namespace OnlineTravel.Areas.Member.Controllers
                 _rezervationService.TAdd(reservation);
                 return RedirectToAction("UserDashboard", "User");
             }
-            List<SelectListItem> values = (from x in _destinationService.TGetAll()
+            List<SelectListItem> values = (from x in _destinationService.TGetAll().Where(x => x.Status == true)
                                            select new SelectListItem
                                            {
                                                Text = x.City,
@@ -101,7 +101,7 @@ namespace OnlineTravel.Areas.Member.Controllers
                 Description = reservation.Description,
                 ReservationDate = reservation.ReservastionDate
             };
-            List<SelectListItem> values = (from x in _destinationService.TGetAll()
+            List<SelectListItem> values = (from x in _destinationService.TGetAll().Where(x => x.Status == true)
                                            select new SelectListItem
                                            {
                                                Text = x.City,
@@ -115,7 +115,7 @@ namespace OnlineTravel.Areas.Member.Controllers
         [HttpPost]
         public IActionResult UpdateReservation(ReservationUpdateDto p)
         {
-            List<SelectListItem> values = (from x in _destinationService.TGetAll()
+            List<SelectListItem> values = (from x in _destinationService.TGetAll().Where(x => x.Status == true)
                                            select new SelectListItem
                                            {
                                                Text = x.City,

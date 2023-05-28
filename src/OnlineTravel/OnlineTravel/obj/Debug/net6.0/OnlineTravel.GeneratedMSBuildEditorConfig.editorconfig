@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFVvd1xTZW5kT3BlcmF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Areas/Admin/Views/AdminSettings/ManageSettings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5TZXR0aW5nc1xNYW5hZ2VTZXR0aW5ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Areas/Admin/Views/Comments/ListComments.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudHNcTGlzdENvbW1lbnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -118,6 +122,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Areas/Admin/Views/Users/ListAllUsers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcTGlzdEFsbFVzZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Areas/Admin/Views/Users/ManageRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcTWFuYWdlUm9sZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\#-Asp_Projeler/traversal-agency-website/src/OnlineTravel/OnlineTravel/Areas/Admin/Views/Users/UserReservationHistory.cshtml]

@@ -40,6 +40,7 @@ namespace OnlineTravel.Controllers
                 var result = await _userManager.CreateAsync(user, model.password);
                 if (result.Succeeded)
                 {
+                    await _userManager.AddToRoleAsync(user, "User");
                     return RedirectToAction("SignIn");
                 }
                 else
@@ -65,18 +66,33 @@ namespace OnlineTravel.Controllers
         {
             if (ModelState.IsValid)
             {
-                var result = await _signInManager.PasswordSignInAsync(model.email, model.password, model.rememberMe, true);
-                if (result.Succeeded)
+                var user = await _userManager.FindByEmailAsync(model.email);
+                bool isUser = await _userManager.IsInRoleAsync(user, "User");
+                bool isAdmin = await _userManager.IsInRoleAsync(user, "Admin");
+                if (user.Status && (isUser || isAdmin))
                 {
-                    return RedirectToAction("UserDashboard", "User", new { area = "Member" });
-                }
-                else
-                {
-                    ModelState.AddModelError("", "Invalid login attempt");
+                    var result = await _signInManager.PasswordSignInAsync(model.email, model.password, model.rememberMe, true);
+                    if (result.Succeeded)
+                    {
+                        if (isUser)
+                            return RedirectToAction("UserDashboard", "User", new { area = "Member" });
+                        else
+                            return RedirectToAction("AdminDashboard", "Dashboard", new { area = "Admin" });
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("", "Invalid login attempt");
+                    }
                 }
             }
             TempData["SomthingWrong"] = "Somthing wrong";
             return View(model);
+        }
+
+        public async Task<IActionResult> LogOut()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("SignIn");
         }
     }
 }
