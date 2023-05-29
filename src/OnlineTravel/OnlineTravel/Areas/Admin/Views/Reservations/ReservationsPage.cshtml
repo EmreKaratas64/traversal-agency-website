@@ -171,7 +171,7 @@
             url:"/Admin/Reservations/DisplayReservations/",
             success:function(func){
                 let result = jQuery.parseJSON(func);
-                let tablehtml  = "<table class=table> <thead class=table-dark> <tr><th>ID</th><th>Destination</th><th>Number of people</th><th>Date</th><th>Description</th> <th>Beklet</th><th>Onayla</th> </tr> </thead><tbody class=table-border-bottom-0>";
+                let tablehtml  = "<table class=table> <thead class=table-dark> <tr><th>ID</th><th>Destination</th><th>Number of people</th><th>Date</th><th>Description</th> <th>Await</th><th>Approve</th> </tr> </thead><tbody class=table-border-bottom-0>";
                 $.each(result, (index, value) => {
                     let dateOptions = {day: "numeric", month: "short", year: "numeric"};
                     let dateValue = new Date(value.ReservastionDate).toLocaleDateString("en-US", dateOptions);

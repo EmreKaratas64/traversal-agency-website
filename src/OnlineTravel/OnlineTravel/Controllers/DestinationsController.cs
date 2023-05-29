@@ -22,6 +22,7 @@ namespace OnlineTravel.Controllers
         {
             ViewBag.Id = id;
             var destination = destinationManager.TGetByID(id);
+            if (destination.Status == false) return NotFound();
             return View(destination);
         }
     }
