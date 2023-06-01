@@ -5,13 +5,12 @@
                         <div class="card-body">
                           <div class="card-title d-flex align-items-start justify-content-between">
                             <div class="avatar flex-shrink-0">
-                              <img src="~/sneat-1.0.0/assets/img/icons/unicons/paypal.png" alt="Credit Card" class="rounded" />
+                              <i class="fas fa-comments" style="color: #2e7bff;"></i>
                             </div>
                          
                           </div>
-                          <span class="d-block mb-1">Payments</span>
-                          <h3 class="card-title text-nowrap mb-2">$2,456</h3>
-                          <small class="text-danger fw-semibold"><i class="bx bx-down-arrow-alt"></i> -14.82%</small>
+                          <span class="d-block mb-1">Comments</span>
+                          <h3 class="card-title text-nowrap mb-2">@ViewBag.comments</h3>
                         </div>
                       </div>
                     </div>
@@ -20,32 +19,27 @@
                         <div class="card-body">
                           <div class="card-title d-flex align-items-start justify-content-between">
                             <div class="avatar flex-shrink-0">
-                              <img src="~/sneat-1.0.0/assets/img/icons/unicons/cc-primary.png" alt="Credit Card" class="rounded" />
+                              <i class="fas fa-bookmark" style="color: #33e657;"></i>
                             </div>
                           
                           </div>
-                          <span class="fw-semibold d-block mb-1">Transactions</span>
-                          <h3 class="card-title mb-2">$14,857</h3>
-                          <small class="text-success fw-semibold"><i class="bx bx-up-arrow-alt"></i> +28.14%</small>
+                          <span class="fw-semibold d-block mb-1">Reservations</span>
+                          <h3 class="card-title mb-2">@ViewBag.reservations</h3>
                         </div>
                       </div>
                     </div>
-                    <!-- </div>
-    <div class="row"> -->
+
                     <div class="col-12 mb-4">
                       <div class="card">
                         <div class="card-body">
                           <div class="d-flex justify-content-between flex-sm-row flex-column gap-3">
                             <div class="d-flex flex-sm-column flex-row align-items-start justify-content-between">
                               <div class="card-title">
-                                <h5 class="text-nowrap mb-2">Profile Report</h5>
-                                <span class="badge bg-label-warning rounded-pill">2022 Earning</span>
+                                <h5 class="text-nowrap mb-2">Best Tour</h5>
+                                <span class="badge bg-label-warning rounded-pill">Based on reservations</span>
                               </div>
                               <div class="mt-sm-auto">
-                                <small class="text-success text-nowrap fw-semibold"
-                                  ><i class="bx bx-chevron-up"></i> 48%</small
-                                >
-                                <h3 class="mb-0">$84,686k</h3>
+                                <h3 class="mb-0">@ViewBag.bestTour</h3>
                               </div>
                             </div>
                             <div id="profileReportChart"></div>

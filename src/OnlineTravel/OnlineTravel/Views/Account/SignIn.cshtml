@@ -8,6 +8,7 @@
 {
     <div class="notification">
         <div class="wrapper danger" asp-validation-summary="All">
+            @TempData["AccountBlock"]
         </div>
     </div>
     TempData["SomthingWrong"] = null;

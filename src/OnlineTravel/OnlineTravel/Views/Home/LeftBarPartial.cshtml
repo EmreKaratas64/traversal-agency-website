@@ -13,7 +13,14 @@
                     <nav>
                 @if(User.Identity?.IsAuthenticated == true)
                 {
-                    <a href="/Member/User/UserDashboard/" class="item">Account</a>
+                    @if (User.IsInRole("User"))
+                    {
+                        <a href="/Member/User/UserDashboard/" class="item">Account</a>
+                    }
+                    else
+                    {
+                        <a href="/Admin/Dashboard/AdminDashboard/" class="item">Account</a>
+                    }
                 }
                         <a href="/Home/ShowHome/" class="item">Home</a>
                         <a href="/Home/AboutPage/" class="item">About Us</a>

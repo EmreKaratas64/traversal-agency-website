@@ -35,7 +35,8 @@ namespace OnlineTravel.Controllers
                     Name = model.name,
                     Surname = model.surname,
                     Email = model.email,
-                    UserName = model.email
+                    UserName = model.email,
+                    Status = true
                 };
                 var result = await _userManager.CreateAsync(user, model.password);
                 if (result.Succeeded)
@@ -84,6 +85,8 @@ namespace OnlineTravel.Controllers
                         ModelState.AddModelError("", "Invalid login attempt");
                     }
                 }
+                else
+                    TempData["AccountBlock"] = "Your account might have been banned!";
             }
             TempData["SomthingWrong"] = "Somthing wrong";
             return View(model);
