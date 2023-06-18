@@ -1,4 +1,4 @@
-namespace SignalRApi
+namespace SignalRAPI
 {
     public class WeatherForecast
     {

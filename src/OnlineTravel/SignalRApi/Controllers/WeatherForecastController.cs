@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace SignalRApi.Controllers
+namespace SignalRAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]

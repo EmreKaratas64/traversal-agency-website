@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\SignalRApi\\SignalRApi.csproj": {}
+    "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\SignalRAPI\\SignalRAPI.csproj": {}
   },
   "projects": {
-    "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\SignalRApi\\SignalRApi.csproj": {
+    "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\SignalRAPI\\SignalRAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\SignalRApi\\SignalRApi.csproj",
-        "projectName": "SignalRApi",
-        "projectPath": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\SignalRApi\\SignalRApi.csproj",
+        "projectUniqueName": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\SignalRAPI\\SignalRAPI.csproj",
+        "projectName": "SignalRAPI",
+        "projectPath": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\SignalRAPI\\SignalRAPI.csproj",
         "packagesPath": "C:\\Users\\EMRE\\.nuget\\packages\\",
-        "outputPath": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\SignalRApi\\obj\\",
+        "outputPath": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\SignalRAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EMRE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,13 +44,19 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.16, )"
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.18, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.16, )"
+              "version": "[6.0.18, )"
             },
             "Npgsql": {
               "target": "Package",

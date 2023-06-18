@@ -10,7 +10,7 @@ namespace OnlineTravel.Areas.Member.ViewComponents.Guides
 
         public IViewComponentResult Invoke()
         {
-            var guides = guideManager.TGetAll();
+            var guides = guideManager.TGetAll().Where(x => x.status == true).ToList();
             return View(guides);
         }
     }

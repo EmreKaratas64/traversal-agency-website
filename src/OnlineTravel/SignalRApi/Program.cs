@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using SignalRApi.DAL;
+using SignalRApi.Hubs;
 using SignalRApi.Model;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +8,13 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddScoped<VisitorService>();
 builder.Services.AddSignalR();
+builder.Services.AddCors(options => options.AddPolicy("CorsPolicy", build =>
+{
+    build.AllowAnyHeader()
+    .AllowAnyMethod()
+    .SetIsOriginAllowed((host) => true)
+    .AllowCredentials();
+}));
 builder.Services.AddEntityFrameworkNpgsql().AddDbContext<Context>(opt =>
 {
     opt.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
@@ -25,8 +33,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseRouting();
+app.UseCors("CorsPolicy");
 app.UseAuthorization();
 
 app.MapControllers();
-
+app.MapHub<VisitorHub>("/VisitorHub");
 app.Run();
