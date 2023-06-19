@@ -1,4 +1,5 @@
 ﻿using DTOLayer.DTOs.CurrencyDTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using OnlineTravel.Areas.Admin.Models;
@@ -7,6 +8,7 @@ namespace OnlineTravel.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Route("Admin/[controller]/[action]/{id?}")]
+    [Authorize(Roles = "Admin")]
     public class CurrencyAPIController : Controller
     {
 

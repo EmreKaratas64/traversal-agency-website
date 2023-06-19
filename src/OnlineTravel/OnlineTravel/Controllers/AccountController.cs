@@ -68,6 +68,7 @@ namespace OnlineTravel.Controllers
             if (ModelState.IsValid)
             {
                 var user = await _userManager.FindByEmailAsync(model.email);
+                if (user == null) return View(model);
                 bool isUser = await _userManager.IsInRoleAsync(user, "User");
                 bool isAdmin = await _userManager.IsInRoleAsync(user, "Admin");
                 if (user.Status && (isUser || isAdmin))

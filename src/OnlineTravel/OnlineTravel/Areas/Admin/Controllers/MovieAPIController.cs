@@ -1,10 +1,12 @@
 ﻿using DTOLayer.DTOs.MovieDTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
 namespace OnlineTravel.Areas.Admin.Controllers
 {
     [Route("Admin/[controller]/[action]/{id?}")]
+    [Authorize(Roles = "Admin")]
     [Area("Admin")]
     public class MovieAPIController : Controller
     {

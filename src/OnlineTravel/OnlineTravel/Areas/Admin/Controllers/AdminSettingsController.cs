@@ -1,4 +1,5 @@
 ﻿using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using OnlineTravel.Models;
@@ -7,6 +8,7 @@ namespace OnlineTravel.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Route("/Admin/[controller]/[action]/{id?}")]
+    [Authorize(Roles = "Admin")]
     public class AdminSettingsController : Controller
     {
         private readonly UserManager<AppUser> _userManager;

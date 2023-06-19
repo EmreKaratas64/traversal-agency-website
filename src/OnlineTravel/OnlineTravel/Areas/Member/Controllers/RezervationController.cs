@@ -1,6 +1,7 @@
 ﻿using BusinessLayer.Abstract;
 using DTOLayer.DTOs.ReservationDTOs;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -9,6 +10,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 namespace OnlineTravel.Areas.Member.Controllers
 {
     [Area("Member")]
+    [Authorize(Roles = "User")]
     [Route("Member/[controller]/[action]/{id?}")]
     public class RezervationController : Controller
     {

@@ -1,4 +1,5 @@
 ﻿using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using OnlineTravel.Areas.Member.Models;
@@ -6,7 +7,8 @@ using OnlineTravel.Areas.Member.Models;
 namespace OnlineTravel.Areas.Member.Controllers
 {
     [Area("Member")]
-    [Route("Member/[controller]/[action]")]
+    [Authorize(Roles = "User")]
+    [Route("Member/[controller]/[action]/{id?}")]
     public class UserSettingsController : Controller
     {
         private readonly UserManager<AppUser> _userManager;

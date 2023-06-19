@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using OnlineTravel.CQRS.Commands.DestinationCommands;
 using OnlineTravel.CQRS.Handlers.DestinationHandlers;
 using OnlineTravel.CQRS.Queries.DestinationQueries;
@@ -8,6 +9,7 @@ namespace OnlineTravel.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Route("Admin/[controller]/[action]/{id?}")]
+    [Authorize(Roles = "Admin")]
     public class DestinationCQRSController : Controller
     {
         private readonly GetDestinationQueryHandler _handler;

@@ -1,11 +1,14 @@
 ﻿using BusinessLayer.UOWAbstract;
 using DTOLayer.DTOs.AccountUowDTOs;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace OnlineTravel.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Route("Admin/[controller]/[action]/{id?}")]
+    [Authorize(Roles = "Admin")]
     public class AccountUowController : Controller
     {
         private readonly IAccountService _accountService;

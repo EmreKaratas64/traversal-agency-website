@@ -1,10 +1,12 @@
 ﻿using BusinessLayer.Abstract;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace OnlineTravel.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Route("/Admin/[controller]/[action]/{id?}")]
+    [Authorize(Roles = "Admin")]
     public class CommentsController : Controller
     {
         // aşağıdaki servis tabanlı constructor işlemi EF bağımlılığını kaldırmak için. Direkt böyle kullanılıdığında hata verir, çünkü program.cs de konfigürasyonları yapılmalıdır.

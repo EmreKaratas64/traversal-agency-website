@@ -1,4 +1,5 @@
 ﻿using MailKit.Net.Smtp;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MimeKit;
 using OnlineTravel.Models;
@@ -6,6 +7,8 @@ using OnlineTravel.Models;
 namespace OnlineTravel.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Route("Admin/[controller]/[action]/{id?}")]
+    [Authorize(Roles = "Admin")]
     public class MailController : Controller
     {
         [HttpGet]

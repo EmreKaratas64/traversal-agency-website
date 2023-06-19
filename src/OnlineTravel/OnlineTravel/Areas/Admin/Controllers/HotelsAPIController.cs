@@ -1,9 +1,12 @@
 ﻿using DTOLayer.DTOs.HotelDTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 namespace OnlineTravel.Areas.Admin
 {
     [Area("Admin")]
+    [Route("Admin/[controller]/[action]/{id?}")]
+    [Authorize(Roles = "Admin")]
     public class HotelsAPIController : Controller
     {
         public async Task<IActionResult> ShowHotels()

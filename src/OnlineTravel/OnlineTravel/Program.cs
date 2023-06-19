@@ -63,7 +63,7 @@ builder.Services.ConfigureApplicationCookie(options =>
     // cookie settings
     options.Cookie.HttpOnly = true;
     options.ExpireTimeSpan = TimeSpan.FromDays(1);
-    options.AccessDeniedPath = new PathString("/UserLogin/AccessDenied/");
+    options.AccessDeniedPath = new PathString("/ErrorPage/AccessDenied/");
     options.LoginPath = "/Account/SignIn/";
     options.SlidingExpiration = true;
 });
