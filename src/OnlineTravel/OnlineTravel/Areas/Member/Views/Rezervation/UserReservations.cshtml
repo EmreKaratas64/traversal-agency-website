@@ -18,7 +18,14 @@
             <div class="card-header pb-0">
               <h6>Reservations</h6>
             </div>
+       
             <div class="card-body px-0 pt-0 pb-2">
+                <form asp-action="UserReservations" asp-area="Member" method="get">
+                    <div class="m-3">
+                        Search reservation by city: <input class="form-control" type="text" name="searchString" value="@ViewData["CurrentFilter"]">
+                    <input type="submit" value="Search" class="btn btn-dark btn-sm mt-2">
+                    </div>    
+        </form>
               <div class="table-responsive p-0">
                 <table class="table align-items-center mb-0">
                   <thead>

@@ -31,6 +31,20 @@
         },
         "runtime": {
           "OnlineTravel.dll": {}
+        },
+        "resources": {
+          "de/OnlineTravel.resources.dll": {
+            "locale": "de"
+          },
+          "en/OnlineTravel.resources.dll": {
+            "locale": "en"
+          },
+          "fr/OnlineTravel.resources.dll": {
+            "locale": "fr"
+          },
+          "tr/OnlineTravel.resources.dll": {
+            "locale": "tr"
+          }
         }
       },
       "AutoMapper/12.0.1": {

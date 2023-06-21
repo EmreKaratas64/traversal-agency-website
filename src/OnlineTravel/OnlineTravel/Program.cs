@@ -6,17 +6,12 @@ using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using Microsoft.AspNetCore.Mvc.Razor;
 using OnlineTravel.CQRS.Handlers.DestinationHandlers;
 using OnlineTravel.Models;
 
 var builder = WebApplication.CreateBuilder(args);
-/* 
- options =>
-{
-    options.User.RequireUniqueEmail = true;
 
-}
- */
 // Add services to the container.
 
 builder.Services.AddScoped<GetDestinationQueryHandler>();
@@ -58,6 +53,13 @@ builder.Services.AddMvc(config =>
     config.Filters.Add(new AuthorizeFilter(policy));
 });
 
+builder.Services.AddLocalization(opt =>
+{
+    opt.ResourcesPath = "Resources";
+});
+
+builder.Services.AddMvc().AddMvcLocalization(LanguageViewLocationExpanderFormat.Suffix).AddDataAnnotationsLocalization();
+
 builder.Services.ConfigureApplicationCookie(options =>
 {
     // cookie settings
@@ -90,6 +92,11 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAuthentication();
 app.UseRouting();
+
+var supportedCultures = new[] { "en", "fr", "tr", "de" };
+var localizationOptions = new RequestLocalizationOptions().SetDefaultCulture(supportedCultures[0]).AddSupportedCultures(supportedCultures).AddSupportedUICultures(supportedCultures);
+app.UseRequestLocalization(localizationOptions);
+
 app.UseAuthorization();
 
 app.MapControllerRoute(

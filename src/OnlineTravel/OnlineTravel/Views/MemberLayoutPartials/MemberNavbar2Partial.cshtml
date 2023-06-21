@@ -1,4 +1,4 @@
-﻿
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
  <nav class="navbar navbar-main navbar-expand-lg bg-transparent shadow-none position-absolute px-4 w-100 z-index-2">
       <div class="container-fluid py-3">
         <div class="collapse navbar-collapse me-md-0 me-sm-4 mt-sm-0 mt-2" id="navbar">
@@ -18,7 +18,28 @@
                 </a>
               </div>
             </li>
-          
+            
+            <li class="nav-item">
+                <div class="dropdown">
+                    <button class="dropbtn" id="flagButton">
+                        <img style="width: 40px;" src="@localizer["imgSrc"]" />
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="/Member/User/UserDashboard/?culture=en">
+                        <img style="width: 40px;" src="https://st2.depositphotos.com/1477718/8402/v/950/depositphotos_84029990-stock-illustration-flag-of-great-britain-official.jpg" />
+                        </a>
+                        <a href="/Member/User/UserDashboard/?culture=tr">
+                        <img style="width: 40px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/220px-Flag_of_Turkey.svg.png" />
+                        </a>
+                        <a href="/Member/User/UserDashboard/?culture=de">
+                        <img style="width: 40px;" src="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png" />
+                        </a>
+                        <a href="/Member/User/UserDashboard/?culture=fr">
+                        <img style="width: 40px;" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png" />
+                        </a>
+                    </div>
+                </div>
+            </li>
             @await Component.InvokeAsync("MemberNavbarNotifications")
         
       

@@ -38,6 +38,19 @@ namespace OnlineTravel.Areas.Member.Controllers
         }
 
         [HttpGet]
+        public async Task<IActionResult> UserReservations(string searchString)
+        {
+            var currentUser = await _userManager.FindByEmailAsync(User.Identity?.Name);
+            ViewData["CurrentFilter"] = searchString;
+            var values = from x in _rezervationService.GetReservationswithDestinationForUser(currentUser.Id).OrderByDescending(x => x.ReservationID).ToList() select x;
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                values = values.Where(y => y.Destination.City.Contains(searchString));
+            }
+            return View(values.ToList());
+        }
+
+        [HttpGet]
         public IActionResult NewReservation()
         {
             List<SelectListItem> values = (from x in _destinationService.TGetAll().Where(x => x.Status == true)

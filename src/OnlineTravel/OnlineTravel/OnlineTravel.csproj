@@ -285,6 +285,7 @@
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Member\Data\" />
+    <Folder Include="Areas\Member\Views\Shared\Components\" />
     <Folder Include="Logs\" />
     <Folder Include="wwwroot\PdfReports\" />
     <Folder Include="wwwroot\userimages\" />
