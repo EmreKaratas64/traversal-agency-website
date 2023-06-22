@@ -11,8 +11,6 @@ using OnlineTravel.CQRS.Handlers.DestinationHandlers;
 using OnlineTravel.Models;
 
 var builder = WebApplication.CreateBuilder(args);
-// OPTÝMÝZASYONNN, CHATGPT, BÝN DOSYASI VE WWWROOT
-// Add services to the container.
 
 builder.Services.AddScoped<GetDestinationQueryHandler>();
 builder.Services.AddScoped<GetDestinationByIDQueryHandler>();

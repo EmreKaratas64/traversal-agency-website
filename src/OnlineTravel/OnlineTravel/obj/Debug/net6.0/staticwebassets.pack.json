@@ -109,140 +109,12 @@
       "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\avatars\\7.png"
     },
     {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\backgrounds\\18.jpg",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\backgrounds\\18.jpg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\1.jpg",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\1.jpg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\11.jpg",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\11.jpg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\12.jpg",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\12.jpg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\13.jpg",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\13.jpg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\17.jpg",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\17.jpg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\18.jpg",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\18.jpg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\19.jpg",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\19.jpg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\2.jpg",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\2.jpg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\20.jpg",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\20.jpg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\3.jpg",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\3.jpg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\4.jpg",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\4.jpg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\5.jpg",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\5.jpg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\elements\\7.jpg",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\elements\\7.jpg"
-    },
-    {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\favicon\\favicon.ico",
       "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\favicon\\favicon.ico"
     },
     {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\asana.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\brands\\asana.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\behance.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\brands\\behance.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\dribbble.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\brands\\dribbble.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\facebook.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\brands\\facebook.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\github.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\brands\\github.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\google.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\brands\\google.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\instagram.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\brands\\instagram.png"
-    },
-    {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\logo-ct.png",
       "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\brands\\logo-ct.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\mailchimp.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\brands\\mailchimp.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\slack.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\brands\\slack.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\brands\\twitter.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\brands\\twitter.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\unicons\\cc-primary.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\unicons\\cc-primary.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\unicons\\cc-success.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\unicons\\cc-success.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\unicons\\cc-warning.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\unicons\\cc-warning.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\unicons\\chart-success.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\unicons\\chart-success.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\unicons\\chart.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\unicons\\chart.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\unicons\\paypal.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\unicons\\paypal.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\unicons\\wallet-info.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\unicons\\wallet-info.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\icons\\unicons\\wallet.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\icons\\unicons\\wallet.png"
     },
     {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
@@ -255,22 +127,6 @@
     {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\illustrations\\page-misc-error-light.png",
       "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\illustrations\\page-misc-error-light.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\layouts\\layout-container-light.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\layouts\\layout-container-light.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\layouts\\layout-fluid-light.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\layouts\\layout-fluid-light.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\layouts\\layout-without-menu-light.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\layouts\\layout-without-menu-light.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\img\\layouts\\layout-without-navbar-light.png",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\assets\\img\\layouts\\layout-without-navbar-light.png"
     },
     {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\assets\\js\\config.js",
@@ -411,10 +267,6 @@
     {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\build-config.js",
       "PackagePath": "staticwebassets\\sneat-1.0.0\\build-config.js"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\documentation.html",
-      "PackagePath": "staticwebassets\\sneat-1.0.0\\documentation.html"
     },
     {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\sneat-1.0.0\\fonts\\boxicons.scss",
@@ -1029,10 +881,6 @@
       "PackagePath": "staticwebassets\\soft-ui-dashboard\\CHANGELOG.md"
     },
     {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\ISSUE_TEMPLATE.md",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\ISSUE_TEMPLATE.md"
-    },
-    {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\LICENSE",
       "PackagePath": "staticwebassets\\soft-ui-dashboard"
     },
@@ -1109,48 +957,12 @@
       "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\curved-images\\curved0.jpg"
     },
     {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\curved-images\\curved1.jpg",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\curved-images\\curved1.jpg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\curved-images\\curved14.jpg",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\curved-images\\curved14.jpg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\curved-images\\curved6.jpg",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\curved-images\\curved6.jpg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\curved-images\\curved8.jpg",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\curved-images\\curved8.jpg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\curved-images\\white-curved.jpeg",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\curved-images\\white-curved.jpeg"
-    },
-    {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\down-arrow-dark.svg",
       "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\down-arrow-dark.svg"
     },
     {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\down-arrow.svg",
       "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\down-arrow.svg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\home-decor-1.jpg",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\home-decor-1.jpg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\home-decor-2.jpg",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\home-decor-2.jpg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\home-decor-3.jpg",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\home-decor-3.jpg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\illustrations\\rocket-white.png",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\illustrations\\rocket-white.png"
     },
     {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\ivana-square.jpg",
@@ -1169,56 +981,12 @@
       "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\logo-ct.png"
     },
     {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\logos\\mastercard.png",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\logos\\mastercard.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\logos\\visa.png",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\logos\\visa.png"
-    },
-    {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\marie.jpg",
       "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\marie.jpg"
     },
     {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\notification.png",
       "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\notification.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\shapes\\waves-white.svg",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\shapes\\waves-white.svg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\small-logos\\icon-sun-cloud.png",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\small-logos\\icon-sun-cloud.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\small-logos\\logo-atlassian.svg",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\small-logos\\logo-atlassian.svg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\small-logos\\logo-invision.svg",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\small-logos\\logo-invision.svg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\small-logos\\logo-jira.svg",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\small-logos\\logo-jira.svg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\small-logos\\logo-slack.svg",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\small-logos\\logo-slack.svg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\small-logos\\logo-spotify.svg",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\small-logos\\logo-spotify.svg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\small-logos\\logo-webdev.svg",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\small-logos\\logo-webdev.svg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\small-logos\\logo-xd.svg",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\small-logos\\logo-xd.svg"
     },
     {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\team-1.jpg",
@@ -1235,10 +1003,6 @@
     {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\team-4.jpg",
       "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\team-4.jpg"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\img\\vr-bg.jpg",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\img\\vr-bg.jpg"
     },
     {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\assets\\js\\core\\bootstrap.min.js",
@@ -2081,36 +1845,8 @@
       "PackagePath": "staticwebassets\\soft-ui-dashboard\\assets\\scss\\soft-ui-dashboard\\variables\\_virtual-reality.scss"
     },
     {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\docs\\documentation.html",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\docs\\documentation.html"
-    },
-    {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\gulpfile.js",
       "PackagePath": "staticwebassets\\soft-ui-dashboard\\gulpfile.js"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\media\\soft-ui-dashboard-intro.gif",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\media\\soft-ui-dashboard-intro.gif"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\media\\soft-ui-dashboard-screen-billing.png",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\media\\soft-ui-dashboard-screen-billing.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\media\\soft-ui-dashboard-screen-login.png",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\media\\soft-ui-dashboard-screen-login.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\media\\soft-ui-dashboard-screen-profile.png",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\media\\soft-ui-dashboard-screen-profile.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\media\\soft-ui-dashboard-screen-rtl.png",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\media\\soft-ui-dashboard-screen-rtl.png"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\media\\soft-ui-dashboard-screen.png",
-      "PackagePath": "staticwebassets\\soft-ui-dashboard\\media\\soft-ui-dashboard-screen.png"
     },
     {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\soft-ui-dashboard\\package.json",
@@ -2335,10 +2071,6 @@
     {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\traversal-agency-website-main\\src\\services.html",
       "PackagePath": "staticwebassets\\traversal-agency-website-main\\src\\services.html"
-    },
-    {
-      "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\userimages\\3dd11067-0233-4c38-9a04-69b93683aceb.jpg",
-      "PackagePath": "staticwebassets\\userimages\\3dd11067-0233-4c38-9a04-69b93683aceb.jpg"
     },
     {
       "Id": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\OnlineTravel\\wwwroot\\userimages\\419f7dd8-c96c-4595-a1ba-bf5a0621c3f5.jpg",

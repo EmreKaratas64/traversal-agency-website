@@ -13,8 +13,6 @@ D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\SignalRAPI\bin\Debu
 D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\SignalRAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\SignalRAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\SignalRAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
-D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\SignalRAPI\bin\Debug\net6.0\Npgsql.dll
-D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\SignalRAPI\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\SignalRAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\SignalRAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\C#-Asp_Projeler\traversal-agency-website\src\OnlineTravel\SignalRAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll

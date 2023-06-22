@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "h068IuA60droWfi2r9t5CCDoQiLvE+xpSAPaywulvzbrISeWv8Tdeqfm/kwpIXdLX+ZYPZOL6rDR2uSz8k9bVQ==",
+  "dgSpecHash": "EYwH4blJ1zIXj97z3KOKAyQxG2AJ+Hc1D/NnHabKFw2NLxxCMqV0hFDRxrcSYgtPrzKdHvjhOnXDp+ymMheCbw==",
   "success": true,
   "projectFilePath": "D:\\C#-Asp_Projeler\\traversal-agency-website\\src\\OnlineTravel\\SignalRAPI\\SignalRAPI.csproj",
   "expectedPackageFiles": [
@@ -35,8 +35,6 @@
     "C:\\Users\\EMRE\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
-    "C:\\Users\\EMRE\\.nuget\\packages\\npgsql\\6.0.9\\npgsql.6.0.9.nupkg.sha512",
-    "C:\\Users\\EMRE\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.8\\npgsql.entityframeworkcore.postgresql.6.0.8.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\EMRE\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
